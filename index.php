@@ -8,6 +8,18 @@
     <title>Hello world!</title>
 </head>
 <body>
+<header>
+    <nav>
+        <ul>
+            <li><strong>Acme Corp</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+        </ul>
+    </nav>
+</header>
 <main class="container">
     <h1>Hello world!</h1>
 </main>
