@@ -1,2 +1,2 @@
 <?php
-echo "test";
+echo "mersinilan.com aktif edildi!";
