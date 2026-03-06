@@ -9,7 +9,7 @@
 </head>
 <body>
 <header>
-    <nav>
+    <nav class="container">
         <ul>
             <li><strong>Acme Corp</strong></li>
         </ul>
