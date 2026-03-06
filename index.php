@@ -12,7 +12,7 @@
 <header>
     <nav class="container">
         <ul>
-            <li><strong>Acme Corp</strong></li>
+            <li class="logo"><strong>mersinilan.com</strong></li>
         </ul>
         <ul>
             <li><a href="#">About</a></li>
