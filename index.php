@@ -15,9 +15,21 @@
             <li class="logo"><strong>mersinilan.com</strong></li>
         </ul>
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Products</a></li>
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Tüm İlanlar</a></li>
+            <li>
+                <details class="dropdown">
+                    <summary>
+                        İlçeler
+                    </summary>
+                    <ul dir="rtl">
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </details>
+            </li>
         </ul>
     </nav>
 </header>
