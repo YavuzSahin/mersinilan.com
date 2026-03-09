@@ -3,4 +3,5 @@ body{font-family: 'Inter', sans-serif;font-size: 16px;}
 a{color: #fff;text-decoration: none;}
 header{padding: 0;}
 header .logo{color:#ffffff;}
+details.dropdown>summary:not([role]){background-color: transparent;color:#ffffff;padding: 13px 10px!important;}
 details.dropdown>summary:not([role]):active, details.dropdown>summary:not([role]):focus {border-color: transparent;background-color: transparent;}
