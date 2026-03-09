@@ -20,6 +20,7 @@
             --text: #fafafa;
             --text-soft: #a1a1aa;
             --accent: #22d3ee;
+            --red: #f44336;
             --accent-dim: rgba(34, 211, 238, 0.12);
             --border: #27272a;
         }
@@ -45,7 +46,7 @@
             display: inline-block;
             padding: 6px 14px;
             background: var(--accent-dim);
-            color: var(--accent);
+            color: var(--red);
             font-size: 0.8rem;
             font-weight: 600;
             letter-spacing: 0.08em;
@@ -60,7 +61,7 @@
             margin-bottom: 16px;
             letter-spacing: -0.02em;
         }
-        .hero h1 .hl { color: var(--accent); }
+        .hero h1 .hl { color: var(--red); }
         .hero p {
             color: var(--text-soft);
             font-size: 1.05rem;
@@ -91,7 +92,7 @@
         }
         nav .wrap { max-width: 1100px; margin: 0 auto; display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 28px; }
         nav a { color: var(--text-soft); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
-        nav a:hover { color: var(--accent); }
+        nav a:hover { color: var(--red); }
 
         .section {
             max-width: 1100px;
