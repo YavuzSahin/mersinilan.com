@@ -209,7 +209,7 @@
         .article:hover { border-color: rgba(34, 211, 238, 0.35); }
         .article h3 { font-family: 'Sora', sans-serif; font-size: 1.35rem; font-weight: 600; margin-bottom: 8px; line-height: 1.3; }
         .article .meta { font-size: 0.85rem; color: var(--text-soft); margin-bottom: 16px; opacity: 0.9; }
-        .article p { color: var(--white); font-size: 0.95rem; margin-bottom: 14px; text-align: justify; }
+        .article p { color: var(--text-soft); font-size: 0.95rem; margin-bottom: 14px; text-align: justify; }
 
         .cta {
             text-align: center;
@@ -218,7 +218,7 @@
         }
         .cta .section-title { margin-bottom: 12px; }
         .cta p { color: var(--text-soft); margin-bottom: 24px; max-width: 460px; margin-left: auto; margin-right: auto; }
-        .cta .btn { display: inline-block; padding: 14px 28px; background: var(--red); color: var(--bg); text-decoration: none; font-weight: 600; border-radius: 10px; transition: opacity 0.2s; }
+        .cta .btn { display: inline-block; padding: 14px 28px; background: var(--red); color: var(--white); text-decoration: none; font-weight: 600; border-radius: 10px; transition: opacity 0.2s; }
         .cta .btn:hover { opacity: 0.9; }
 
         footer { text-align: center; padding: 28px 24px; font-size: 0.88rem; color: var(--text-soft); border-top: 1px solid var(--border); }
