@@ -214,12 +214,15 @@
 
 <nav>
     <div class="wrap">
-        <a href="#izmir">İzmir Escort</a>
-        <a href="#bornova">Bornova Escort</a>
-        <a href="#buca">Buca Escort</a>
-        <a href="#profiller">Profiller</a>
-        <a href="#makaleler">Makaleler</a>
-        <a href="#iletisim">İletişim</a>
+        <a href="/" title="Mersin Escort">Mersin Escort</a>
+        <a href="/akdeniz-escort" title="Akdeniz Escort">Akdeniz Escort</a>
+        <a href=/anamur-escort" title="Anamur Escort">Anamur Escort</a>
+        <a href=/erdemli-escort" title="Erdemli Escort">Erdemli Escort</a>
+        <a href=/mezitli-escort" title="Mezitli Escort">Mezitli Escort</a>
+        <a href=/silifke-escort" title="Silifke Escort">Silifke Escort</a>
+        <a href=/tarsus-escort" title="Tarsus Escort">Tarsus Escort</a>
+        <a href=/toroslar-escort" title="Toroslar Escort">Toroslar Escort</a>
+        <a href=/yenisehir-escort" title="Yenişehir Escort">Yenişehir Escort</a>
     </div>
 </nav>
 
