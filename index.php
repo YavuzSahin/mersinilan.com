@@ -1,25 +1,364 @@
-<!doctype html>
-<html lang="tr">
+
+<!DOCTYPE html>
+<html lang="en" >
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="light dark">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
-    <link rel="stylesheet" href="css/style.css?v=<?=rand();?>">
-    <title>Hello world!</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="googlebot" content="index,follow">
+    <meta name="bingbot" content="index,follow">
+
+
+    <title>İzmir Escort | Bornova Escort | Buca Escort</title>
+
+    <style>
+        :root {
+            --bg: #0c0c0f;
+            --surface: #16161a;
+            --surface-hover: #1e1e24;
+            --text: #fafafa;
+            --text-soft: #a1a1aa;
+            --accent: #22d3ee;
+            --accent-dim: rgba(34, 211, 238, 0.12);
+            --border: #27272a;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.65;
+            font-weight: 400;
+        }
+        .font-display { font-family: 'Sora', sans-serif; }
+
+        .hero {
+            padding: 100px 24px 80px;
+            text-align: center;
+            background:
+                    radial-gradient(ellipse 70% 60% at 50% 0%, var(--accent-dim) 0%, transparent 60%),
+                    var(--bg);
+            border-bottom: 1px solid var(--border);
+        }
+        .hero .badge {
+            display: inline-block;
+            padding: 6px 14px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            border-radius: 100px;
+            margin-bottom: 24px;
+        }
+        .hero h1 {
+            font-family: 'Sora', sans-serif;
+            font-size: clamp(2rem, 4.5vw, 3rem);
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+        .hero h1 .hl { color: var(--accent); }
+        .hero p {
+            color: var(--text-soft);
+            font-size: 1.05rem;
+            max-width: 520px;
+            margin: 0 auto 32px;
+        }
+        .hero .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            background: var(--accent);
+            color: var(--bg);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border-radius: 10px;
+            transition: opacity 0.2s, transform 0.2s;
+        }
+        .hero .btn:hover { opacity: 0.9; transform: translateY(-1px); }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(12,12,15,0.85);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: 14px 24px;
+        }
+        nav .wrap { max-width: 1100px; margin: 0 auto; display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 28px; }
+        nav a { color: var(--text-soft); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+        nav a:hover { color: var(--accent); }
+
+        .section {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 72px 24px;
+        }
+        .section-title { font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 600; margin-bottom: 8px; letter-spacing: -0.02em; }
+        .section-desc { color: var(--text-soft); font-size: 0.98rem; margin-bottom: 40px; }
+
+        .zones {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+        .zone-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 28px;
+            transition: border-color 0.2s, background 0.2s;
+        }
+        .zone-card:hover { border-color: var(--accent); background: var(--surface-hover); }
+        .zone-card h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 8px; color: var(--accent); }
+        .zone-card p { color: var(--text-soft); font-size: 0.92rem; line-height: 1.6; }
+
+        .profile-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 22px;
+        }
+        .profile-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            overflow: hidden;
+            transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+        }
+        .profile-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+        }
+        .profile-card .avatar {
+            height: 200px;
+            background: linear-gradient(160deg, var(--surface-hover) 0%, var(--surface) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 52px;
+            color: var(--accent);
+        }
+        .profile-card .body { padding: 22px; }
+        .profile-card .body h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 6px; }
+        .profile-card .body .meta { font-size: 0.85rem; color: var(--accent); margin-bottom: 10px; }
+        .profile-card .body p { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 16px; line-height: 1.55; }
+        .profile-card .body a {
+            display: inline-block;
+            padding: 10px 18px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .profile-card .body a:hover { background: var(--accent); color: var(--bg); }
+
+        .articles { display: flex; flex-direction: column; gap: 28px; }
+        .article {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 32px 36px;
+            transition: border-color 0.2s;
+        }
+        .article:hover { border-color: rgba(34, 211, 238, 0.35); }
+        .article h3 { font-family: 'Sora', sans-serif; font-size: 1.35rem; font-weight: 600; margin-bottom: 8px; line-height: 1.3; }
+        .article .meta { font-size: 0.85rem; color: var(--text-soft); margin-bottom: 16px; opacity: 0.9; }
+        .article p { color: var(--text-soft); font-size: 0.95rem; margin-bottom: 14px; text-align: justify; }
+
+        .cta {
+            text-align: center;
+            padding: 80px 24px;
+            border-top: 1px solid var(--border);
+        }
+        .cta .section-title { margin-bottom: 12px; }
+        .cta p { color: var(--text-soft); margin-bottom: 24px; max-width: 440px; margin-left: auto; margin-right: auto; }
+        .cta .btn { display: inline-block; padding: 14px 28px; background: var(--accent); color: var(--bg); text-decoration: none; font-weight: 600; border-radius: 10px; transition: opacity 0.2s; }
+        .cta .btn:hover { opacity: 0.9; }
+
+        footer { text-align: center; padding: 28px 24px; font-size: 0.88rem; color: var(--text-soft); border-top: 1px solid var(--border); }
+
+        @media (max-width: 768px) {
+            .hero { padding: 70px 20px 56px; }
+            .section { padding: 48px 20px; }
+            .article { padding: 24px 22px; }
+        }
+    </style>
 </head>
 <body>
-<header class="Header"><section class="container" id=""><div aria-label="Airform" class="Logo Logo--full"><a class="Link" href="/"><div><svg class="Icon" viewBox="0 0 512 512"><g><path d="M281.313,453.477c-1.355,0-2.71,0-4.065,0c-5.2-0.969-8.31-4.916-11.308-8.592c-10.631-13.035-21.389-25.966-32.122-38.914c-15.775-19.032-31.576-38.042-47.344-57.079c-1.988-2.4-2.659-2.461-4.802-0.099c-4.776,5.264-9.381,10.683-14.408,15.716c-2.895,2.899-6.17,5.292-9.746,7.263c-6.251,3.446-13.272,1.657-17.227-4.24c-2.922-4.357-5.042-9.103-6.672-14.033c-6.558-19.83-12.975-39.71-19.063-59.686c-2.584-8.478-7.191-14.676-14.72-19.356c-28.572-17.762-57.001-35.753-85.476-53.671c-3.35-2.108-6.615-4.321-9.202-7.397c-4.806-5.715-3.741-13.997,2.243-18.376c3.644-2.666,7.757-4.098,12.019-5.266c2.504-0.686,5.056-1.188,7.538-1.972c17.096-4.661,34.205-9.258,51.283-13.978c21.314-5.891,42.647-11.722,63.992-17.505c17.316-4.692,34.613-9.475,51.925-14.188c18.837-5.128,37.715-10.113,56.554-15.232c22.324-6.066,44.71-11.901,66.997-18.11c14.128-3.936,28.344-7.576,42.499-11.428c18.293-4.978,36.574-10.007,54.878-14.941c25.062-6.755,50.064-13.725,75.133-20.455c3.048-0.818,6.2-0.866,9.275-1.454c0.452,0,0.903,0,1.355,0c2.434,0.613,5.061,0.4,7.052,2.6c1.764,1.95,3.023,3.895,2.765,6.592c0,2.352,0.001,4.703,0.001,7.052c0.177,1.874-0.341,3.499-1.441,5.066c-16.951,24.152-30.808,50.189-45.898,75.474c-10.236,17.151-20.366,34.366-30.573,51.534c-20.068,33.755-40.026,67.575-60.132,101.307c-17.851,29.949-35.58,59.971-53.083,90.125c-7.986,13.759-16.369,27.275-24.485,40.953c-1.441,2.428-3.142,4.686-4.886,6.907C287.888,450.995,285.262,453.322,281.313,453.477z"></path></g></svg><svg class="Icon" viewBox="0 0 512 512"><g><path d="M219.263,259.796c-3.873-0.001-7.748-0.085-11.617,0.039c-1.712,0.055-2.292-0.35-2.244-2.177c0.154-5.91,0.055-11.817,0.504-17.731c0.355-4.669,3.422-9.154,8.024-10.415c2.452-0.672,5.004-0.984,7.453-1.666c8.438-2.35,11.358-9.845,8.676-16.734c-1.624-4.172-4.578-7.191-8.916-8.682c-2.526,0-5.051,0-7.577,0c-0.293,0.173-0.572,0.468-0.88,0.502c-7.457,0.829-13.934,3.752-19.558,8.749c-9.152,8.13-13.958,17.976-13.741,30.48c0.325,18.749,0.096,37.509,0.062,56.264c-0.003,1.476,0.327,2.782,0.903,4.126c1.515,3.532,4.016,6.133,7.237,8.117c2.886,0,5.773,0,8.659,0c0.761-0.437,1.51-0.897,2.285-1.308c4.731-2.515,7.413-6.14,6.963-11.803c-0.263-3.312,0.012-6.663-0.077-9.993c-0.036-1.366,0.29-1.879,1.764-1.826c3.238,0.116,6.483,0.036,9.726,0.036c8.778-0.002,14.482-6.049,13.975-14.816C230.556,265.304,224.823,259.797,219.263,259.796z"></path><path d="M373.215,245.322c-0.254-3.838-5.005-10.233-8.619-10.763c-3.711-0.544-7.584-0.648-11.294,0.04c-8.821,1.636-16.146,5.99-22.076,12.766c-5.796,6.623-9.312,14.153-9.402,23.044c-0.094,9.288-0.002,18.578-0.04,27.866c-0.006,1.457,0.346,2.733,0.915,4.07c1.593,3.743,4.061,6.587,7.763,8.322c2.706,0,5.412,0,8.118,0c0.733-0.915,1.915-1.061,2.828-1.655c3.391-2.205,6.266-4.762,6.382-9.269c0.242-9.434-0.135-18.863,0.364-28.313c0.337-6.381,6.538-10.96,11.477-11.095C368.127,260.103,373.78,253.853,373.215,245.322z"></path><path d="M172.434,245.322c-0.254-3.838-5.005-10.233-8.619-10.763c-3.711-0.544-7.584-0.648-11.294,0.04c-8.821,1.635-16.146,5.99-22.076,12.766c-5.796,6.623-9.312,14.153-9.402,23.044c-0.094,9.288-0.002,18.578-0.04,27.866c-0.006,1.457,0.346,2.733,0.915,4.07c1.593,3.743,4.061,6.587,7.763,8.322c2.706,0,5.412,0,8.118,0c0.733-0.915,1.915-1.061,2.828-1.655c3.391-2.205,6.266-4.762,6.382-9.269c0.242-9.434-0.135-18.863,0.364-28.313c0.337-6.381,6.538-10.96,11.476-11.095C167.347,260.103,172.999,253.853,172.434,245.322z"></path><path d="M114.008,246.488c0.003-1.382-0.261-2.633-0.832-3.87c-2.59-5.621-6.45-8.846-13.159-8.35c-6.193,0.457-12.005,5.855-12.007,12.022c-0.005,17.384,0.009,34.767-0.023,52.151c-0.003,1.376,0.241,2.626,0.78,3.883c1.542,3.599,4.031,6.334,7.359,8.343c2.886,0,5.773,0,8.659,0c0.761-0.437,1.51-0.897,2.285-1.308c4.732-2.514,7.08-6.144,7.001-11.801C113.834,280.537,113.975,263.512,114.008,246.488z"></path><path d="M102.046,228.292c9.599-0.757,14.264-8.794,11.15-17.239c-1.548-4.199-4.561-7.208-8.951-8.623c-1.984,0-3.969,0-5.953,0c-1.607,0.875-3.283,1.643-4.808,2.643c-4.629,3.037-6.86,8.828-5.304,13.495C90.545,225.66,94.489,228.888,102.046,228.292z"></path><path d="M506.18,304.693c1.065-1.513,0.876-3.359,1.791-4.85c0-10.102,0-20.204,0-30.306c-1.266-1.662-0.518-3.685-0.989-5.541c-3.482-13.728-11.925-23.349-25.046-27.832c-12.868-4.396-25.411-2.489-36.401,6.245c-1.046,0.831-1.69,1.101-3.029-0.025c-8.799-7.404-19.323-9.324-30.278-7.868c-9.438,1.254-17.185,6.32-23.305,13.666c-5.685,6.824-8.793,14.597-8.695,23.598c0.096,8.833,0.041,17.669,0.001,26.503c-0.007,1.457,0.35,2.732,0.918,4.068c1.591,3.741,4.06,6.584,7.761,8.318c2.706,0,5.412,0,8.118,0c6.817-1.84,10.403-6.9,10.049-13.682c-0.384-7.369-0.067-14.773-0.097-22.162c-0.011-2.768,0.556-5.353,1.919-7.774c2.733-4.851,7.167-7.016,12.199-5.625c4.253,1.176,9.292,4.253,8.736,11.033c-0.11,1.342-0.037,2.702-0.012,4.053c0.14,7.559-0.307,15.124,0.515,22.679c0.574,5.271,4.495,10.27,9.443,11.477c2.706,0,5.412,0,8.118,0c7.06-2.284,9.952-6.286,9.961-13.794c0.009-7.933-0.059-15.866,0.026-23.798c0.057-5.329,4.013-10.711,8.385-11.741c6.735-1.587,15.053,3.678,14.534,11.436c-0.516,7.718-0.188,15.498-0.087,23.25c0.093,7.16,3.762,12.765,9.393,14.648c2.706,0,5.412,0,8.118,0C501.139,309.027,504.147,307.579,506.18,304.693z"></path><path d="M81.045,297.034c-0.287-8.01-0.108-16.038-0.061-24.058c0.052-8.802-2.501-16.705-7.892-23.685c-9.389-12.156-22.002-16.933-36.853-14.784c-12.839,1.859-21.938,9.717-28.302,20.831c-2.044,3.569-2.724,7.6-3.811,11.492c0,3.608,0,7.216,0,10.824c0.566,2.688,0.383,5.499,1.524,8.101c5.821,13.275,14.91,22.602,29.865,24.911c4.51,0,9.02,0,13.53,0c2.852-0.523,5.802-0.596,8.47-1.96c0.754-0.385,1.621-0.272,2.284,0.258c1.3,1.039,2.886,1.26,4.399,1.702c2.526,0,5.051,0,7.577,0c0.256-0.779,1.061-0.774,1.622-1.065C78.501,306.954,81.262,303.106,81.045,297.034z M42.761,284.69c-7.062-0.001-12.13-4.995-12.133-11.957c-0.002-7.287,4.787-12.396,11.622-12.397c7.446,0,12.224,4.938,12.221,12.63C54.469,279.562,49.346,284.691,42.761,284.69z"></path><path d="M308.293,251.168c-7.931-11.017-18.498-17.667-32.976-16.943c-8.18,0.409-15.501,2.444-21.844,7.469c-11.835,9.376-17.424,21.352-15.069,36.707c1.715,11.182,7.632,19.446,16.532,25.988c4.347,3.196,9.282,4.872,14.372,6.278c4.51,0,9.02,0,13.53,0c0.251-0.46,0.696-0.469,1.146-0.548c5.224-0.921,10.143-2.856,14.267-6.069c8.53-6.646,14.712-14.75,16.147-26.079C315.643,268.13,313.907,258.966,308.293,251.168z M276.48,284.69c-6.922-0.002-12.054-5.007-12.059-11.76c-0.961-5.882,5.387-13.053,11.432-12.7c7.544,0.44,12.409,4.955,12.411,12.541C288.265,279.6,283.231,284.692,276.48,284.69z"></path></g></svg></div></a></div><nav class="Navigation"><a class="Link" href="https://github.com/airform/airform/releases" rel="noopener" target="_blank">v0.26.0</a><span class="Link">Docs<div class="Dropdown"><ul class="List Dropdown__list"><li class="List__item Dropdown__item"><a class="Link" href="/#getting-started">Getting Started</a></li><li class="List__item Dropdown__item"><a class="Link" href="/#packages">Packages</a></li><li class="List__item Dropdown__item"><a class="Link" href="/#features">Features</a></li><li class="List__item Dropdown__item"><a class="Link" href="https://medium.com/@cjpatoilo" rel="noopener" target="_blank">What's New</a></li><li class="List__item Dropdown__item"><a class="Link" href="https://github.com/airform/airform/releases" rel="noopener" target="_blank">Releases</a></li><li class="List__item Dropdown__item"><a class="Link" href="https://github.com/airform/airform/blob/master/license" rel="noopener" target="_blank">License</a></li><li class="List__item Dropdown__item"><a class="Link" href="https://github.com/airform/airform/contribute" rel="noopener" target="_blank">Contribute</a></li><li class="List__item Dropdown__item"><a class="Link" href="https://opencollective.com/airform" rel="noopener" target="_blank">Sponsor Us</a></li></ul></div></span><a class="Link" href="https://twitter.com/cjpatoilo" rel="noopener" target="_blank">Support</a><a class="Link" href="https://github.com/airform/airform" rel="noopener" target="_blank">GitHub</a><span class="Link"><svg class="Icon" viewBox="0 0 512 512"><g><path d="M255.71,489.2c12.63-33.49,25.28-66.98,37.87-100.48c21.64-57.56,43.28-115.12,64.74-172.75c1.48-3.97,3.36-5.18,7.46-5.08c11.79,0.28,23.6,0.3,35.38-0.01c3.98-0.1,5.73,1.11,7.13,4.85c19.83,53.26,39.83,106.47,59.81,159.68c13.57,36.16,27.16,72.31,40.78,108.45c0.56,1.5,1.41,2.89,2.12,4.34c-1,0.33-1.99,0.95-2.99,0.95c-14.29,0.06-28.59,0.04-42.88,0.04c-0.68-1.5-1.46-2.96-2.04-4.49c-7.68-20.32-15.4-40.63-22.92-61.01c-1.15-3.12-2.56-4.26-6.03-4.24c-30.08,0.17-60.16,0.08-90.24,0.11c-5.13,0-11.6-1.71-15.04,0.75c-3.63,2.59-4.49,9.18-6.37,14.1c-7.01,18.25-13.94,36.52-20.91,54.79C286.29,489.2,271,489.2,255.71,489.2z M383.35,272.36c-12.9,34.46-25.26,67.5-37.75,100.87c25.5,0,50.19,0,75.52,0C408.61,339.82,396.23,306.76,383.35,272.36z"></path><path d="M259.92,118.11c-86.84,0-172.87,0-259.18,0c0-15.41,0-30.45,0-46.15c53.92,0,107.81,0,162.12,0c0-15.7,0-30.75,0-46.12c15.45,0,30.49,0,46.21,0c0,15.11,0,30.27,0,45.91c54.43,0,108.18,0,162.25,0c0,15.54,0,30.6,0,46.45c-1.65,0-3.38,0-5.12,0c-19.44,0-38.89,0.03-58.33-0.03c-2.66-0.01-4.42,0.17-5.47,3.42c-17.35,53.76-44.5,102.01-81.87,144.44c-1.21,1.37-2.32,2.82-2.35,3.22c17.91,18.5,35.73,37.08,53.8,55.43c2.81,2.86,3.5,5.02,1.99,8.85c-5.42,13.69-10.41,27.55-15.6,41.46c-23.95-24.03-47.71-47.87-71.57-71.8c-39.13,39.26-77.58,77.83-115.78,116.16c-11.31-11.37-22.04-22.15-33.1-33.27c38.7-38.14,77.96-76.83,116.62-114.92c-12.69-17.1-25.52-33.59-37.45-50.71c-11.96-17.15-21.69-35.63-30.58-55.35c1.92-0.18,3.29-0.42,4.66-0.43c12.13-0.03,24.27,0.16,36.39-0.12c3.74-0.09,5.54,1.24,7.19,4.42c13.75,26.51,30.92,50.65,51.3,73.43C218.93,206.06,243.19,164.91,259.92,118.11z"></path></g></svg><div class="Dropdown"><ul class="List Dropdown__list"><li class="List__item Dropdown__item"><a class="Link" href="/?lang=cn">中文</a></li><li class="List__item Dropdown__item"><a class="Link" href="/?lang=de">Deutsch</a></li><li class="List__item Dropdown__item"><a class="Link" href="/">English</a></li><li class="List__item Dropdown__item"><a class="Link" href="/?lang=es">Español</a></li><li class="List__item Dropdown__item"><a class="Link" href="/?lang=fr">Français</a></li><li class="List__item Dropdown__item"><a class="Link" href="/?lang=it">Italiano</a></li><li class="List__item Dropdown__item"><a class="Link" href="/?lang=pt">Portugues</a></li><li class="List__item Dropdown__item"><a class="Link" href="/?lang=ru">Pусский</a></li></ul></div></span></nav></section></header>
-<main class="Main">
-    <section class="Section container" id="hero">
-        <div class="Hero">
-            <h1 class="Hero__title">Functional HTML forms for<!-- --> <span class="Shuffling Hero__shuffling">PH</span></h1>
-            <p class="Hero__description">What if you could use a service that gives you full control over the form, yet doesn’t require you to use anything on your server? Airform gives you the ability to create functional HTML forms without thinking about servers.</p>
-            <a class="Link" href="/#getting-started"><button class="Button">Getting Started</button></a>
+
+<header class="hero">
+    <span class="badge">İzmir • Bornova • Buca</span>
+    <h1 class="font-display">İzmir Escort · <span class="hl">Bornova & Buca</span> Escort</h1>
+    <p>Modern refakat deneyimi. Güvenilir profiller, net iletişim, gizlilik öncelikli hizmet.</p>
+    <a href="#iletisim" class="btn">İletişime Geç</a>
+</header>
+
+<nav>
+    <div class="wrap">
+        <a href="#izmir">İzmir Escort</a>
+        <a href="#bornova">Bornova Escort</a>
+        <a href="#buca">Buca Escort</a>
+        <a href="#profiller">Profiller</a>
+        <a href="#makaleler">Makaleler</a>
+        <a href="#iletisim">İletişim</a>
+    </div>
+</nav>
+
+<section class="section" id="izmir">
+    <h2 class="section-title">İzmir Escort</h2>
+    <p class="section-desc">Ege'nin incisi İzmir'de refakat ve escort hizmeti; sosyal davetler, iş yemekleri ve özel anlar için güvenilir eşlik sunar.</p>
+    <div class="zones">
+        <div class="zone-card">
+            <h3>İzmir Merkez</h3>
+            <p>Alsancak, Kordon, Konak bölgelerinde refakat. Özel davetler, gala ve iş etkinlikleri için zarif eşlik. Gizlilik ve güven ön planda.</p>
         </div>
-    </section>
-</main>
+        <div class="zone-card">
+            <h3>Bornova Escort</h3>
+            <p>Üniversite ve iş merkezi çevresinde refakat. Konferans, davet ve akşam organizasyonları. Esnek saatler, profesyonel hizmet.</p>
+        </div>
+        <div class="zone-card">
+            <h3>Buca Escort</h3>
+            <p>Buca ve çevresinde dinamik refakat. İş yemekleri, özel davetler ve sosyal etkinliklere eşlik. Ulaşım kolay, güvenilir profiller.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="bornova">
+    <h2 class="section-title">Bornova Escort</h2>
+    <p class="section-desc">Bornova, Ege Üniversitesi ve iş merkezleriyle İzmir'in en hareketli ilçelerinden biri. Refakat talebi hem gündüz hem akşam yoğundur.</p>
+    <p style="color: var(--text-soft); font-size: 0.98rem;">Bornova AVM, Forum ve çevresindeki restoranlar sık buluşma noktalarıdır. İş yemekleri, konferans eşliği ve özel davetler için deneyimli refakatçılar tercih edilir. Gizlilik ve net iletişim temel prensiplerdir.</p>
+</section>
+
+<section class="section" id="buca">
+    <h2 class="section-title">Buca Escort</h2>
+    <p class="section-desc">Buca, yoğun nüfusu ve ulaşım imkânlarıyla refakat hizmeti arayanlar için uygun bir bölgedir.</p>
+    <p style="color: var(--text-soft); font-size: 0.98rem;">İlçe merkezi, Şirinyer ve Evka-1 çevresinde birçok buluşma noktası bulunur. Metro ve otobüs hatları ulaşımı kolaylaştırır. Buca escort profilleri genellikle esnek çalışma saatleri sunar; güvenilir kanallardan iletişim kurulması önerilir.</p>
+</section>
+
+<section class="section" id="profiller">
+    <h2 class="section-title">Bayan Profilleri</h2>
+    <p class="section-desc">İzmir, Bornova ve Buca bölgelerinde hizmet veren escort profilleri.</p>
+    <div class="profile-grid">
+        <div class="profile-card">
+            <div class="avatar">👩</div>
+            <div class="body">
+                <h3>Defne</h3>
+                <p class="meta">26 · İzmir Merkez</p>
+                <p>Alsancak ve Kordon'da refakat. Sosyal etkinlikler ve özel davetler. Gizlilik öncelikli.</p>
+                <a href="#iletisim">İletişim</a>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="avatar">👩</div>
+            <div class="body">
+                <h3>Zeynep</h3>
+                <p class="meta">28 · Buca</p>
+                <p>Buca'da dinamik refakat. İş yemekleri ve akşam organizasyonları. Deneyimli ve güvenilir.</p>
+                <a href="#iletisim">İletişim</a>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="avatar">👩</div>
+            <div class="body">
+                <h3>Melis</h3>
+                <p class="meta">25 · Bornova</p>
+                <p>Bornova ve üniversite çevresinde refakat. Konferans ve davetlere uyumlu. Esnek saatler.</p>
+                <a href="#iletisim">İletişim</a>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="avatar">👩</div>
+            <div class="body">
+                <h3>Selin</h3>
+                <p class="meta">29 · İzmir / Bornova</p>
+                <p>İzmir genelinde refakat. Özel davetler ve iş etkinlikleri. Çok dilli, profesyonel.</p>
+                <a href="#iletisim">İletişim</a>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="avatar">👩</div>
+            <div class="body">
+                <h3>Ece</h3>
+                <p class="meta">24 · Buca</p>
+                <p>Buca'da genç ve sosyal refakat. Özel davetler ve partiler. Güvenilir hizmet.</p>
+                <a href="#iletisim">İletişim</a>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="avatar">👩</div>
+            <div class="body">
+                <h3>Ada</h3>
+                <p class="meta">27 · Bornova / İzmir</p>
+                <p>Bornova ve merkez bölgede refakat. İş yemekleri ve sosyal davetler. İngilizce bilir.</p>
+                <a href="#iletisim">İletişim</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="makaleler">
+    <h2 class="section-title">Makaleler</h2>
+    <p class="section-desc">İzmir Escort, Bornova Escort ve Buca Escort hakkında rehber yazıları.</p>
+    <div class="articles">
+
+        <article class="article">
+            <h3>İzmir Escort Hizmeti Nedir?</h3>
+            <p class="meta">İzmir Escort · Genel</p>
+            <p>İzmir escort hizmeti, sosyal ve profesyonel ortamlarda zarif eşlik sunan refakat hizmetidir. İş yemekleri, özel davetler, düğünler veya şehir turu gibi senaryolarda talep edilir. Müşteri ve refakatçı önceden buluşma yeri, süre ve ücreti netleştirir; gizlilik ve karşılıklı saygı temel prensiplerdir. İzmir merkez, Bornova ve Buca'da güvenilir profiller bulunmaktadır.</p>
+        </article>
+
+        <article class="article">
+            <h3>Bornova Escort: Bölge ve Talepler</h3>
+            <p class="meta">Bornova Escort · Rehber</p>
+            <p>Bornova, Ege Üniversitesi kampüsü ve iş merkezleriyle dinamik bir ilçedir. Bornova escort talebi; iş yemekleri, konferans eşliği, özel davetler ve şehir içi aktivitelerden oluşur. Bornova AVM ve Forum çevresi sık buluşma noktalarıdır. Profil seçerken deneyimli ve iletişim becerisi yüksek refakatçıları tercih etmek, gizliliği ön planda tutmak önemlidir.</p>
+        </article>
+
+        <article class="article">
+            <h3>Buca Escort Seçerken Dikkat Edilecekler</h3>
+            <p class="meta">Buca Escort · Güvenlik</p>
+            <p>Buca escort seçerken profilin gerçek ve güncel olmasına, iletişim dilinin profesyonel olmasına dikkat edilmelidir. Buluşma yeri olarak ulaşımı kolay ve güvenli mekânlar tercih edilmeli; süre, ücret ve ek hizmetler randevudan önce netleştirilmelidir. Güvenilir kanallar üzerinden iletişim kurmak riski azaltır. Karşılıklı saygı ve net sınırlar rahat bir deneyim sağlar.</p>
+        </article>
+
+        <article class="article">
+            <h3>İzmir, Bornova ve Buca'da Gizlilik</h3>
+            <p class="meta">Gizlilik · Güvenlik</p>
+            <p>Escort ve refakat hizmetinde gizlilik hem müşteri hem hizmet veren için kritiktir. Kimlik bilgileri ve randevu detayları korunmalıdır. Güvenilir profiller müşteri bilgilerini üçüncü kişilerle paylaşmaz. İlk iletişimde aşırı kişisel bilgi paylaşmaktan kaçınmak, randevu yerini kalabalık ve güvenli tutmak önerilir. İzmir, Bornova ve Buca'da ciddi refakatçılar gizlilik prensibine bağlıdır.</p>
+        </article>
+
+        <article class="article">
+            <h3>Buluşma Mekânları: İzmir, Bornova, Buca</h3>
+            <p class="meta">Buluşma · Mekânlar</p>
+            <p>İzmir merkezde Alsancak, Kordon, Konak; Bornova'da AVM ve Forum çevresi; Buca'da ilçe merkezi ve Şirinyer sık tercih edilen bölgelerdir. İlk randevularda otel lobisi veya merkezi restoranlar güvenli seçeneklerdir. Her iki tarafın da ulaşım açısından rahat edeceği nokta seçilmeli; özel mekân için güvenilir oteller tercih edilmelidir.</p>
+        </article>
+
+        <article class="article">
+            <h3>İzmir Escort, Bornova Escort, Buca Escort: Özet</h3>
+            <p class="meta">Rehber · Özet</p>
+            <p>İzmir escort hizmeti merkez ilçeler ve Bornova, Buca'da yoğun talep görür. Her bölgede güvenilir profil seçimi, net buluşma-ödeme-süre koşulları ve gizlilik prensibi geçerlidir. Doğru iletişim kanalları kullanıldığında İzmir, Bornova ve Buca'da kaliteli ve güvenli refakat deneyimi yaşanabilir.</p>
+        </article>
+
+    </div>
+</section>
+
+<section id="iletisim" class="cta">
+    <h2 class="section-title">İletişim</h2>
+    <p>İzmir Escort, Bornova Escort ve Buca Escort hizmetleri hakkında bilgi almak için iletişime geçebilirsiniz. Gizlilik ve güvenlik önceliklidir.</p>
+    <a href="#" class="btn">Mesaj Gönder</a>
+</section>
+
+<footer>
+    © 2026 İzmir Escort | Bornova Escort | Buca Escort — Tüm Hakları Saklıdır
+</footer>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"1d9e4f6f5e444528b1af5a797283da36","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
