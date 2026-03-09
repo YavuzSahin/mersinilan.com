@@ -65,7 +65,7 @@
         .hero p {
             color: var(--text-soft);
             font-size: 1.05rem;
-            max-width: 80%;
+            max-width: 75%;
             margin: 0 auto 32px;
         }
         .hero .btn {
@@ -214,8 +214,8 @@
         <a href="/yenisehir-escort" title="Yenişehir Escort">Yenişehir Escort</a>
     </div>
 </nav>
-<section class="hero">
-    <p style="text-align: left;">
+<section class="section" id="mersin-escort">
+    <p class="section-desc" style="text-align: left;">
         Mersinde yaşayanlar ve güzel şehrimizin değerli konukları!<br>
         En kaliteli ve en özel Mersin escort bayanlarını listelemek için büyük bir emekle mersinilan sitesini hazırladık.<br>
         Mersin şehrimizin güzrl enerjisini hissederken, unutulmaz anlar yaşamanız için en doğru adres mersinilan.com!
@@ -226,21 +226,21 @@
     </p>
 </section>
 
-<section class="section" id="izmir">
-    <h2 class="section-title">İzmir Escort</h2>
-    <p class="section-desc">Ege'nin incisi İzmir'de refakat ve escort hizmeti; sosyal davetler, iş yemekleri ve özel anlar için güvenilir eşlik sunar.</p>
+<section class="section" id="mersin">
+    <h2 class="section-title">Mersin Escort</h2>
+    <p class="section-desc">Akdeniz'in incisi Mersin'de refakat ve escort hizmeti; sosyal davetler, iş yemekleri ve özel anlar için güvenilir eşlik sunar.</p>
     <div class="zones">
         <div class="zone-card">
-            <h3>İzmir Merkez</h3>
-            <p>Alsancak, Kordon, Konak bölgelerinde refakat. Özel davetler, gala ve iş etkinlikleri için zarif eşlik. Gizlilik ve güven ön planda.</p>
+            <h3>Mersin Merkez</h3>
+            <p>Güvenevler, Batıkent, Eğriçam, Barbaros, 50. Yıl bölgelerinde refakat ve escort hizmetleri. Özel davetler, gala ve iş etkinlikleri için zarif eşlik. Gizlilik ve güven ön planda.</p>
         </div>
         <div class="zone-card">
-            <h3>Bornova Escort</h3>
-            <p>Üniversite ve iş merkezi çevresinde refakat. Konferans, davet ve akşam organizasyonları. Esnek saatler, profesyonel hizmet.</p>
+            <h3>Mezitli Escort</h3>
+            <p>Viranşehir, Akdeniz, Kuyuluk bölgelerinde üniversite ve iş merkezi çevresinde refakat ve escort hizmetleri. Konferans, davet ve akşam organizasyonları. Esnek saatler, profesyonel hizmet.</p>
         </div>
         <div class="zone-card">
-            <h3>Buca Escort</h3>
-            <p>Buca ve çevresinde dinamik refakat. İş yemekleri, özel davetler ve sosyal etkinliklere eşlik. Ulaşım kolay, güvenilir profiller.</p>
+            <h3>Mersin Yenişehir Escort</h3>
+            <p>Mersin Yenişehir çevresinde dinamik refakat ve escort hizmetleri. İş yemekleri, özel davetler ve sosyal etkinliklere eşlik. Ulaşım kolay, güvenilir escort profilleri.</p>
         </div>
     </div>
 </section>
