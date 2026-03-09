@@ -134,6 +134,7 @@
             max-width: 1100px;
             margin: 0 auto;
             padding: 10px 24px;
+            border-bottom: 1px solid var(--border);
         }
         .section-title { font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 600; margin-bottom: 8px; letter-spacing: -0.02em; }
         .section-desc { color: var(--text-soft); font-size: 0.98rem; margin-bottom: 40px; }
@@ -196,7 +197,7 @@
             border-radius: 8px;
             transition: background 0.2s, color 0.2s;
         }
-        .profile-card .body a:hover { background: var(--red); color: var(--bg); }
+        .profile-card .body a:hover { background: var(--red); color: var(--white); }
 
         .articles { display: flex; flex-direction: column; gap: 28px; }
         .article {
@@ -394,7 +395,9 @@
 </section>
 
 <footer>
-    © 2026 <?=$city?> Escort — Tüm Hakları Saklıdır
+    © 2026 <?=$city?> Escort — Tüm Hakları Saklıdır.
+    <br>
+    <a href="/sitemap.xml">Sitemap</a>
 </footer>
 </body>
 </html>
