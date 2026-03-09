@@ -132,8 +132,8 @@
 
         .section {
             max-width: 1100px;
-            margin: 0 auto;
-            padding: 10px 24px;
+            margin: 0 auto 10px;
+            padding: 20px 24px;
             border-bottom: 1px solid var(--border);
         }
         .section-title { font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 600; margin-bottom: 8px; letter-spacing: -0.02em; }
