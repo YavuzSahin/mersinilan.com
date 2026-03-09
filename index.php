@@ -137,7 +137,7 @@
             padding: 20px 24px;
             border-bottom: 1px solid var(--border);
         }
-        .section:last-child { border-bottom: none; }
+        .section.no-bottom { border-bottom: none; }
         .section-title { font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 600; margin-bottom: 8px; letter-spacing: -0.02em; }
         .section-desc { color: var(--text-soft); font-size: 0.98rem; margin-bottom: 10px; }
 
@@ -346,7 +346,7 @@
     </div>
 </section>
 
-<section class="section" id="makaleler">
+<section class="section no-bottom" id="makaleler">
     <h2 class="section-title">Makaleler</h2>
     <p class="section-desc">İzmir Escort, Bornova Escort ve Buca Escort hakkında rehber yazıları.</p>
     <div class="articles">
