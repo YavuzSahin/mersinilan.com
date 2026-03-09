@@ -1,7 +1,33 @@
+<?php
+    $city           = "Mersin";
+    $districts      = array("Akdeniz", "Mezitli", "Erdemli", "Tarsus", "Toroslar", "Yenişehir", "Anamur", "Silifke");
+    function seo($text) {
+        // Türkçe karakter dönüşümü
+        $search  = ['ç','Ç','ğ','Ğ','ı','İ','ö','Ö','ş','Ş','ü','Ü'];
+        $replace = ['c','c','g','g','i','i','o','o','s','s','u','u'];
 
+        $text = str_replace($search, $replace, $text);
+
+        // Küçük harfe çevir
+        $text = mb_strtolower($text, 'UTF-8');
+
+        // HTML entity temizleme
+        $text = html_entity_decode($text, ENT_QUOTES, 'UTF-8');
+
+        // Harf ve sayı dışındaki karakterleri sil
+        $text = preg_replace('/[^a-z0-9\s-]/', '', $text);
+
+        // Boşlukları tire yap
+        $text = preg_replace('/[\s-]+/', '-', $text);
+
+        // Baştaki ve sondaki tireleri sil
+        $text = trim($text, '-');
+
+        return $text;
+    }
+?>
 <!DOCTYPE html>
 <html lang="tr" >
-
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="index, follow" />
@@ -10,7 +36,7 @@
     <meta name="bingbot" content="index,follow">
 
 
-    <title>Mersin Escort | Mersin Escort Bayan | Mersin Escort Kız</title>
+    <title><?=$city?> Escort | <?=$city?> Escort Bayan | <?=$city?> Escort Kız</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
@@ -198,21 +224,18 @@
 <body>
 
 <header class="hero">
-    <span class="badge">Mersin Escort • Mersin Escort Bayan</span>
-    <h1 class="font-display">Mersin Escort</h1>
+    <span class="badge"><?=$city?> Escort • <?=$city?> Escort Bayan</span>
+    <h1 class="font-display"><?=$city?> Escort</h1>
 </header>
 
 <nav>
     <div class="wrap">
-        <a href="/" title="Mersin Escort">Mersin Escort</a>
-        <a href="/akdeniz-escort" title="Akdeniz Escort">Akdeniz Escort</a>
-        <a href="/anamur-escort" title="Anamur Escort">Anamur Escort</a>
-        <a href="/erdemli-escort" title="Erdemli Escort">Erdemli Escort</a>
-        <a href="/mezitli-escort" title="Mezitli Escort">Mezitli Escort</a>
-        <a href="/silifke-escort" title="Silifke Escort">Silifke Escort</a>
-        <a href="/tarsus-escort" title="Tarsus Escort">Tarsus Escort</a>
-        <a href="/toroslar-escort" title="Toroslar Escort">Toroslar Escort</a>
-        <a href="/yenisehir-escort" title="Yenişehir Escort">Yenişehir Escort</a>
+        <?php
+        foreach ($districts as $district) {
+            $slug = seo($district."-escort");
+        ?>
+        <a href="/<?=$slug;?>" title="<?=$district;?> Escort"><?=$district;?> Escort</a>
+        <?php } ?>
     </div>
 </nav>
 <section class="section" id="mersin-escort">
