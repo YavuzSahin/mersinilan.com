@@ -198,6 +198,22 @@
 <header class="hero">
     <span class="badge">Mersin Escort • Mersin Escort Bayan</span>
     <h1 class="font-display">Mersin Escort</h1>
+</header>
+
+<nav>
+    <div class="wrap">
+        <a href="/" title="Mersin Escort">Mersin Escort</a>
+        <a href="/akdeniz-escort" title="Akdeniz Escort">Akdeniz Escort</a>
+        <a href="/anamur-escort" title="Anamur Escort">Anamur Escort</a>
+        <a href="/erdemli-escort" title="Erdemli Escort">Erdemli Escort</a>
+        <a href="/mezitli-escort" title="Mezitli Escort">Mezitli Escort</a>
+        <a href="/silifke-escort" title="Silifke Escort">Silifke Escort</a>
+        <a href="/tarsus-escort" title="Tarsus Escort">Tarsus Escort</a>
+        <a href="/toroslar-escort" title="Toroslar Escort">Toroslar Escort</a>
+        <a href="/yenisehir-escort" title="Yenişehir Escort">Yenişehir Escort</a>
+    </div>
+</nav>
+<section class="hero">
     <p>
         Mersinde yaşayanlar ve güzel şehrimizin değerli konukları!
         En kaliteli ve en özel Mersin escort bayanlarını listelemek için büyük bir emekle mersinilan sitesini hazırladık.
@@ -206,25 +222,8 @@
         <strong>Neden bekliyorsunuz?</strong><br>Hemen şimdi, zaman kaybetmeden Mersin eskort dünyasının kapılarını aralamak için sitemizde ki escort kız profillerini ziyaret edin!<br>
         Sitemizdeki geniş seçenekler arasından size en uygun olanı kolayca bulabilir, benzersiz bir deneyim yaşayabilirsiniz. Her bir ilan, sizin konforunuz ve beklentileriniz göz önünde bulundurularak hazırlanmıştır. Mersin’in hareketli atmosferine renk katacak, her anınızı özel hissettirecek deneyimler için doğru yerdesiniz.<br>
         <strong>Mersin escort bayan dünyasının sunduğu ayrıcalıklardan yararlanın!</strong>
-
-
     </p>
-    <a href="#iletisim" class="btn">İletişime Geç</a>
-</header>
-
-<nav>
-    <div class="wrap">
-        <a href="/" title="Mersin Escort">Mersin Escort</a>
-        <a href="/akdeniz-escort" title="Akdeniz Escort">Akdeniz Escort</a>
-        <a href=/anamur-escort" title="Anamur Escort">Anamur Escort</a>
-        <a href=/erdemli-escort" title="Erdemli Escort">Erdemli Escort</a>
-        <a href=/mezitli-escort" title="Mezitli Escort">Mezitli Escort</a>
-        <a href=/silifke-escort" title="Silifke Escort">Silifke Escort</a>
-        <a href=/tarsus-escort" title="Tarsus Escort">Tarsus Escort</a>
-        <a href=/toroslar-escort" title="Toroslar Escort">Toroslar Escort</a>
-        <a href=/yenisehir-escort" title="Yenişehir Escort">Yenişehir Escort</a>
-    </div>
-</nav>
+</section>
 
 <section class="section" id="izmir">
     <h2 class="section-title">İzmir Escort</h2>
