@@ -137,7 +137,7 @@
             border-bottom: 1px solid var(--border);
         }
         .section-title { font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 600; margin-bottom: 8px; letter-spacing: -0.02em; }
-        .section-desc { color: var(--text-soft); font-size: 0.98rem; margin-bottom: 40px; }
+        .section-desc { color: var(--text-soft); font-size: 0.98rem; margin-bottom: 10px; }
 
         .zones {
             display: grid;
