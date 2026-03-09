@@ -11,7 +11,9 @@
 
 
     <title>Mersin Escort | Mersin Escort Bayan | Mersin Escort Kız</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg: #0c0c0f;
@@ -61,7 +63,6 @@
             margin-bottom: 16px;
             letter-spacing: -0.02em;
         }
-        .hero h1 .hl { color: var(--red); }
         .hero p {
             color: var(--text-soft);
             font-size: 1.05rem;
@@ -97,7 +98,7 @@
         .section {
             max-width: 1100px;
             margin: 0 auto;
-            padding: 72px 24px;
+            padding: 10px 24px;
         }
         .section-title { font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 600; margin-bottom: 8px; letter-spacing: -0.02em; }
         .section-desc { color: var(--text-soft); font-size: 0.98rem; margin-bottom: 40px; }
