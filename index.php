@@ -28,7 +28,7 @@
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-family: 'Sora', sans-serif;
             background: var(--bg);
             color: var(--text);
             line-height: 1.65;
@@ -72,7 +72,7 @@
         .hero .btn {
             display: inline-block;
             padding: 14px 28px;
-            background: var(--accent);
+            background: var(--red);
             color: var(--bg);
             text-decoration: none;
             font-weight: 600;
@@ -116,8 +116,8 @@
             padding: 28px;
             transition: border-color 0.2s, background 0.2s;
         }
-        .zone-card:hover { border-color: var(--accent); background: var(--surface-hover); }
-        .zone-card h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 8px; color: var(--accent); }
+        .zone-card:hover { border-color: var(--red); background: var(--surface-hover); }
+        .zone-card h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 8px; color: var(--red); }
         .zone-card p { color: var(--text-soft); font-size: 0.92rem; line-height: 1.6; }
 
         .profile-grid {
@@ -133,7 +133,7 @@
             transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
         }
         .profile-card:hover {
-            border-color: var(--accent);
+            border-color: var(--red);
             transform: translateY(-3px);
             box-shadow: 0 12px 32px rgba(0,0,0,0.25);
         }
@@ -144,24 +144,24 @@
             align-items: center;
             justify-content: center;
             font-size: 52px;
-            color: var(--accent);
+            color: var(--red);
         }
         .profile-card .body { padding: 22px; }
         .profile-card .body h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 6px; }
-        .profile-card .body .meta { font-size: 0.85rem; color: var(--accent); margin-bottom: 10px; }
+        .profile-card .body .meta { font-size: 0.85rem; color: var(--red); margin-bottom: 10px; }
         .profile-card .body p { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 16px; line-height: 1.55; }
         .profile-card .body a {
             display: inline-block;
             padding: 10px 18px;
             background: var(--accent-dim);
-            color: var(--accent);
+            color: var(--red);
             text-decoration: none;
             font-size: 0.88rem;
             font-weight: 600;
             border-radius: 8px;
             transition: background 0.2s, color 0.2s;
         }
-        .profile-card .body a:hover { background: var(--accent); color: var(--bg); }
+        .profile-card .body a:hover { background: var(--red); color: var(--bg); }
 
         .articles { display: flex; flex-direction: column; gap: 28px; }
         .article {
@@ -183,7 +183,7 @@
         }
         .cta .section-title { margin-bottom: 12px; }
         .cta p { color: var(--text-soft); margin-bottom: 24px; max-width: 440px; margin-left: auto; margin-right: auto; }
-        .cta .btn { display: inline-block; padding: 14px 28px; background: var(--accent); color: var(--bg); text-decoration: none; font-weight: 600; border-radius: 10px; transition: opacity 0.2s; }
+        .cta .btn { display: inline-block; padding: 14px 28px; background: var(--red); color: var(--bg); text-decoration: none; font-weight: 600; border-radius: 10px; transition: opacity 0.2s; }
         .cta .btn:hover { opacity: 0.9; }
 
         footer { text-align: center; padding: 28px 24px; font-size: 0.88rem; color: var(--text-soft); border-top: 1px solid var(--border); }
