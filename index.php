@@ -215,13 +215,13 @@
     </div>
 </nav>
 <section class="hero">
-    <p>
-        Mersinde yaşayanlar ve güzel şehrimizin değerli konukları!
-        En kaliteli ve en özel Mersin escort bayanlarını listelemek için büyük bir emekle mersinilan sitesini hazırladık.
+    <p style="text-align: left;">
+        Mersinde yaşayanlar ve güzel şehrimizin değerli konukları!<br>
+        En kaliteli ve en özel Mersin escort bayanlarını listelemek için büyük bir emekle mersinilan sitesini hazırladık.<br>
         Mersin şehrimizin güzrl enerjisini hissederken, unutulmaz anlar yaşamanız için en doğru adres mersinilan.com!
         Mersinilan.com, sizin için sadece en seçkin ve profesyonel Mersin escort hizmetlerini sunmakla kalmıyor, aynı zamanda yüksek memnuniyet garantisi ile hareket ediyor.<br>
         <strong>Neden bekliyorsunuz?</strong><br>Hemen şimdi, zaman kaybetmeden Mersin eskort dünyasının kapılarını aralamak için sitemizde ki escort kız profillerini ziyaret edin!<br>
-        Sitemizdeki geniş seçenekler arasından size en uygun olanı kolayca bulabilir, benzersiz bir deneyim yaşayabilirsiniz. Her bir ilan, sizin konforunuz ve beklentileriniz göz önünde bulundurularak hazırlanmıştır. Mersin’in hareketli atmosferine renk katacak, her anınızı özel hissettirecek deneyimler için doğru yerdesiniz.<br>
+        Sitemizdeki geniş seçenekler arasından size en uygun olanı kolayca bulabilir, benzersiz bir deneyim yaşayabilirsiniz. Her bir mersin escort ilanı, sizin konforunuz ve beklentileriniz göz önünde bulundurularak hazırlanmıştır. Mersin’in hareketli atmosferine renk katacak, her anınızı özel hissettirecek deneyimler için doğru yerdesiniz.<br>
         <strong>Mersin escort bayan dünyasının sunduğu ayrıcalıklardan yararlanın!</strong>
     </p>
 </section>
