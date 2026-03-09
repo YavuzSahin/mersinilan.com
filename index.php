@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="tr" >
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <meta name="bingbot" content="index,follow">
 
 
-    <title>İzmir Escort | Bornova Escort | Buca Escort</title>
+    <title>Mersin Escort | Mersin Escort Bayan | Mersin Escort Kız</title>
 
     <style>
         :root {
@@ -196,9 +196,19 @@
 <body>
 
 <header class="hero">
-    <span class="badge">İzmir • Bornova • Buca</span>
-    <h1 class="font-display">İzmir Escort · <span class="hl">Bornova & Buca</span> Escort</h1>
-    <p>Modern refakat deneyimi. Güvenilir profiller, net iletişim, gizlilik öncelikli hizmet.</p>
+    <span class="badge">Mersin Escort • Mersin Escort Bayan</span>
+    <h1 class="font-display">Mersin Escort</h1>
+    <p>
+        Mersinde yaşayanlar ve güzel şehrimizin değerli konukları!
+        En kaliteli ve en özel Mersin escort bayanlarını listelemek için büyük bir emekle mersinilan sitesini hazırladık.
+        Mersin şehrimizin güzrl enerjisini hissederken, unutulmaz anlar yaşamanız için en doğru adres mersinilan.com!
+        Mersinilan.com, sizin için sadece en seçkin ve profesyonel Mersin escort hizmetlerini sunmakla kalmıyor, aynı zamanda yüksek memnuniyet garantisi ile hareket ediyor.<br>
+        <strong>Neden bekliyorsunuz?</strong><br>Hemen şimdi, zaman kaybetmeden Mersin eskort dünyasının kapılarını aralamak için sitemizde ki escort kız profillerini ziyaret edin!<br>
+        Sitemizdeki geniş seçenekler arasından size en uygun olanı kolayca bulabilir, benzersiz bir deneyim yaşayabilirsiniz. Her bir ilan, sizin konforunuz ve beklentileriniz göz önünde bulundurularak hazırlanmıştır. Mersin’in hareketli atmosferine renk katacak, her anınızı özel hissettirecek deneyimler için doğru yerdesiniz.<br>
+        <strong>Mersin escort bayan dünyasının sunduğu ayrıcalıklardan yararlanın!</strong>
+
+
+    </p>
     <a href="#iletisim" class="btn">İletişime Geç</a>
 </header>
 
