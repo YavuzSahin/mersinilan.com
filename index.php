@@ -34,7 +34,7 @@
         .font-display { font-family: 'Sora', sans-serif; }
 
         .hero {
-            padding: 100px 24px 80px;
+            padding: 20px 24px 0;
             text-align: center;
             background:
                     radial-gradient(ellipse 70% 60% at 50% 0%, var(--accent-dim) 0%, transparent 60%),
@@ -64,7 +64,7 @@
         .hero p {
             color: var(--text-soft);
             font-size: 1.05rem;
-            max-width: 520px;
+            max-width: 80%;
             margin: 0 auto 32px;
         }
         .hero .btn {
