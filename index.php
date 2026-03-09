@@ -25,6 +25,14 @@
 
         return $text;
     }
+
+    $seoText = 'Mersinde yaşayanlar ve güzel şehrimizin değerli konukları!<br>
+        En kaliteli ve en özel Mersin escort bayanlarını listelemek için büyük bir emekle mersinilan sitesini hazırladık.<br>
+        Mersin şehrimizin güzrl enerjisini hissederken, unutulmaz anlar yaşamanız için en doğru adres mersinilan.com!
+        Mersinilan.com, sizin için sadece en seçkin ve profesyonel Mersin escort hizmetlerini sunmakla kalmıyor, aynı zamanda yüksek memnuniyet garantisi ile hareket ediyor.<br>
+        <strong>Neden bekliyorsunuz?</strong><br>Hemen şimdi, zaman kaybetmeden Mersin eskort dünyasının kapılarını aralamak için sitemizde ki escort kız profillerini ziyaret edin!<br>
+        Sitemizdeki geniş seçenekler arasından size en uygun olanı kolayca bulabilir, benzersiz bir deneyim yaşayabilirsiniz. Her bir mersin escort ilanı, sizin konforunuz ve beklentileriniz göz önünde bulundurularak hazırlanmıştır. Mersin’in hareketli atmosferine renk katacak, her anınızı özel hissettirecek deneyimler için doğru yerdesiniz.<br>
+        <strong>Mersin escort bayan dünyasının sunduğu ayrıcalıklardan yararlanın!</strong>';
 ?>
 <!DOCTYPE html>
 <html lang="tr" >
@@ -234,20 +242,12 @@
         foreach ($districts as $district) {
             $slug = seo($district."-escort");
         ?>
-        <a href="/<?=$slug;?>" title="<?=$district;?> Escort"><?=$district;?> Escort</a>
+        <a href="/ilce/<?=$slug;?>" title="<?=$district;?> Escort"><?=$district;?> Escort</a>
         <?php } ?>
     </div>
 </nav>
 <section class="section" id="mersin-escort">
-    <p class="section-desc" style="text-align: left;">
-        Mersinde yaşayanlar ve güzel şehrimizin değerli konukları!<br>
-        En kaliteli ve en özel Mersin escort bayanlarını listelemek için büyük bir emekle mersinilan sitesini hazırladık.<br>
-        Mersin şehrimizin güzrl enerjisini hissederken, unutulmaz anlar yaşamanız için en doğru adres mersinilan.com!
-        Mersinilan.com, sizin için sadece en seçkin ve profesyonel Mersin escort hizmetlerini sunmakla kalmıyor, aynı zamanda yüksek memnuniyet garantisi ile hareket ediyor.<br>
-        <strong>Neden bekliyorsunuz?</strong><br>Hemen şimdi, zaman kaybetmeden Mersin eskort dünyasının kapılarını aralamak için sitemizde ki escort kız profillerini ziyaret edin!<br>
-        Sitemizdeki geniş seçenekler arasından size en uygun olanı kolayca bulabilir, benzersiz bir deneyim yaşayabilirsiniz. Her bir mersin escort ilanı, sizin konforunuz ve beklentileriniz göz önünde bulundurularak hazırlanmıştır. Mersin’in hareketli atmosferine renk katacak, her anınızı özel hissettirecek deneyimler için doğru yerdesiniz.<br>
-        <strong>Mersin escort bayan dünyasının sunduğu ayrıcalıklardan yararlanın!</strong>
-    </p>
+    <p class="section-desc" style="text-align: left;"><?=$seoText;?></p>
 </section>
 
 <section class="section" id="mersin">
@@ -282,7 +282,7 @@
 </section>
 
 <section class="section" id="profiller">
-    <h2 class="section-title">Bayan Profilleri</h2>
+    <h2 class="section-title"><?=$city?> Escort Bayan Profilleri</h2>
     <p class="section-desc">İzmir, Bornova ve Buca bölgelerinde hizmet veren escort profilleri.</p>
     <div class="profile-grid">
         <div class="profile-card">
@@ -388,14 +388,12 @@
 
 <section id="iletisim" class="cta">
     <h2 class="section-title">İletişim</h2>
-    <p>İzmir Escort, Bornova Escort ve Buca Escort hizmetleri hakkında bilgi almak için iletişime geçebilirsiniz. Gizlilik ve güvenlik önceliklidir.</p>
+    <p><?=$city?> Escort Bayan hizmetleri hakkında bilgi almak için iletişime geçebilirsiniz. Gizlilik ve güvenlik önceliklidir.</p>
     <a href="#" class="btn">Mesaj Gönder</a>
 </section>
 
 <footer>
-    © 2026 İzmir Escort | Bornova Escort | Buca Escort — Tüm Hakları Saklıdır
+    © 2026 <?=$city?> Escort — Tüm Hakları Saklıdır
 </footer>
-
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"1d9e4f6f5e444528b1af5a797283da36","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
