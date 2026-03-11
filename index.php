@@ -397,6 +397,7 @@ $arrayVar = [
         .profile-card .avatar img{width: 100%;height: auto;position: absolute;top: 0;z-index: 9;border-radius: 14px;}
         .profile-card .body { padding: 22px; width: 100%; z-index: 11;position: absolute;bottom: 0; background: #000000;background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 156, 175, 0) 100%);border-radius: 14px;}
         .profile-card .body h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 6px; }
+        .profile-card .body a h3{color: var(--white);}
         .profile-card .body .meta { font-size: 0.85rem; color: var(--text-soft); margin-bottom: 10px; }
         .profile-card .body p { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 16px; line-height: 1.55; }
         .profile-card .body p.none{ display: none;}
@@ -839,7 +840,7 @@ $arrayVar = [
                 <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
             </div>
             <div class="body">
-                <h3>Defne</h3>
+                <a href="<?=$site;?>/profil/<?=seo($city."escort-bayan-defne");?>" title="<?=$city;?> Escort Bayan Defne"><h3>Defne</h3></a>
                 <p class="meta">26 · Mersin Merkez</p>
                 <p class="none">Mersin Yenişehir refakat. Sosyal etkinlikler ve özel davetler. Gizlilik öncelikli.</p>
                 <a href="#iletisim">İletişim</a>
