@@ -401,7 +401,7 @@ $arrayVar = [
         .profile-card .body .meta { font-size: 0.85rem; color: var(--text-soft); margin-bottom: 10px; }
         .profile-card .body p { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 16px; line-height: 1.55; }
         .profile-card .body p.none{ display: none;}
-        .profile-card .body a {
+        .profile-card .body a.contact {
             display: inline-block;
             padding: 10px 18px;
             background: var(--accent-dim);
@@ -843,7 +843,7 @@ $arrayVar = [
                 <a href="<?=$site;?>/profil/<?=seo($city."escort-bayan-defne");?>" title="<?=$city;?> Escort Bayan Defne"><h3>Defne</h3></a>
                 <p class="meta">26 · Mersin Merkez</p>
                 <p class="none">Mersin Yenişehir refakat. Sosyal etkinlikler ve özel davetler. Gizlilik öncelikli.</p>
-                <a href="#iletisim">İletişim</a>
+                <a href="#iletisim" class="contact">İletişim</a>
             </div>
         </div>
         <div class="profile-card">
