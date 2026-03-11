@@ -461,7 +461,7 @@ $arrayVar = [
             transition: all 0.35s;
         }
         .tab input:checked ~ .tab__content {
-            max-height: 10rem;
+            max-height: 20rem;
         }
 
         /* Visual styles */
@@ -832,7 +832,7 @@ $arrayVar = [
     <div class="profile-grid">
         <div class="profile-card">
             <div class="avatar">
-                <img src="<?=$site;?>/images/uploads/4.jpg" width="1344" height="768" alt="<?=$city?> escort" title="<?=$city?> escort">
+                <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
             </div>
             <div class="body">
                 <h3>Defne</h3>
