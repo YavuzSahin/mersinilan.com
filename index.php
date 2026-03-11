@@ -295,7 +295,7 @@
             display: flex;
             color: white;
             background: transparent;
-            border-bottom: 2px solid var(--accent-dim);
+            border-bottom: 2px solid var(--border);
             cursor: pointer;
         }
         .tab__label {
