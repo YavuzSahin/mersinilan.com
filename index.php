@@ -394,8 +394,8 @@ $arrayVar = [
             font-size: 52px;
             color: var(--red);
         }
-        .profile-card .avatar img{width: 100%;height: auto;position: absolute;top: 0;z-index: 9;}
-        .profile-card .body { padding: 22px; width: 100%; z-index: 11;position: absolute;bottom: 0; background: #000000;background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 156, 175, 0) 100%);}
+        .profile-card .avatar img{width: 100%;height: auto;position: absolute;top: 0;z-index: 9;border-radius: 14px;}
+        .profile-card .body { padding: 22px; width: 100%; z-index: 11;position: absolute;bottom: 0; background: #000000;background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 156, 175, 0) 100%);border-radius: 14px;}
         .profile-card .body h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 6px; }
         .profile-card .body .meta { font-size: 0.85rem; color: var(--text-soft); margin-bottom: 10px; }
         .profile-card .body p { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 16px; line-height: 1.55; }
