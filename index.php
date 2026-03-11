@@ -334,7 +334,7 @@ $arrayVar = [
             border-bottom: 1px solid var(--border);
             padding: 14px 24px;
         }
-        nav .wrap { max-width: 1100px; margin: 0 auto; display: flex; justify-content: start; flex-wrap: inherit; overflow: auto; gap: 6px 28px; }
+        nav .wrap { max-width: 1100px; margin: 0 auto; display: flex; justify-content: start; flex-wrap: inherit; overflow: auto; gap: 6px 0; }
         nav a { color: var(--text-soft); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; min-width: 125px;margin: 5px 0;}
         a { color: var(--text-soft); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
         nav a:hover { color: var(--red); }
@@ -397,7 +397,7 @@ $arrayVar = [
         .profile-card .avatar img{width: 100%;height: auto;position: absolute;top: 0;z-index: 9;}
         .profile-card .body { padding: 22px; width: 100%; z-index: 11;position: absolute;bottom: 0; background: #000000;background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 156, 175, 0) 100%);}
         .profile-card .body h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 6px; }
-        .profile-card .body .meta { font-size: 0.85rem; color: var(--red); margin-bottom: 10px; }
+        .profile-card .body .meta { font-size: 0.85rem; color: var(--text-soft); margin-bottom: 10px; }
         .profile-card .body p { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 16px; line-height: 1.55; }
         .profile-card .body p.none{ display: none;}
         .profile-card .body a {
