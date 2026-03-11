@@ -263,6 +263,11 @@
         /* Core styles/functionality */
         .tab {
             position: relative;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 32px 36px;
+            transition: border-color 0.2s;
         }
         .tab input {
             position: absolute;
