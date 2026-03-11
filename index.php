@@ -253,8 +253,13 @@
             .article { padding: 24px 22px; }
         }
 
+        .faq {
+            text-align: center;
+            padding: 80px 24px;
+            border-top: 1px solid var(--border);
+        }
+
         .faq-heading {
-            font-family: Lato;
             font-weight: 400;
             font-size: 19px;
             -webkit-transition: text-indent 0.2s;
@@ -263,7 +268,6 @@
         }
 
         .faq-text {
-            font-family: Open Sans;
             font-weight: 400;
             color: #919191;
             width:95%;
@@ -298,8 +302,6 @@
         .faq .faq-arrow {
             width: 5px;
             height: 5px;
-            transition: -webkit-transform 0.8s;
-            transition: transform 0.8s;
             transition: transform 0.8s, -webkit-transform 0.8s;
             -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
             border-top: 2px solid rgba(0, 0, 0, 0.33);
@@ -313,8 +315,6 @@
         }
 
         .faq input[type="checkbox"]:checked + label > .faq-arrow {
-            transition: -webkit-transform 0.8s;
-            transition: transform 0.8s;
             transition: transform 0.8s, -webkit-transform 0.8s;
             -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
             -webkit-transform: rotate(135deg);
