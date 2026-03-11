@@ -334,8 +334,8 @@ $arrayVar = [
             border-bottom: 1px solid var(--border);
             padding: 14px 24px;
         }
-        nav .wrap { max-width: 1100px; margin: 0 auto; display: flex; justify-content: center; flex-wrap: inherit; overflow: auto; gap: 6px 28px; }
-        nav a { color: var(--text-soft); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+        nav .wrap { max-width: 1100px; margin: 0 auto; display: flex; justify-content: start; flex-wrap: inherit; overflow: auto; gap: 6px 28px; }
+        nav a { color: var(--text-soft); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; min-width: 125px;margin: 5px 0;}
         a { color: var(--text-soft); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
         nav a:hover { color: var(--red); }
 
