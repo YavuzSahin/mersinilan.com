@@ -842,7 +842,7 @@ $arrayVar = [
                 <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
             </div>
             <div class="body">
-                <a href="<?=$site;?>/profil/<?=seo($city."escort-bayan-defne");?>" title="<?=$city;?> Escort Bayan Defne"><h3>Defne</h3></a>
+                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-defne");?>" title="<?=$city;?> Escort Bayan Defne"><h3>Defne</h3></a>
                 <p class="meta">26 · Mersin Merkez</p>
                 <p class="none">Mersin Yenişehir refakat. Sosyal etkinlikler ve özel davetler. Gizlilik öncelikli.</p>
                 <a href="#iletisim" class="contact foto">Fotoğraflar</a>
@@ -850,48 +850,27 @@ $arrayVar = [
             </div>
         </div>
         <div class="profile-card">
-            <div class="avatar">👩</div>
+            <div class="avatar">
+                <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
+            </div>
             <div class="body">
-                <h3>Zeynep</h3>
-                <p class="meta">28 · Mezitli</p>
-                <p>Mezitli'de dinamik refakat. İş yemekleri ve akşam organizasyonları. Deneyimli ve güvenilir.</p>
-                <a href="#iletisim">İletişim</a>
+                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-zeynep");?>" title="<?=$city;?> Escort Bayan Zeynep"><h3>Zeynep</h3></a>
+                <p class="meta">28 · Mersin Mezitli</p>
+                <p class="none">Mersin Mezitli'de escort Zeynep. İş yemekleri ve akşam organizasyonları. Deneyimli ve güvenilir.</p>
+                <a href="#iletisim" class="contact foto">Fotoğraflar</a>
+                <a href="#iletisim" class="contact">İletişim</a>
             </div>
         </div>
         <div class="profile-card">
-            <div class="avatar">👩</div>
-            <div class="body">
-                <h3>Melis</h3>
-                <p class="meta">25 · Erdemli</p>
-                <p>Erdemli ve üniversite çevresinde refakat. Konferans ve davetlere uyumlu. Esnek saatler.</p>
-                <a href="#iletisim">İletişim</a>
+            <div class="avatar">
+                <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
             </div>
-        </div>
-        <div class="profile-card">
-            <div class="avatar">👩</div>
             <div class="body">
-                <h3>Selin</h3>
-                <p class="meta">29 · Mersin / Yenişehir</p>
-                <p>Mersin genelinde refakat. Özel davetler ve iş etkinlikleri. Çok dilli, profesyonel.</p>
-                <a href="#iletisim">İletişim</a>
-            </div>
-        </div>
-        <div class="profile-card">
-            <div class="avatar">👩</div>
-            <div class="body">
-                <h3>Ece</h3>
-                <p class="meta">24 · Mezitli</p>
-                <p>Mezitli'de genç ve sosyal refakat. Özel davetler ve partiler. Güvenilir hizmet.</p>
-                <a href="#iletisim">İletişim</a>
-            </div>
-        </div>
-        <div class="profile-card">
-            <div class="avatar">👩</div>
-            <div class="body">
-                <h3>Ada</h3>
-                <p class="meta">27 · Erdemli / <?=$city;?></p>
-                <p>Erdemli ve merkez bölgede refakat. İş yemekleri ve sosyal davetler. İngilizce bilir.</p>
-                <a href="#iletisim">İletişim</a>
+                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-melis");?>" title="<?=$city;?> Escort Bayan Melis"><h3>Melis</h3></a>
+                <p class="meta">28 · Mersin Erdemli</p>
+                <p class="none">Mersin Erdemli'de escort Melis. Erdemli ve üniversite çevresinde escort bayan. Esnek saatler.</p>
+                <a href="#iletisim" class="contact foto">Fotoğraflar</a>
+                <a href="#iletisim" class="contact">İletişim</a>
             </div>
         </div>
     </div>
