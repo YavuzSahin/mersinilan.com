@@ -404,7 +404,7 @@ $arrayVar = [
             display: inline-block;
             padding: 10px 18px;
             background: var(--accent-dim);
-            color: var(--red);
+            color: var(--white);
             text-decoration: none;
             font-size: 0.88rem;
             font-weight: 600;
