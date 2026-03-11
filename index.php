@@ -294,7 +294,8 @@
         .tab__close {
             display: flex;
             color: white;
-            background: var(--theme);
+            background: transparent;
+            border-bottom: 2px solid var(--accent-dim);
             cursor: pointer;
         }
         .tab__label {
