@@ -39,7 +39,7 @@
 $arrayVar = [
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort İlanlarına Nasıl Ulaşırım?",
+                "name" => $city."  Escort İlanlarına Nasıl Ulaşırım?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort İlanlarına ulaşmak için ana sayfamızdaki güncel ilanlar bölümünü ziyaret edebilirsiniz. <?=$city?> Escort platformumuz, kullanıcı dostu bir arayüzle tasarlanmıştır ve <?=$city?> Escort Bayan profillerini kolayca filtreleyerek size en uygun seçenekleri sunar. Her bir ilan, detaylı bilgiler, fotoğraflar ve iletişim seçenekleriyle donatılmıştır, böylece hızlı ve güvenli bir şekilde iletişim kurabilirsiniz.",
@@ -47,7 +47,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Bayan Profilleri Ne Kadar Güncel?",
+                "name" => $city."  Escort Bayan Profilleri Ne Kadar Güncel?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort Bayan profilleri, platformumuzda günlük olarak güncellenir. Yeni profiller eklenir, mevcut ilanlar düzenli olarak kontrol edilir ve eski bilgiler yenilenir. <?=$city?> Escort İlanları, kullanıcıların en güncel ve doğru bilgilere erişmesini sağlamak için sürekli moderasyon altındadır. Böylece her zaman en yeni ve güvenilir <?=$city?> Escort Bayan seçeneklerine ulaşabilirsiniz.",
@@ -55,7 +55,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Randevu Sistemi Nasıl Çalışır?",
+                "name" => $city."  Escort Randevu Sistemi Nasıl Çalışır?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort Randevu sistemi, hızlı ve kullanıcı odaklı bir deneyim sunar. <?=$city?> Escort İlanları üzerinden seçtiğiniz profile tıklayarak iletişim bilgilerine ulaşabilirsiniz. Profil detaylarında yer alan iletişim kanalları aracılığıyla doğrudan bağlantı kurabilir ve randevu talebinizi iletebilirsiniz. Platformumuz, mobil uyumlu yapısıyla her yerden kolay erişim sağlar ve <?=$city?> Escort Bayanlarla hızlıca randevu ayarlamanıza olanak tanır.",
@@ -63,7 +63,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Hizmetleri Güvenli mi?",
+                "name" => $city."  Escort Hizmetleri Güvenli mi?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort platformu, kullanıcı güvenliğini en üst düzeyde tutar. Tüm iletişim kanalları SSL şifreleme teknolojisiyle korunur ve kullanıcı verileri asla üçüncü taraflarla paylaşılmaz. <?=$city?> Escort Bayan profilleri, sahte profillerin önüne geçmek için düzenli olarak doğrulanır. Ayrıca, platformumuzdaki <?=$city?> Escort İlanları moderasyon ekibimiz tarafından titizlikle incelenir, böylece güvenli ve güvenilir bir deneyim sunar.",
@@ -71,7 +71,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Güncel Adresini Nasıl Bulurum?",
+                "name" => $city."  Escort Güncel Adresini Nasıl Bulurum?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort hizmetlerimize kesintisiz erişim için güncel adresimizi sosyal medya hesaplarımızdan veya güvenilir platformlardan takip edebilirsiniz. Türkiye’deki erişim engellemeleri nedeniyle adreslerimiz zaman zaman değişebilir, ancak <?=$city?> Escort İlanları ve <?=$city?> Escort Bayan profillerine erişimde herhangi bir veri kaybı yaşanmaz. Güncel adres duyuruları anında paylaşılır, böylece hizmetlerimize her zaman ulaşabilirsiniz.",
@@ -79,7 +79,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Bayan Seçimi Nasıl Yapılır?",
+                "name" => $city."  Escort Bayan Seçimi Nasıl Yapılır?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort Bayan seçimi, platformumuzun kullanıcı dostu arayüzüyle oldukça kolaydır. <?=$city?> Escort İlanları bölümünde, her profil detaylı açıklamalar, hizmet türleri ve fotoğraflarla birlikte sunulur. Kullanıcılar, tercihlerine göre filtreleme yaparak kendilerine en uygun <?=$city?> Escort Bayan profilini seçebilir. İletişim bilgileri doğrudan ilanda yer alır, böylece hızlıca bağlantı kurabilirsiniz.",
@@ -87,7 +87,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort İlanlarında Hangi Bilgiler Yer Alır?",
+                "name" => $city."  Escort İlanlarında Hangi Bilgiler Yer Alır?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort İlanları, kullanıcıların bilinçli seçim yapabilmesi için kapsamlı bilgiler içerir. Her ilanda, <?=$city?> Escort Bayan profiline ait fotoğraflar, hizmet detayları, müsaitlik durumu ve iletişim bilgileri bulunur. Ayrıca, kullanıcıların tercihlerine göre hizmet türleri ve özel talepler de açıklanır. <?=$city?> Escort platformu, şeffaf ve güvenilir bir deneyim sunmak için tüm ilanları düzenli olarak günceller.",
@@ -95,7 +95,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Hizmetleri Neler Sunar?",
+                "name" => $city."  Escort Hizmetleri Neler Sunar?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort hizmetleri, farklı kullanıcı ihtiyaçlarına hitap eden geniş bir yelpazede sunulur. <?=$city?> Escort Bayan profilleri, özel randevular, sosyal etkinlikler veya kişiselleştirilmiş deneyimler gibi çeşitli hizmetler içerir. <?=$city?> Escort İlanları, her bir hizmetin detaylarını açıklar ve kullanıcıların ihtiyaçlarına en uygun seçeneği bulmalarına yardımcı olur. Platformumuz, her zevke uygun premium hizmetler sunmayı hedefler.",
@@ -103,7 +103,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Platformunda Mobil Erişim Var mı?",
+                "name" => $city."  Escort Platformunda Mobil Erişim Var mı?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "Evet, <?=$city?> Escort platformu tamamen mobil uyumludur. Telefon veya tablet üzerinden <?=$city?> Escort İlanları ve <?=$city?> Escort Bayan profillerine kolayca erişebilirsiniz. Mobil arayüzümüz, hızlı gezinme ve anlık randevu talepleri için optimize edilmiştir. Bu sayede, nerede olursanız olun <?=$city?> Escort hizmetlerine kesintisiz ulaşabilir ve keyifli bir deneyim yaşayabilirsiniz.",
@@ -111,7 +111,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort İlanlarını Görüntülemek Ücretli mi?",
+                "name" => $city."  Escort İlanlarını Görüntülemek Ücretli mi?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort İlanlarını görüntülemek tamamen ücretsizdir. Platformumuz, kullanıcıların <?=$city?> Escort Bayan profillerini ve hizmet detaylarını hiçbir ücret ödemeden incelemesine olanak tanır. İletişim kurmak veya randevu almak için ise ilanlarda belirtilen iletişim kanallarını kullanabilirsiniz. <?=$city?> Escort platformu, şeffaf ve erişilebilir bir deneyim sunar.",
@@ -119,7 +119,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Müşteri Desteği Nasıl Sağlanır?",
+                "name" => $city."  Escort Müşteri Desteği Nasıl Sağlanır?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort platformu, kullanıcılarına 24/7 müşteri desteği sunar. Canlı sohbet, e-posta veya sosyal medya üzerinden destek ekibimize ulaşabilirsiniz. <?=$city?> Escort İlanları veya <?=$city?> Escort Bayan profilleri hakkında sorularınız varsa, destek ekibimiz hızlı ve etkili çözümler sunar. Kullanıcı memnuniyeti bizim için önceliklidir.",
@@ -127,7 +127,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Adresi Neden Değişiyor?",
+                "name" => $city."  Escort Adresi Neden Değişiyor?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort platformu, Türkiye’deki internet erişim engellemeleri nedeniyle zaman zaman adres değişikliği yapar. Bu değişiklikler, kullanıcıların <?=$city?> Escort İlanları ve <?=$city?> Escort Bayan hizmetlerine kesintisiz erişimini sağlamak içindir. Yeni adreslerimiz sosyal medya hesaplarımızda ve güvenilir platformlarda anında duyurulur, böylece hizmetlerimizden kopmadan devam edebilirsiniz.",
@@ -135,7 +135,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort İlanları Ne Sıklıkla Güncelleniyor?",
+                "name" => $city."  Escort İlanları Ne Sıklıkla Güncelleniyor?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort İlanları, kullanıcıların en güncel bilgilere erişmesi için günlük ve haftalık olarak yenilenir. Yeni <?=$city?> Escort Bayan profilleri eklenir, mevcut ilanlar kontrol edilir ve eski bilgiler güncellenir. Bu sayede, platformumuzda her zaman en yeni ve doğru <?=$city?> Escort hizmetlerine ulaşabilirsiniz.",
@@ -143,7 +143,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort İlanlarında Sahte Profil Önleniyor mu?",
+                "name" => $city."  Escort İlanlarında Sahte Profil Önleniyor mu?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort platformu, sahte profillerin önüne geçmek için sıkı bir doğrulama ve moderasyon süreci uygular. <?=$city?> Escort Bayan profilleri, gerçeklik ve doğruluk açısından düzenli olarak kontrol edilir. Kullanıcı güvenliğini sağlamak için tüm <?=$city?> Escort İlanları titizlikle incelenir ve yalnızca onaylı profiller yayınlanır.",
@@ -151,7 +151,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort İlanlarına Başvuru Nasıl Yapılır?",
+                "name" => $city."  Escort İlanlarına Başvuru Nasıl Yapılır?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort İlanlarına başvuru yapmak için ana sayfamızdaki başvuru formunu doldurabilirsiniz. Formda gerekli bilgileri sağlayarak veya destek ekibimizle iletişime geçerek başvuru sürecini başlatabilirsiniz. <?=$city?> Escort platformu, başvuru işlemlerini hızlı ve kolay hale getirmek için kullanıcı dostu bir sistem sunar.",
@@ -159,7 +159,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort İlanlarında Gizlilik Nasıl Korunur?",
+                "name" => $city."  Escort İlanlarında Gizlilik Nasıl Korunur?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort platformu, kullanıcı gizliliğini en üst düzeyde korur. <?=$city?> Escort Bayan profilleri ve iletişim bilgileri, üçüncü taraflarla asla paylaşılmaz. Tüm veriler SSL şifreleme ile korunur ve platformumuz, <?=$city?> Escort İlanları üzerinden yapılan işlemlerin güvenliğini garanti eder. Kullanıcıların kişisel bilgileri gizli tutulur.",
@@ -167,7 +167,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Hizmetlerinde Yaş Sınırı Nedir?",
+                "name" => $city."  Escort Hizmetlerinde Yaş Sınırı Nedir?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort hizmetleri, yalnızca 18 yaş ve üzeri kullanıcılar için sunulur. <?=$city?> Escort İlanları oluşturmak veya hizmetlerden faydalanmak için yaş sınırı kuralına uyulması zorunludur. Platformumuz, bu kurala sıkı sıkıya bağlıdır ve tüm kullanıcıların yaş doğrulamasını yapar.",
@@ -175,7 +175,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort İlanlarında Fotoğraf Zorunlu mu?",
+                "name" => $city."  Escort İlanlarında Fotoğraf Zorunlu mu?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort İlanları için fotoğraf eklemek, kullanıcıların dikkatini çekmek ve güven oluşturmak açısından tavsiye edilir, ancak zorunlu değildir. <?=$city?> Escort Bayan profilleri, detaylı açıklamalar ve hizmet bilgileriyle desteklenir, böylece kullanıcılar fotoğraf olmadan da doğru seçim yapabilir.",
@@ -183,7 +183,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort İlanlarıyla İletişim Nasıl Kurulur?",
+                "name" => $city."  Escort İlanlarıyla İletişim Nasıl Kurulur?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort İlanları üzerinden iletişim kurmak oldukça basittir. Her ilanda yer alan iletişim bilgileri aracılığıyla, <?=$city?> Escort Bayan profilleriyle doğrudan bağlantı kurabilirsiniz. Platformumuz, hızlı ve güvenli iletişim kanalları sunar, böylece kullanıcılar anında randevu taleplerini iletebilir.",
@@ -191,7 +191,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Hizmet Ücretleri Nasıl Belirlenir?",
+                "name" => $city."  Escort Hizmet Ücretleri Nasıl Belirlenir?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort hizmet ücretleri, her <?=$city?> Escort Bayan profilinin kendi tercihlerine göre belirlenir. <?=$city?> Escort İlanları, ücretlendirme detaylarını açıkça belirtir ve kullanıcıların şeffaf bir şekilde bilgi almasını sağlar. Hizmet türüne ve süresine bağlı olarak ücretler değişiklik gösterebilir.",
@@ -199,7 +199,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort İlanlarına Yorum Yapılabilir mi?",
+                "name" => $city."  Escort İlanlarına Yorum Yapılabilir mi?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "Evet, <?=$city?> Escort platformu, kullanıcıların deneyimlerini paylaşmasına olanak tanır. <?=$city?> Escort İlanları altında yorum bırakabilir, hizmetler hakkında geri bildirimde bulunabilirsiniz. Bu özellik, diğer kullanıcıların doğru seçim yapmasına yardımcı olur ve platformun şeffaflığını artırır.",
@@ -207,7 +207,7 @@ $arrayVar = [
         ],
         [
                 "type" => "Question",
-                "name" => "<?=$city?> Escort Hizmetlerinde Hangi Seçenekler Sunuluyor?",
+                "name" => $city."  Escort Hizmetlerinde Hangi Seçenekler Sunuluyor?",
                 "acceptedAnswer" => [
                         "type" => "Answer",
                         "text" => "<?=$city?> Escort hizmetleri, kullanıcıların farklı tercihlerine hitap eden geniş bir yelpazede sunulur. <?=$city?> Escort Bayan profilleri, sosyal etkinliklerden özel buluşmalara kadar çeşitli hizmetler sunar. <?=$city?> Escort İlanları, her bir hizmetin detaylarını açıklayarak kullanıcıların ihtiyaçlarına uygun seçenekleri kolayca bulmasını sağlar.",
@@ -940,7 +940,7 @@ $arrayVar = [
         <input type="checkbox" name="accordion-<?=$i?>" id="cb<?=$i?>" checked>
         <label for="cb<?=$i?>" class="tab__label"><?=$value['name'];?></label>
         <div class="tab__content">
-            <p><?=$value['text'];?></p>
+            <p><?=$value['acceptedAnswer']['text'];?></p>
         </div>
     </div>
     <?php $i++;} ?>
