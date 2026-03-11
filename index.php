@@ -376,6 +376,7 @@ $arrayVar = [
             border: 1px solid var(--border);
             border-radius: 14px;
             overflow: hidden;
+            position: relative;
             transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
         }
         .profile-card:hover {
@@ -392,7 +393,8 @@ $arrayVar = [
             font-size: 52px;
             color: var(--red);
         }
-        .profile-card .body { padding: 22px; }
+        .profile-card .avatar img{width: 100%;height: auto;position: absolute;top: 0;z-index: 9;}
+        .profile-card .body { padding: 22px; z-index: 11;position: relative; background: #050F2C;background: linear-gradient(0deg,rgba(5, 15, 44, 1) 0%, rgba(0, 156, 175, 0) 100%);}
         .profile-card .body h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 6px; }
         .profile-card .body .meta { font-size: 0.85rem; color: var(--red); margin-bottom: 10px; }
         .profile-card .body p { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 16px; line-height: 1.55; }
