@@ -34,6 +34,186 @@
         <strong>Neden bekliyorsunuz?</strong><br>Hemen şimdi, zaman kaybetmeden Mersin eskort dünyasının kapılarını aralamak için sitemizde ki escort kız profillerini ziyaret edin!<br>
         Sitemizdeki geniş seçenekler arasından size en uygun olanı kolayca bulabilir, benzersiz bir deneyim yaşayabilirsiniz. Her bir mersin escort ilanı, sizin konforunuz ve beklentileriniz göz önünde bulundurularak hazırlanmıştır. Mersin’in hareketli atmosferine renk katacak, her anınızı özel hissettirecek deneyimler için doğru yerdesiniz.<br>
         <strong>Mersin escort bayan dünyasının sunduğu ayrıcalıklardan yararlanın!</strong>';
+
+
+$arrayVar = [
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort İlanlarına Nasıl Ulaşırım?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort İlanlarına ulaşmak için ana sayfamızdaki güncel ilanlar bölümünü ziyaret edebilirsiniz. <?=$city?> Escort platformumuz, kullanıcı dostu bir arayüzle tasarlanmıştır ve <?=$city?> Escort Bayan profillerini kolayca filtreleyerek size en uygun seçenekleri sunar. Her bir ilan, detaylı bilgiler, fotoğraflar ve iletişim seçenekleriyle donatılmıştır, böylece hızlı ve güvenli bir şekilde iletişim kurabilirsiniz.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Bayan Profilleri Ne Kadar Güncel?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort Bayan profilleri, platformumuzda günlük olarak güncellenir. Yeni profiller eklenir, mevcut ilanlar düzenli olarak kontrol edilir ve eski bilgiler yenilenir. <?=$city?> Escort İlanları, kullanıcıların en güncel ve doğru bilgilere erişmesini sağlamak için sürekli moderasyon altındadır. Böylece her zaman en yeni ve güvenilir <?=$city?> Escort Bayan seçeneklerine ulaşabilirsiniz.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Randevu Sistemi Nasıl Çalışır?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort Randevu sistemi, hızlı ve kullanıcı odaklı bir deneyim sunar. <?=$city?> Escort İlanları üzerinden seçtiğiniz profile tıklayarak iletişim bilgilerine ulaşabilirsiniz. Profil detaylarında yer alan iletişim kanalları aracılığıyla doğrudan bağlantı kurabilir ve randevu talebinizi iletebilirsiniz. Platformumuz, mobil uyumlu yapısıyla her yerden kolay erişim sağlar ve <?=$city?> Escort Bayanlarla hızlıca randevu ayarlamanıza olanak tanır.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Hizmetleri Güvenli mi?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort platformu, kullanıcı güvenliğini en üst düzeyde tutar. Tüm iletişim kanalları SSL şifreleme teknolojisiyle korunur ve kullanıcı verileri asla üçüncü taraflarla paylaşılmaz. <?=$city?> Escort Bayan profilleri, sahte profillerin önüne geçmek için düzenli olarak doğrulanır. Ayrıca, platformumuzdaki <?=$city?> Escort İlanları moderasyon ekibimiz tarafından titizlikle incelenir, böylece güvenli ve güvenilir bir deneyim sunar.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Güncel Adresini Nasıl Bulurum?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort hizmetlerimize kesintisiz erişim için güncel adresimizi sosyal medya hesaplarımızdan veya güvenilir platformlardan takip edebilirsiniz. Türkiye’deki erişim engellemeleri nedeniyle adreslerimiz zaman zaman değişebilir, ancak <?=$city?> Escort İlanları ve <?=$city?> Escort Bayan profillerine erişimde herhangi bir veri kaybı yaşanmaz. Güncel adres duyuruları anında paylaşılır, böylece hizmetlerimize her zaman ulaşabilirsiniz.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Bayan Seçimi Nasıl Yapılır?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort Bayan seçimi, platformumuzun kullanıcı dostu arayüzüyle oldukça kolaydır. <?=$city?> Escort İlanları bölümünde, her profil detaylı açıklamalar, hizmet türleri ve fotoğraflarla birlikte sunulur. Kullanıcılar, tercihlerine göre filtreleme yaparak kendilerine en uygun <?=$city?> Escort Bayan profilini seçebilir. İletişim bilgileri doğrudan ilanda yer alır, böylece hızlıca bağlantı kurabilirsiniz.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort İlanlarında Hangi Bilgiler Yer Alır?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort İlanları, kullanıcıların bilinçli seçim yapabilmesi için kapsamlı bilgiler içerir. Her ilanda, <?=$city?> Escort Bayan profiline ait fotoğraflar, hizmet detayları, müsaitlik durumu ve iletişim bilgileri bulunur. Ayrıca, kullanıcıların tercihlerine göre hizmet türleri ve özel talepler de açıklanır. <?=$city?> Escort platformu, şeffaf ve güvenilir bir deneyim sunmak için tüm ilanları düzenli olarak günceller.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Hizmetleri Neler Sunar?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort hizmetleri, farklı kullanıcı ihtiyaçlarına hitap eden geniş bir yelpazede sunulur. <?=$city?> Escort Bayan profilleri, özel randevular, sosyal etkinlikler veya kişiselleştirilmiş deneyimler gibi çeşitli hizmetler içerir. <?=$city?> Escort İlanları, her bir hizmetin detaylarını açıklar ve kullanıcıların ihtiyaçlarına en uygun seçeneği bulmalarına yardımcı olur. Platformumuz, her zevke uygun premium hizmetler sunmayı hedefler.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Platformunda Mobil Erişim Var mı?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "Evet, <?=$city?> Escort platformu tamamen mobil uyumludur. Telefon veya tablet üzerinden <?=$city?> Escort İlanları ve <?=$city?> Escort Bayan profillerine kolayca erişebilirsiniz. Mobil arayüzümüz, hızlı gezinme ve anlık randevu talepleri için optimize edilmiştir. Bu sayede, nerede olursanız olun <?=$city?> Escort hizmetlerine kesintisiz ulaşabilir ve keyifli bir deneyim yaşayabilirsiniz.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort İlanlarını Görüntülemek Ücretli mi?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort İlanlarını görüntülemek tamamen ücretsizdir. Platformumuz, kullanıcıların <?=$city?> Escort Bayan profillerini ve hizmet detaylarını hiçbir ücret ödemeden incelemesine olanak tanır. İletişim kurmak veya randevu almak için ise ilanlarda belirtilen iletişim kanallarını kullanabilirsiniz. <?=$city?> Escort platformu, şeffaf ve erişilebilir bir deneyim sunar.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Müşteri Desteği Nasıl Sağlanır?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort platformu, kullanıcılarına 24/7 müşteri desteği sunar. Canlı sohbet, e-posta veya sosyal medya üzerinden destek ekibimize ulaşabilirsiniz. <?=$city?> Escort İlanları veya <?=$city?> Escort Bayan profilleri hakkında sorularınız varsa, destek ekibimiz hızlı ve etkili çözümler sunar. Kullanıcı memnuniyeti bizim için önceliklidir.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Adresi Neden Değişiyor?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort platformu, Türkiye’deki internet erişim engellemeleri nedeniyle zaman zaman adres değişikliği yapar. Bu değişiklikler, kullanıcıların <?=$city?> Escort İlanları ve <?=$city?> Escort Bayan hizmetlerine kesintisiz erişimini sağlamak içindir. Yeni adreslerimiz sosyal medya hesaplarımızda ve güvenilir platformlarda anında duyurulur, böylece hizmetlerimizden kopmadan devam edebilirsiniz.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort İlanları Ne Sıklıkla Güncelleniyor?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort İlanları, kullanıcıların en güncel bilgilere erişmesi için günlük ve haftalık olarak yenilenir. Yeni <?=$city?> Escort Bayan profilleri eklenir, mevcut ilanlar kontrol edilir ve eski bilgiler güncellenir. Bu sayede, platformumuzda her zaman en yeni ve doğru <?=$city?> Escort hizmetlerine ulaşabilirsiniz.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort İlanlarında Sahte Profil Önleniyor mu?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort platformu, sahte profillerin önüne geçmek için sıkı bir doğrulama ve moderasyon süreci uygular. <?=$city?> Escort Bayan profilleri, gerçeklik ve doğruluk açısından düzenli olarak kontrol edilir. Kullanıcı güvenliğini sağlamak için tüm <?=$city?> Escort İlanları titizlikle incelenir ve yalnızca onaylı profiller yayınlanır.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort İlanlarına Başvuru Nasıl Yapılır?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort İlanlarına başvuru yapmak için ana sayfamızdaki başvuru formunu doldurabilirsiniz. Formda gerekli bilgileri sağlayarak veya destek ekibimizle iletişime geçerek başvuru sürecini başlatabilirsiniz. <?=$city?> Escort platformu, başvuru işlemlerini hızlı ve kolay hale getirmek için kullanıcı dostu bir sistem sunar.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort İlanlarında Gizlilik Nasıl Korunur?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort platformu, kullanıcı gizliliğini en üst düzeyde korur. <?=$city?> Escort Bayan profilleri ve iletişim bilgileri, üçüncü taraflarla asla paylaşılmaz. Tüm veriler SSL şifreleme ile korunur ve platformumuz, <?=$city?> Escort İlanları üzerinden yapılan işlemlerin güvenliğini garanti eder. Kullanıcıların kişisel bilgileri gizli tutulur.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Hizmetlerinde Yaş Sınırı Nedir?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort hizmetleri, yalnızca 18 yaş ve üzeri kullanıcılar için sunulur. <?=$city?> Escort İlanları oluşturmak veya hizmetlerden faydalanmak için yaş sınırı kuralına uyulması zorunludur. Platformumuz, bu kurala sıkı sıkıya bağlıdır ve tüm kullanıcıların yaş doğrulamasını yapar.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort İlanlarında Fotoğraf Zorunlu mu?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort İlanları için fotoğraf eklemek, kullanıcıların dikkatini çekmek ve güven oluşturmak açısından tavsiye edilir, ancak zorunlu değildir. <?=$city?> Escort Bayan profilleri, detaylı açıklamalar ve hizmet bilgileriyle desteklenir, böylece kullanıcılar fotoğraf olmadan da doğru seçim yapabilir.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort İlanlarıyla İletişim Nasıl Kurulur?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort İlanları üzerinden iletişim kurmak oldukça basittir. Her ilanda yer alan iletişim bilgileri aracılığıyla, <?=$city?> Escort Bayan profilleriyle doğrudan bağlantı kurabilirsiniz. Platformumuz, hızlı ve güvenli iletişim kanalları sunar, böylece kullanıcılar anında randevu taleplerini iletebilir.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Hizmet Ücretleri Nasıl Belirlenir?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort hizmet ücretleri, her <?=$city?> Escort Bayan profilinin kendi tercihlerine göre belirlenir. <?=$city?> Escort İlanları, ücretlendirme detaylarını açıkça belirtir ve kullanıcıların şeffaf bir şekilde bilgi almasını sağlar. Hizmet türüne ve süresine bağlı olarak ücretler değişiklik gösterebilir.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort İlanlarına Yorum Yapılabilir mi?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "Evet, <?=$city?> Escort platformu, kullanıcıların deneyimlerini paylaşmasına olanak tanır. <?=$city?> Escort İlanları altında yorum bırakabilir, hizmetler hakkında geri bildirimde bulunabilirsiniz. Bu özellik, diğer kullanıcıların doğru seçim yapmasına yardımcı olur ve platformun şeffaflığını artırır.",
+                ],
+        ],
+        [
+                "type" => "Question",
+                "name" => "<?=$city?> Escort Hizmetlerinde Hangi Seçenekler Sunuluyor?",
+                "acceptedAnswer" => [
+                        "type" => "Answer",
+                        "text" => "<?=$city?> Escort hizmetleri, kullanıcıların farklı tercihlerine hitap eden geniş bir yelpazede sunulur. <?=$city?> Escort Bayan profilleri, sosyal etkinliklerden özel buluşmalara kadar çeşitli hizmetler sunar. <?=$city?> Escort İlanları, her bir hizmetin detaylarını açıklayarak kullanıcıların ihtiyaçlarına uygun seçenekleri kolayca bulmasını sağlar.",
+                ],
+        ],
+];
 ?>
 <!DOCTYPE html>
 <html lang="tr" >
@@ -349,181 +529,181 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "FAQPage",
+            "type": "FAQPage",
             "mainEntity": [
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort İlanlarına Nasıl Ulaşırım?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort İlanlarına ulaşmak için ana sayfamızdaki güncel ilanlar bölümünü ziyaret edebilirsiniz. <?=$city?> Escort platformumuz, kullanıcı dostu bir arayüzle tasarlanmıştır ve <?=$city?> Escort Bayan profillerini kolayca filtreleyerek size en uygun seçenekleri sunar. Her bir ilan, detaylı bilgiler, fotoğraflar ve iletişim seçenekleriyle donatılmıştır, böylece hızlı ve güvenli bir şekilde iletişim kurabilirsiniz."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Bayan Profilleri Ne Kadar Güncel?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort Bayan profilleri, platformumuzda günlük olarak güncellenir. Yeni profiller eklenir, mevcut ilanlar düzenli olarak kontrol edilir ve eski bilgiler yenilenir. <?=$city?> Escort İlanları, kullanıcıların en güncel ve doğru bilgilere erişmesini sağlamak için sürekli moderasyon altındadır. Böylece her zaman en yeni ve güvenilir <?=$city?> Escort Bayan seçeneklerine ulaşabilirsiniz."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Randevu Sistemi Nasıl Çalışır?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort Randevu sistemi, hızlı ve kullanıcı odaklı bir deneyim sunar. <?=$city?> Escort İlanları üzerinden seçtiğiniz profile tıklayarak iletişim bilgilerine ulaşabilirsiniz. Profil detaylarında yer alan iletişim kanalları aracılığıyla doğrudan bağlantı kurabilir ve randevu talebinizi iletebilirsiniz. Platformumuz, mobil uyumlu yapısıyla her yerden kolay erişim sağlar ve <?=$city?> Escort Bayanlarla hızlıca randevu ayarlamanıza olanak tanır."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Hizmetleri Güvenli mi?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort platformu, kullanıcı güvenliğini en üst düzeyde tutar. Tüm iletişim kanalları SSL şifreleme teknolojisiyle korunur ve kullanıcı verileri asla üçüncü taraflarla paylaşılmaz. <?=$city?> Escort Bayan profilleri, sahte profillerin önüne geçmek için düzenli olarak doğrulanır. Ayrıca, platformumuzdaki <?=$city?> Escort İlanları moderasyon ekibimiz tarafından titizlikle incelenir, böylece güvenli ve güvenilir bir deneyim sunar."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Güncel Adresini Nasıl Bulurum?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort hizmetlerimize kesintisiz erişim için güncel adresimizi sosyal medya hesaplarımızdan veya güvenilir platformlardan takip edebilirsiniz. Türkiye’deki erişim engellemeleri nedeniyle adreslerimiz zaman zaman değişebilir, ancak <?=$city?> Escort İlanları ve <?=$city?> Escort Bayan profillerine erişimde herhangi bir veri kaybı yaşanmaz. Güncel adres duyuruları anında paylaşılır, böylece hizmetlerimize her zaman ulaşabilirsiniz."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Bayan Seçimi Nasıl Yapılır?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort Bayan seçimi, platformumuzun kullanıcı dostu arayüzüyle oldukça kolaydır. <?=$city?> Escort İlanları bölümünde, her profil detaylı açıklamalar, hizmet türleri ve fotoğraflarla birlikte sunulur. Kullanıcılar, tercihlerine göre filtreleme yaparak kendilerine en uygun <?=$city?> Escort Bayan profilini seçebilir. İletişim bilgileri doğrudan ilanda yer alır, böylece hızlıca bağlantı kurabilirsiniz."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort İlanlarında Hangi Bilgiler Yer Alır?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort İlanları, kullanıcıların bilinçli seçim yapabilmesi için kapsamlı bilgiler içerir. Her ilanda, <?=$city?> Escort Bayan profiline ait fotoğraflar, hizmet detayları, müsaitlik durumu ve iletişim bilgileri bulunur. Ayrıca, kullanıcıların tercihlerine göre hizmet türleri ve özel talepler de açıklanır. <?=$city?> Escort platformu, şeffaf ve güvenilir bir deneyim sunmak için tüm ilanları düzenli olarak günceller."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Hizmetleri Neler Sunar?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort hizmetleri, farklı kullanıcı ihtiyaçlarına hitap eden geniş bir yelpazede sunulur. <?=$city?> Escort Bayan profilleri, özel randevular, sosyal etkinlikler veya kişiselleştirilmiş deneyimler gibi çeşitli hizmetler içerir. <?=$city?> Escort İlanları, her bir hizmetin detaylarını açıklar ve kullanıcıların ihtiyaçlarına en uygun seçeneği bulmalarına yardımcı olur. Platformumuz, her zevke uygun premium hizmetler sunmayı hedefler."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Platformunda Mobil Erişim Var mı?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "Evet, <?=$city?> Escort platformu tamamen mobil uyumludur. Telefon veya tablet üzerinden <?=$city?> Escort İlanları ve <?=$city?> Escort Bayan profillerine kolayca erişebilirsiniz. Mobil arayüzümüz, hızlı gezinme ve anlık randevu talepleri için optimize edilmiştir. Bu sayede, nerede olursanız olun <?=$city?> Escort hizmetlerine kesintisiz ulaşabilir ve keyifli bir deneyim yaşayabilirsiniz."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort İlanlarını Görüntülemek Ücretli mi?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort İlanlarını görüntülemek tamamen ücretsizdir. Platformumuz, kullanıcıların <?=$city?> Escort Bayan profillerini ve hizmet detaylarını hiçbir ücret ödemeden incelemesine olanak tanır. İletişim kurmak veya randevu almak için ise ilanlarda belirtilen iletişim kanallarını kullanabilirsiniz. <?=$city?> Escort platformu, şeffaf ve erişilebilir bir deneyim sunar."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Müşteri Desteği Nasıl Sağlanır?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort platformu, kullanıcılarına 24/7 müşteri desteği sunar. Canlı sohbet, e-posta veya sosyal medya üzerinden destek ekibimize ulaşabilirsiniz. <?=$city?> Escort İlanları veya <?=$city?> Escort Bayan profilleri hakkında sorularınız varsa, destek ekibimiz hızlı ve etkili çözümler sunar. Kullanıcı memnuniyeti bizim için önceliklidir."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Adresi Neden Değişiyor?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort platformu, Türkiye’deki internet erişim engellemeleri nedeniyle zaman zaman adres değişikliği yapar. Bu değişiklikler, kullanıcıların <?=$city?> Escort İlanları ve <?=$city?> Escort Bayan hizmetlerine kesintisiz erişimini sağlamak içindir. Yeni adreslerimiz sosyal medya hesaplarımızda ve güvenilir platformlarda anında duyurulur, böylece hizmetlerimizden kopmadan devam edebilirsiniz."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort İlanları Ne Sıklıkla Güncelleniyor?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort İlanları, kullanıcıların en güncel bilgilere erişmesi için günlük ve haftalık olarak yenilenir. Yeni <?=$city?> Escort Bayan profilleri eklenir, mevcut ilanlar kontrol edilir ve eski bilgiler güncellenir. Bu sayede, platformumuzda her zaman en yeni ve doğru <?=$city?> Escort hizmetlerine ulaşabilirsiniz."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort İlanlarında Sahte Profil Önleniyor mu?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort platformu, sahte profillerin önüne geçmek için sıkı bir doğrulama ve moderasyon süreci uygular. <?=$city?> Escort Bayan profilleri, gerçeklik ve doğruluk açısından düzenli olarak kontrol edilir. Kullanıcı güvenliğini sağlamak için tüm <?=$city?> Escort İlanları titizlikle incelenir ve yalnızca onaylı profiller yayınlanır."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort İlanlarına Başvuru Nasıl Yapılır?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort İlanlarına başvuru yapmak için ana sayfamızdaki başvuru formunu doldurabilirsiniz. Formda gerekli bilgileri sağlayarak veya destek ekibimizle iletişime geçerek başvuru sürecini başlatabilirsiniz. <?=$city?> Escort platformu, başvuru işlemlerini hızlı ve kolay hale getirmek için kullanıcı dostu bir sistem sunar."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort İlanlarında Gizlilik Nasıl Korunur?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort platformu, kullanıcı gizliliğini en üst düzeyde korur. <?=$city?> Escort Bayan profilleri ve iletişim bilgileri, üçüncü taraflarla asla paylaşılmaz. Tüm veriler SSL şifreleme ile korunur ve platformumuz, <?=$city?> Escort İlanları üzerinden yapılan işlemlerin güvenliğini garanti eder. Kullanıcıların kişisel bilgileri gizli tutulur."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Hizmetlerinde Yaş Sınırı Nedir?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort hizmetleri, yalnızca 18 yaş ve üzeri kullanıcılar için sunulur. <?=$city?> Escort İlanları oluşturmak veya hizmetlerden faydalanmak için yaş sınırı kuralına uyulması zorunludur. Platformumuz, bu kurala sıkı sıkıya bağlıdır ve tüm kullanıcıların yaş doğrulamasını yapar."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort İlanlarında Fotoğraf Zorunlu mu?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort İlanları için fotoğraf eklemek, kullanıcıların dikkatini çekmek ve güven oluşturmak açısından tavsiye edilir, ancak zorunlu değildir. <?=$city?> Escort Bayan profilleri, detaylı açıklamalar ve hizmet bilgileriyle desteklenir, böylece kullanıcılar fotoğraf olmadan da doğru seçim yapabilir."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort İlanlarıyla İletişim Nasıl Kurulur?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort İlanları üzerinden iletişim kurmak oldukça basittir. Her ilanda yer alan iletişim bilgileri aracılığıyla, <?=$city?> Escort Bayan profilleriyle doğrudan bağlantı kurabilirsiniz. Platformumuz, hızlı ve güvenli iletişim kanalları sunar, böylece kullanıcılar anında randevu taleplerini iletebilir."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Hizmet Ücretleri Nasıl Belirlenir?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort hizmet ücretleri, her <?=$city?> Escort Bayan profilinin kendi tercihlerine göre belirlenir. <?=$city?> Escort İlanları, ücretlendirme detaylarını açıkça belirtir ve kullanıcıların şeffaf bir şekilde bilgi almasını sağlar. Hizmet türüne ve süresine bağlı olarak ücretler değişiklik gösterebilir."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort İlanlarına Yorum Yapılabilir mi?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "Evet, <?=$city?> Escort platformu, kullanıcıların deneyimlerini paylaşmasına olanak tanır. <?=$city?> Escort İlanları altında yorum bırakabilir, hizmetler hakkında geri bildirimde bulunabilirsiniz. Bu özellik, diğer kullanıcıların doğru seçim yapmasına yardımcı olur ve platformun şeffaflığını artırır."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "type": "Question",
                     "name": "<?=$city?> Escort Hizmetlerinde Hangi Seçenekler Sunuluyor?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "type": "Answer",
                         "text": "<?=$city?> Escort hizmetleri, kullanıcıların farklı tercihlerine hitap eden geniş bir yelpazede sunulur. <?=$city?> Escort Bayan profilleri, sosyal etkinliklerden özel buluşmalara kadar çeşitli hizmetler sunar. <?=$city?> Escort İlanları, her bir hizmetin detaylarını açıklayarak kullanıcıların ihtiyaçlarına uygun seçenekleri kolayca bulmasını sağlar."
                     }
                 }
@@ -531,8 +711,67 @@
         }
     </script>
 
-
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "type": "Organization",
+            "name": "<?=$city?> Escort Platformu",
+            "alternateName": ["<?=$city?> Escort", "<?=$city?> Escort Bayan", "<?=$city?> Escort İlanları"],
+            "url": "<?=$site?>",
+            "logo": {
+                "type": "ImageObject",
+                "url": "<?=$site;?>/vip-logo.png",
+                "width": 250,
+                "height": 250
+            },
+            "description": "<?=$city?> Escort ile kaliteli ve güvenilir hizmetler. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile en seçkin randevu fırsatları.",
+            "potentialAction": {
+                "type": "SearchAction",
+                "target": "<?=$site;?>/search?q={search_term}",
+                "query-input": "required name=search_term"
+            },
+            "sameAs": [
+                "https://facebook.com/MersinIlancom",
+                "https://twitter.com/MersinIlancom",
+                "https://instagram.com/MersinIlancom"
+            ],
+            "address": {
+                "type": "PostalAddress",
+                "addressCountry": "TR"
+            },
+            "contactPoint": {
+                "type": "ContactPoint",
+                "contactType": "support",
+                "url": "<?=$site;?>/support"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "type": "WebPage",
+                        "@id": "<?=$site;?>/",
+                        "name": "<?=$city?> Escort Anasayfa"
+                    }
+                },
+                {
+                    "type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "type": "WebPage",
+                        "@id": "<?=$site;?>/ilceler",
+                        "name": "<?=$city?> Escort Hizmetleri"
+                    }
+                }
+            ]
+        }
+    </script>
 </head>
 <body>
 
@@ -693,13 +932,18 @@
 <section id="faq" class="section no-bottom">
     <h2 class="section-title">Sıkça Sorulan Sorular</h2>
     <p class="section-desc"><?=$city;?> Escort, Erdemli Escort ve Mezitli Escort hakkında sıkça sorulan sorular.</p>
+    <?php
+    $i=1;
+    foreach ($arrayVar as $key => $value) {
+    ?>
     <div class="tab">
-        <input type="checkbox" name="accordion-1" id="cb1" checked>
-        <label for="cb1" class="tab__label">Checkbox</label>
+        <input type="checkbox" name="accordion-<?=$i?>" id="cb<?=$i?>" checked>
+        <label for="cb<?=$i?>" class="tab__label"><?=$value['name'];?></label>
         <div class="tab__content">
-            <p>Pure CSS accordion based on the "input:checked + label" style trick.</p>
+            <p><?=$value['text'];?></p>
         </div>
     </div>
+    <?php $i++;} ?>
 </section>
 
 <section id="iletisim" class="cta">
