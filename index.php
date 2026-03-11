@@ -274,27 +274,27 @@
 </section>
 
 <section class="section" id="bornova">
-    <h2 class="section-title">Bornova Escort</h2>
-    <p class="section-desc">Bornova, Ege Üniversitesi ve iş merkezleriyle İzmir'in en hareketli ilçelerinden biri. Refakat talebi hem gündüz hem akşam yoğundur.</p>
-    <p style="color: var(--text-soft); font-size: 0.98rem;">Bornova AVM, Forum ve çevresindeki restoranlar sık buluşma noktalarıdır. İş yemekleri, konferans eşliği ve özel davetler için deneyimli refakatçılar tercih edilir. Gizlilik ve net iletişim temel prensiplerdir.</p>
+    <h2 class="section-title"><?=$city?> Escort</h2>
+    <p class="section-desc">Mersindeki escort hizmetleri, çeşitli ihtiyaçlara ve tercihlere göre değişiklik gösterir. Farklı yaş gruplarına, zevklere ve fiziksel karakterlere sahip escort bayanlar, her müşteri için farklı bir deneyim sunar.</p>
+    <p style="color: var(--text-soft); font-size: 0.98rem;">Mersin escort, Mersin Marina bölgesinde ve çevresindeki restoranlar sık buluşma noktalarıdır. İş yemekleri, konferans eşliği ve özel davetler için deneyimli escort profilleri tercih edilir. Gizlilik ve net iletişim temel prensiplerdir.</p>
 </section>
 
 <section class="section" id="buca">
-    <h2 class="section-title">Buca Escort</h2>
-    <p class="section-desc">Buca, yoğun nüfusu ve ulaşım imkânlarıyla refakat hizmeti arayanlar için uygun bir bölgedir.</p>
-    <p style="color: var(--text-soft); font-size: 0.98rem;">İlçe merkezi, Şirinyer ve Evka-1 çevresinde birçok buluşma noktası bulunur. Metro ve otobüs hatları ulaşımı kolaylaştırır. Buca escort profilleri genellikle esnek çalışma saatleri sunar; güvenilir kanallardan iletişim kurulması önerilir.</p>
+    <h2 class="section-title">Erdemli Escort</h2>
+    <p class="section-desc">Erdemli, Mersinin popüler ilçelerinden birisidir. Mersin Merkeze olan yakınlığı ile tatil ve alışveriş keyfini bir arada sunar. Yoğun nüfusu ve ulaşım imkânlarıyla escort hizmeti arayanlar için uygun bir bölgedir.</p>
+    <p style="color: var(--text-soft); font-size: 0.98rem;">Erdemli merkezi ve çevresinde birçok buluşma noktası bulunur. Ulaşımı oldukça kolay olan Erdemli keyifli vakit geçirmek isteyenlerin uğrak noktasıdır. Erdemli escort profilleri genellikle esnek çalışma saatleri sunar; güvenilir kanallardan iletişim kurulması önerilir.</p>
 </section>
 
 <section class="section" id="profiller">
     <h2 class="section-title"><?=$city?> Escort Bayan Profilleri</h2>
-    <p class="section-desc">İzmir, Bornova ve Buca bölgelerinde hizmet veren escort profilleri.</p>
+    <p class="section-desc">Mersin, Erdemli, Mezitli bölgelerinde hizmet veren escort bayan profilleri.</p>
     <div class="profile-grid">
         <div class="profile-card">
             <div class="avatar">👩</div>
             <div class="body">
                 <h3>Defne</h3>
-                <p class="meta">26 · İzmir Merkez</p>
-                <p>Alsancak ve Kordon'da refakat. Sosyal etkinlikler ve özel davetler. Gizlilik öncelikli.</p>
+                <p class="meta">26 · Mersin Merkez</p>
+                <p>Mersin Yenişehir refakat. Sosyal etkinlikler ve özel davetler. Gizlilik öncelikli.</p>
                 <a href="#iletisim">İletişim</a>
             </div>
         </div>
@@ -302,8 +302,8 @@
             <div class="avatar">👩</div>
             <div class="body">
                 <h3>Zeynep</h3>
-                <p class="meta">28 · Buca</p>
-                <p>Buca'da dinamik refakat. İş yemekleri ve akşam organizasyonları. Deneyimli ve güvenilir.</p>
+                <p class="meta">28 · Mezitli</p>
+                <p>Mezitli'de dinamik refakat. İş yemekleri ve akşam organizasyonları. Deneyimli ve güvenilir.</p>
                 <a href="#iletisim">İletişim</a>
             </div>
         </div>
@@ -311,8 +311,8 @@
             <div class="avatar">👩</div>
             <div class="body">
                 <h3>Melis</h3>
-                <p class="meta">25 · Bornova</p>
-                <p>Bornova ve üniversite çevresinde refakat. Konferans ve davetlere uyumlu. Esnek saatler.</p>
+                <p class="meta">25 · Erdemli</p>
+                <p>Erdemli ve üniversite çevresinde refakat. Konferans ve davetlere uyumlu. Esnek saatler.</p>
                 <a href="#iletisim">İletişim</a>
             </div>
         </div>
@@ -320,8 +320,8 @@
             <div class="avatar">👩</div>
             <div class="body">
                 <h3>Selin</h3>
-                <p class="meta">29 · İzmir / Bornova</p>
-                <p>İzmir genelinde refakat. Özel davetler ve iş etkinlikleri. Çok dilli, profesyonel.</p>
+                <p class="meta">29 · Mersin / Yenişehir</p>
+                <p>Mersin genelinde refakat. Özel davetler ve iş etkinlikleri. Çok dilli, profesyonel.</p>
                 <a href="#iletisim">İletişim</a>
             </div>
         </div>
@@ -329,8 +329,8 @@
             <div class="avatar">👩</div>
             <div class="body">
                 <h3>Ece</h3>
-                <p class="meta">24 · Buca</p>
-                <p>Buca'da genç ve sosyal refakat. Özel davetler ve partiler. Güvenilir hizmet.</p>
+                <p class="meta">24 · Mezitli</p>
+                <p>Mezitli'de genç ve sosyal refakat. Özel davetler ve partiler. Güvenilir hizmet.</p>
                 <a href="#iletisim">İletişim</a>
             </div>
         </div>
@@ -338,8 +338,8 @@
             <div class="avatar">👩</div>
             <div class="body">
                 <h3>Ada</h3>
-                <p class="meta">27 · Bornova / İzmir</p>
-                <p>Bornova ve merkez bölgede refakat. İş yemekleri ve sosyal davetler. İngilizce bilir.</p>
+                <p class="meta">27 · Erdemli / <?=$city;?></p>
+                <p>Erdemli ve merkez bölgede refakat. İş yemekleri ve sosyal davetler. İngilizce bilir.</p>
                 <a href="#iletisim">İletişim</a>
             </div>
         </div>
@@ -348,37 +348,37 @@
 
 <section class="section no-bottom" id="makaleler">
     <h2 class="section-title">Makaleler</h2>
-    <p class="section-desc">İzmir Escort, Bornova Escort ve Buca Escort hakkında rehber yazıları.</p>
+    <p class="section-desc"><?=$city;?> Escort, Erdemli Escort ve Mezitli Escort hakkında rehber yazıları.</p>
     <div class="articles">
 
         <article class="article">
-            <h3>İzmir Escort Hizmeti Nedir?</h3>
-            <p class="meta">İzmir Escort · Genel</p>
-            <p>İzmir escort hizmeti, sosyal ve profesyonel ortamlarda zarif eşlik sunan refakat hizmetidir. İş yemekleri, özel davetler, düğünler veya şehir turu gibi senaryolarda talep edilir. Müşteri ve refakatçı önceden buluşma yeri, süre ve ücreti netleştirir; gizlilik ve karşılıklı saygı temel prensiplerdir. İzmir merkez, Bornova ve Buca'da güvenilir profiller bulunmaktadır.</p>
+            <h3><?=$city;?> Escort Hizmeti Nedir?</h3>
+            <p class="meta"><?=$city;?> Escort · Genel</p>
+            <p><?=$city;?> escort hizmeti, sosyal ve profesyonel ortamlarda zarif eşlik sunan refakat hizmetidir. İş yemekleri, özel davetler, düğünler veya şehir turu gibi senaryolarda talep edilir. Müşteri ve refakatçı önceden buluşma yeri, süre ve ücreti netleştirir; gizlilik ve karşılıklı saygı temel prensiplerdir. İzmir merkez, Bornova ve Buca'da güvenilir profiller bulunmaktadır.</p>
         </article>
 
         <article class="article">
-            <h3>Bornova Escort: Bölge ve Talepler</h3>
-            <p class="meta">Bornova Escort · Rehber</p>
-            <p>Bornova, Ege Üniversitesi kampüsü ve iş merkezleriyle dinamik bir ilçedir. Bornova escort talebi; iş yemekleri, konferans eşliği, özel davetler ve şehir içi aktivitelerden oluşur. Bornova AVM ve Forum çevresi sık buluşma noktalarıdır. Profil seçerken deneyimli ve iletişim becerisi yüksek refakatçıları tercih etmek, gizliliği ön planda tutmak önemlidir.</p>
+            <h3>Yenişehir Escort: Bölge ve Talepler</h3>
+            <p class="meta">Yenişehir Escort · Rehber</p>
+            <p>Mersin Yenişehir, <?=$city;?> Üniversitesi kampüsü ve iş merkezleriyle dinamik bir ilçedir. Erdemli escort talebi; iş yemekleri, konferans eşliği, özel davetler ve şehir içi aktivitelerden oluşur. Bornova AVM ve Forum çevresi sık buluşma noktalarıdır. Profil seçerken deneyimli ve iletişim becerisi yüksek refakatçıları tercih etmek, gizliliği ön planda tutmak önemlidir.</p>
         </article>
 
         <article class="article">
-            <h3>Buca Escort Seçerken Dikkat Edilecekler</h3>
-            <p class="meta">Buca Escort · Güvenlik</p>
-            <p>Buca escort seçerken profilin gerçek ve güncel olmasına, iletişim dilinin profesyonel olmasına dikkat edilmelidir. Buluşma yeri olarak ulaşımı kolay ve güvenli mekânlar tercih edilmeli; süre, ücret ve ek hizmetler randevudan önce netleştirilmelidir. Güvenilir kanallar üzerinden iletişim kurmak riski azaltır. Karşılıklı saygı ve net sınırlar rahat bir deneyim sağlar.</p>
+            <h3>Mezitli Escort Seçerken Dikkat Edilecekler</h3>
+            <p class="meta">Mezitli Escort · Güvenlik</p>
+            <p>Mezitli escort seçerken profilin gerçek ve güncel olmasına, iletişim dilinin profesyonel olmasına dikkat edilmelidir. Buluşma yeri olarak ulaşımı kolay ve güvenli mekânlar tercih edilmeli; süre, ücret ve ek hizmetler randevudan önce netleştirilmelidir. Güvenilir kanallar üzerinden iletişim kurmak riski azaltır. Karşılıklı saygı ve net sınırlar rahat bir deneyim sağlar.</p>
         </article>
 
         <article class="article">
-            <h3>İzmir, Bornova ve Buca'da Gizlilik</h3>
+            <h3><?=$city;?>, Mezitli ve Erdemli'de Gizlilik</h3>
             <p class="meta">Gizlilik · Güvenlik</p>
             <p>Escort ve refakat hizmetinde gizlilik hem müşteri hem hizmet veren için kritiktir. Kimlik bilgileri ve randevu detayları korunmalıdır. Güvenilir profiller müşteri bilgilerini üçüncü kişilerle paylaşmaz. İlk iletişimde aşırı kişisel bilgi paylaşmaktan kaçınmak, randevu yerini kalabalık ve güvenli tutmak önerilir. İzmir, Bornova ve Buca'da ciddi refakatçılar gizlilik prensibine bağlıdır.</p>
         </article>
 
         <article class="article">
-            <h3>Buluşma Mekânları: İzmir, Bornova, Buca</h3>
+            <h3>Buluşma Mekânları: <?=$city;?>, Mezitli, Erdemli</h3>
             <p class="meta">Buluşma · Mekânlar</p>
-            <p>İzmir merkezde Alsancak, Kordon, Konak; Bornova'da AVM ve Forum çevresi; Buca'da ilçe merkezi ve Şirinyer sık tercih edilen bölgelerdir. İlk randevularda otel lobisi veya merkezi restoranlar güvenli seçeneklerdir. Her iki tarafın da ulaşım açısından rahat edeceği nokta seçilmeli; özel mekân için güvenilir oteller tercih edilmelidir.</p>
+            <p><?=$city;?> merkezde Mersin Marina, Mezitli, Erdemli; Mersin Marina AVM ve Forum çevresi; Buca'da ilçe merkezi ve Şirinyer sık tercih edilen bölgelerdir. İlk randevularda otel lobisi veya merkezi restoranlar güvenli seçeneklerdir. Her iki tarafın da ulaşım açısından rahat edeceği nokta seçilmeli; özel mekân için güvenilir oteller tercih edilmelidir.</p>
         </article>
 
         <article class="article">
