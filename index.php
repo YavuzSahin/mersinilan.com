@@ -831,7 +831,9 @@ $arrayVar = [
     <p class="section-desc">Mersin, Erdemli, Mezitli bölgelerinde hizmet veren escort bayan profilleri.</p>
     <div class="profile-grid">
         <div class="profile-card">
-            <div class="avatar">👩</div>
+            <div class="avatar">
+                <img src="<?=$site;?>/images/uploads/4.jpg" width="1344" height="768" alt="<?=$city?> escort" title="<?=$city?> escort">
+            </div>
             <div class="body">
                 <h3>Defne</h3>
                 <p class="meta">26 · Mersin Merkez</p>
