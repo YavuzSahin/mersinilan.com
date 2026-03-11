@@ -424,6 +424,7 @@ $arrayVar = [
             padding: 32px 36px;
             transition: border-color 0.2s;
         }
+        .article a{color: var(--white);}
         .article:hover { border-color: rgba(34, 211, 238, 0.35); }
         .article h3 { font-family: 'Sora', sans-serif; font-size: 1.35rem; font-weight: 600; margin-bottom: 8px; line-height: 1.3; }
         .article .meta { font-size: 0.85rem; color: var(--text-soft); margin-bottom: 16px; opacity: 0.9; }
@@ -888,31 +889,31 @@ $arrayVar = [
         </article>
 
         <article class="article">
-            <h3>Yenişehir Escort: Bölge ve Talepler</h3>
+            <a href="<?=$site;?>/blog/<?=seo($city." Yenişehir Escort: Bölge ve Talepler");?>" title="<?=$city;?> Yenişehir Escort: Bölge ve Talepler"><h3><?=$city;?> Yenişehir Escort: Bölge ve Talepler</h3></a>
             <p class="meta">Yenişehir Escort · Rehber</p>
             <p>Mersin Yenişehir, <?=$city;?> Üniversitesi kampüsü ve iş merkezleriyle dinamik bir ilçedir. Erdemli escort talebi; iş yemekleri, konferans eşliği, özel davetler ve şehir içi aktivitelerden oluşur. Mersin Marina AVM ve Forum çevresi sık buluşma noktalarıdır. Profil seçerken deneyimli ve iletişim becerisi yüksek refakatçıları tercih etmek, gizliliği ön planda tutmak önemlidir.</p>
         </article>
 
         <article class="article">
-            <h3>Mezitli Escort Seçerken Dikkat Edilecekler</h3>
+            <a href="<?=$site;?>/blog/<?=seo($city." Mezitli Escort Seçerken Dikkat Edilecekler");?>" title="<?=$city;?> Mezitli Escort Seçerken Dikkat Edilecekler"><h3><?=$city;?> Mezitli Escort Seçerken Dikkat Edilecekler</h3></a>
             <p class="meta">Mezitli Escort · Güvenlik</p>
             <p>Mezitli escort seçerken profilin gerçek ve güncel olmasına, iletişim dilinin profesyonel olmasına dikkat edilmelidir. Buluşma yeri olarak ulaşımı kolay ve güvenli mekânlar tercih edilmeli; süre, ücret ve ek hizmetler randevudan önce netleştirilmelidir. Güvenilir kanallar üzerinden iletişim kurmak riski azaltır. Karşılıklı saygı ve net sınırlar rahat bir deneyim sağlar.</p>
         </article>
 
         <article class="article">
-            <h3><?=$city;?>, Mezitli ve Erdemli'de Gizlilik</h3>
+            <a href="<?=$site;?>/blog/<?=seo($city.", Mezitli ve Erdemli'de Gizlilik");?>" title="<?=$city;?>, Mezitli ve Erdemli'de Gizlilik"><h3><?=$city;?>, Mezitli ve Erdemli'de Gizlilik</h3></a>
             <p class="meta">Gizlilik · Güvenlik</p>
             <p>Escort ve refakat hizmetinde gizlilik hem müşteri hem hizmet veren için kritiktir. Kimlik bilgileri ve randevu detayları korunmalıdır. Güvenilir profiller müşteri bilgilerini üçüncü kişilerle paylaşmaz. İlk iletişimde aşırı kişisel bilgi paylaşmaktan kaçınmak, randevu yerini kalabalık ve güvenli tutmak önerilir. <?=$city?>'de ciddi ve prensipli escortlar gizlilik prensibine bağlıdır.</p>
         </article>
 
         <article class="article">
-            <h3>Buluşma Mekânları: <?=$city;?>, Mezitli, Erdemli</h3>
+            <a href="<?=$site;?>/blog/<?=seo("Buluşma Mekânları: ".$city." , Mezitli, Erdemli");?>" title="Buluşma Mekânları: <?=$city;?>, Mezitli, Erdemli"><h3>Buluşma Mekânları: <?=$city;?>, Mezitli, Erdemli</h3></a>
             <p class="meta">Buluşma · Mekânlar</p>
             <p><?=$city;?> merkezde Mersin Marina, Mezitli, Erdemli; Mersin Marina AVM ve Forum çevresi; Mezitli'de ilçe merkezi ve Akdeniz sık tercih edilen bölgelerdir. İlk randevularda otel lobisi veya merkezi restoranlar güvenli seçeneklerdir. Her iki tarafın da ulaşım açısından rahat edeceği nokta seçilmeli; özel mekân için güvenilir oteller tercih edilmelidir.</p>
         </article>
 
         <article class="article">
-            <h3><?=$city;?> Escort, Mezitli Escort, Erdemli Escort: Özet</h3>
+            <a href="<?=$site;?>/blog/<?=seo($city." Escort, Mezitli Escort, Erdemli Escort: Özet");?>" title="<?=$city;?> Escort, Mezitli Escort, Erdemli Escort: Özet"><h3><?=$city;?> Escort, Mezitli Escort, Erdemli Escort: Özet</h3></a>
             <p class="meta">Rehber · Özet</p>
             <p><?=$city;?> escort hizmeti merkez ilçeler ve Mezitli, Erdemli'de yoğun talep görür. Her bölgede güvenilir profil seçimi, net buluşma-ödeme-süre koşulları ve gizlilik prensibi geçerlidir. Doğru iletişim kanalları kullanıldığında <?=$city;?>, Erdemli ve Mezitli'de kaliteli ve güvenli refakat deneyimi yaşanabilir.</p>
         </article>
