@@ -469,7 +469,7 @@ $arrayVar = [
             transition: all 0.35s;
         }
         .tab input:checked ~ .tab__content {
-            max-height: 20rem;
+            max-height: 35rem;
         }
 
         /* Visual styles */
