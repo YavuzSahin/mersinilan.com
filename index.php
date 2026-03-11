@@ -397,7 +397,7 @@ $arrayVar = [
         .profile-card .body { padding: 22px; z-index: 11;position: relative; background: #050F2C;background: linear-gradient(0deg,rgba(5, 15, 44, 1) 0%, rgba(0, 156, 175, 0) 100%);}
         .profile-card .body h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 6px; }
         .profile-card .body .meta { font-size: 0.85rem; color: var(--red); margin-bottom: 10px; }
-        .profile-card .body p { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 16px; line-height: 1.55; }
+        .profile-card .body p { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 16px; line-height: 1.55; display: none;}
         .profile-card .body a {
             display: inline-block;
             padding: 10px 18px;
