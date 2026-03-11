@@ -378,6 +378,7 @@ $arrayVar = [
             overflow: hidden;
             position: relative;
             transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+            min-height: 440px !important;
         }
         .profile-card:hover {
             border-color: var(--red);
