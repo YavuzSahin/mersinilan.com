@@ -882,7 +882,7 @@ $arrayVar = [
     <div class="articles">
 
         <article class="article">
-            <h3><?=$city;?> Escort Hizmeti Nedir?</h3>
+            <a href="<?=$site;?>/blog/<?=seo($city." Escort Hizmeti Nedir");?>" title="<?=$city;?> Escort Hizmeti Nedir?"><h3><?=$city;?> Escort Hizmeti Nedir?</h3></a>
             <p class="meta"><?=$city;?> Escort · Genel</p>
             <p><?=$city;?> escort hizmeti, sosyal ve profesyonel ortamlarda zarif eşlik sunan refakat hizmetidir. İş yemekleri, özel davetler, düğünler veya şehir turu gibi senaryolarda talep edilir. Müşteri ve refakatçı önceden buluşma yeri, süre ve ücreti netleştirir; gizlilik ve karşılıklı saygı temel prensiplerdir. <?=$city;?> merkezde güvenilir escort profilleri bulunmaktadır.</p>
         </article>
