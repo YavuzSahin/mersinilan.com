@@ -938,7 +938,7 @@ $arrayVar = [
     foreach ($arrayVar as $key => $value) {
     ?>
     <div class="tab">
-        <input type="checkbox" name="accordion-<?=$i?>" id="cb<?=$i?>" checked>
+        <input type="checkbox" name="accordion-<?=$i?>" id="cb<?=$i?>">
         <label for="cb<?=$i?>" class="tab__label"><?=$value['name'];?></label>
         <div class="tab__content">
             <p><?=$value['acceptedAnswer']['text'];?></p>
