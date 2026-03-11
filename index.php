@@ -643,7 +643,7 @@
     </div>
 </section>
 
-<section class="section no-bottom" id="makaleler">
+<section class="section" id="makaleler">
     <h2 class="section-title">Makaleler</h2>
     <p class="section-desc"><?=$city;?> Escort, Erdemli Escort ve Mezitli Escort hakkında rehber yazıları.</p>
     <div class="articles">
@@ -686,7 +686,7 @@
 
     </div>
 </section>
-<section id="faq" class="section">
+<section id="faq" class="section no-bottom">
     <h2 class="section-title">Sıkça Sorulan Sorular</h2>
     <p class="section-desc"><?=$city;?> Escort, Erdemli Escort ve Mezitli Escort hakkında sıkça sorulan sorular.</p>
     <div class="tab">
