@@ -682,6 +682,8 @@
     </div>
 </section>
 <section id="faq" class="section">
+    <h2 class="section-title">Sıkça Sorulan Sorular</h2>
+    <p class="section-desc"><?=$city;?> Escort, Erdemli Escort ve Mezitli Escort hakkında sıkça sorulan sorular.</p>
     <div class="tab">
         <input type="checkbox" name="accordion-1" id="cb1" checked>
         <label for="cb1" class="tab__label">Checkbox</label>
