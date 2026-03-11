@@ -273,13 +273,13 @@
     </div>
 </section>
 
-<section class="section" id="bornova">
+<section class="section" id="erdemli">
     <h2 class="section-title"><?=$city?> Escort</h2>
     <p class="section-desc">Mersindeki escort hizmetleri, çeşitli ihtiyaçlara ve tercihlere göre değişiklik gösterir. Farklı yaş gruplarına, zevklere ve fiziksel karakterlere sahip escort bayanlar, her müşteri için farklı bir deneyim sunar.</p>
     <p style="color: var(--text-soft); font-size: 0.98rem;">Mersin escort, Mersin Marina bölgesinde ve çevresindeki restoranlar sık buluşma noktalarıdır. İş yemekleri, konferans eşliği ve özel davetler için deneyimli escort profilleri tercih edilir. Gizlilik ve net iletişim temel prensiplerdir.</p>
 </section>
 
-<section class="section" id="buca">
+<section class="section" id="mezitli">
     <h2 class="section-title">Erdemli Escort</h2>
     <p class="section-desc">Erdemli, Mersinin popüler ilçelerinden birisidir. Mersin Merkeze olan yakınlığı ile tatil ve alışveriş keyfini bir arada sunar. Yoğun nüfusu ve ulaşım imkânlarıyla escort hizmeti arayanlar için uygun bir bölgedir.</p>
     <p style="color: var(--text-soft); font-size: 0.98rem;">Erdemli merkezi ve çevresinde birçok buluşma noktası bulunur. Ulaşımı oldukça kolay olan Erdemli keyifli vakit geçirmek isteyenlerin uğrak noktasıdır. Erdemli escort profilleri genellikle esnek çalışma saatleri sunar; güvenilir kanallardan iletişim kurulması önerilir.</p>
@@ -354,13 +354,13 @@
         <article class="article">
             <h3><?=$city;?> Escort Hizmeti Nedir?</h3>
             <p class="meta"><?=$city;?> Escort · Genel</p>
-            <p><?=$city;?> escort hizmeti, sosyal ve profesyonel ortamlarda zarif eşlik sunan refakat hizmetidir. İş yemekleri, özel davetler, düğünler veya şehir turu gibi senaryolarda talep edilir. Müşteri ve refakatçı önceden buluşma yeri, süre ve ücreti netleştirir; gizlilik ve karşılıklı saygı temel prensiplerdir. İzmir merkez, Bornova ve Buca'da güvenilir profiller bulunmaktadır.</p>
+            <p><?=$city;?> escort hizmeti, sosyal ve profesyonel ortamlarda zarif eşlik sunan refakat hizmetidir. İş yemekleri, özel davetler, düğünler veya şehir turu gibi senaryolarda talep edilir. Müşteri ve refakatçı önceden buluşma yeri, süre ve ücreti netleştirir; gizlilik ve karşılıklı saygı temel prensiplerdir. <?=$city;?> merkezde güvenilir escort profilleri bulunmaktadır.</p>
         </article>
 
         <article class="article">
             <h3>Yenişehir Escort: Bölge ve Talepler</h3>
             <p class="meta">Yenişehir Escort · Rehber</p>
-            <p>Mersin Yenişehir, <?=$city;?> Üniversitesi kampüsü ve iş merkezleriyle dinamik bir ilçedir. Erdemli escort talebi; iş yemekleri, konferans eşliği, özel davetler ve şehir içi aktivitelerden oluşur. Bornova AVM ve Forum çevresi sık buluşma noktalarıdır. Profil seçerken deneyimli ve iletişim becerisi yüksek refakatçıları tercih etmek, gizliliği ön planda tutmak önemlidir.</p>
+            <p>Mersin Yenişehir, <?=$city;?> Üniversitesi kampüsü ve iş merkezleriyle dinamik bir ilçedir. Erdemli escort talebi; iş yemekleri, konferans eşliği, özel davetler ve şehir içi aktivitelerden oluşur. Mersin Marina AVM ve Forum çevresi sık buluşma noktalarıdır. Profil seçerken deneyimli ve iletişim becerisi yüksek refakatçıları tercih etmek, gizliliği ön planda tutmak önemlidir.</p>
         </article>
 
         <article class="article">
@@ -372,19 +372,19 @@
         <article class="article">
             <h3><?=$city;?>, Mezitli ve Erdemli'de Gizlilik</h3>
             <p class="meta">Gizlilik · Güvenlik</p>
-            <p>Escort ve refakat hizmetinde gizlilik hem müşteri hem hizmet veren için kritiktir. Kimlik bilgileri ve randevu detayları korunmalıdır. Güvenilir profiller müşteri bilgilerini üçüncü kişilerle paylaşmaz. İlk iletişimde aşırı kişisel bilgi paylaşmaktan kaçınmak, randevu yerini kalabalık ve güvenli tutmak önerilir. İzmir, Bornova ve Buca'da ciddi refakatçılar gizlilik prensibine bağlıdır.</p>
+            <p>Escort ve refakat hizmetinde gizlilik hem müşteri hem hizmet veren için kritiktir. Kimlik bilgileri ve randevu detayları korunmalıdır. Güvenilir profiller müşteri bilgilerini üçüncü kişilerle paylaşmaz. İlk iletişimde aşırı kişisel bilgi paylaşmaktan kaçınmak, randevu yerini kalabalık ve güvenli tutmak önerilir. <?=$city?>'de ciddi ve prensipli escortlar gizlilik prensibine bağlıdır.</p>
         </article>
 
         <article class="article">
             <h3>Buluşma Mekânları: <?=$city;?>, Mezitli, Erdemli</h3>
             <p class="meta">Buluşma · Mekânlar</p>
-            <p><?=$city;?> merkezde Mersin Marina, Mezitli, Erdemli; Mersin Marina AVM ve Forum çevresi; Buca'da ilçe merkezi ve Şirinyer sık tercih edilen bölgelerdir. İlk randevularda otel lobisi veya merkezi restoranlar güvenli seçeneklerdir. Her iki tarafın da ulaşım açısından rahat edeceği nokta seçilmeli; özel mekân için güvenilir oteller tercih edilmelidir.</p>
+            <p><?=$city;?> merkezde Mersin Marina, Mezitli, Erdemli; Mersin Marina AVM ve Forum çevresi; Mezitli'de ilçe merkezi ve Akdeniz sık tercih edilen bölgelerdir. İlk randevularda otel lobisi veya merkezi restoranlar güvenli seçeneklerdir. Her iki tarafın da ulaşım açısından rahat edeceği nokta seçilmeli; özel mekân için güvenilir oteller tercih edilmelidir.</p>
         </article>
 
         <article class="article">
-            <h3>İzmir Escort, Bornova Escort, Buca Escort: Özet</h3>
+            <h3><?=$city;?> Escort, Mezitli Escort, Erdemli Escort: Özet</h3>
             <p class="meta">Rehber · Özet</p>
-            <p>İzmir escort hizmeti merkez ilçeler ve Bornova, Buca'da yoğun talep görür. Her bölgede güvenilir profil seçimi, net buluşma-ödeme-süre koşulları ve gizlilik prensibi geçerlidir. Doğru iletişim kanalları kullanıldığında İzmir, Bornova ve Buca'da kaliteli ve güvenli refakat deneyimi yaşanabilir.</p>
+            <p><?=$city;?> escort hizmeti merkez ilçeler ve Mezitli, Erdemli'de yoğun talep görür. Her bölgede güvenilir profil seçimi, net buluşma-ödeme-süre koşulları ve gizlilik prensibi geçerlidir. Doğru iletişim kanalları kullanıldığında <?=$city;?>, Erdemli ve Mezitli'de kaliteli ve güvenli refakat deneyimi yaşanabilir.</p>
         </article>
 
     </div>
