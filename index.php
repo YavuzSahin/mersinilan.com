@@ -398,7 +398,7 @@ $arrayVar = [
         .profile-card .body h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 6px; }
         .profile-card .body .meta { font-size: 0.85rem; color: var(--red); margin-bottom: 10px; }
         .profile-card .body p { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 16px; line-height: 1.55; }
-        .profile-card .body p:nth-child(2){ display: none;}
+        .profile-card .body p.none{ display: none;}
         .profile-card .body a {
             display: inline-block;
             padding: 10px 18px;
@@ -840,7 +840,7 @@ $arrayVar = [
             <div class="body">
                 <h3>Defne</h3>
                 <p class="meta">26 · Mersin Merkez</p>
-                <p>Mersin Yenişehir refakat. Sosyal etkinlikler ve özel davetler. Gizlilik öncelikli.</p>
+                <p class="none">Mersin Yenişehir refakat. Sosyal etkinlikler ve özel davetler. Gizlilik öncelikli.</p>
                 <a href="#iletisim">İletişim</a>
             </div>
         </div>
