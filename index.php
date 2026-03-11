@@ -308,9 +308,12 @@
             text-align: center;
             transform: rotate(90deg);
             transition: all 0.35s;
+            top: 5px;
+            position: relative;
         }
         .tab input:checked + .tab__label::after {
             transform: rotate(270deg);
+            left: -10px;
         }
         .tab__content p {
             margin: 0;
