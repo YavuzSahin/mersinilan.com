@@ -805,11 +805,10 @@ $arrayVar = [
         <?php } ?>
     </div>
 </nav>
-
+<?php $details = $profile_details[$id];?>
 <section class="section" id="<?=$id;?>">
-    <?=$details = $profile_details[$id];?>
-    <a href="<?=$site;?>/profil/<?=$id;?>" title="<?=$details['title'];?>"><h2><?=$details['title'];?></h2></a>
-
+    <a href="<?=$site;?>/profil/<?=$id;?>" title="<?=$details['title'];?>" style="color: var(--red);"><h2><?=$details['title'];?></h2></a>
+    <p class="section-desc" style="text-align: left;"><?=$details['profile_text'];?></p>
 </section>
 
 
