@@ -613,8 +613,8 @@ $arrayVar = [
 
 
         .details{margin-top: 10px;}
-        .details .detail{width: 30%;background-color: var(--primary);color: var(--text-soft);border-radius: 4px;padding: 8px 4px;display: inline-block;margin: 3px;}
-        .details .detail strong{color: var(--text-soft);min-width: 40%;display: inline-block;}
+        .details .detail{width: 30%;background-color: var(--primary);color: var(--text-soft);border-radius: 4px;padding: 8px 4px;display: inline-block;margin: 3px;border: 1px solid var(--border);}
+        .details .detail strong{color: var(--text-soft);min-width: 35%;display: inline-block;}
         .details .detail span{color: var(--text-soft);min-width: 60%;display: inline-block;}
     </style>
 
