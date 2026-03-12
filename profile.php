@@ -6,7 +6,7 @@ $districts      = array("Akdeniz", "Mezitli", "Erdemli", "Tarsus", "Toroslar", "
 $id             = $_GET["id"];
 $profiles       = file_get_contents("db/json/profiles.json");
 $profile_details=json_decode($profiles,true);
-print_r($profile_details[$id]);
+
 
 function seo($text) {
     // Türkçe karakter dönüşümü
@@ -806,7 +806,11 @@ $arrayVar = [
     </div>
 </nav>
 
-<section class="section" id="<?=$id;?>"
+<section class="section" id="<?=$id;?>">
+    <?=$details = $profile_details[$id];?>
+    <a href="<?=$site;?>/profil/<?=$id;?>" title="<?=$details['title'];?>"><h2><?=$details['title'];?></h2></a>
+
+</section>
 
 
 <section class="section" id="mersin-escort">
