@@ -930,6 +930,10 @@ $arrayVar = [
             <strong>Buluşma Yeri:</strong>
             <span><?=$details['meeting'];?></span>
         </div>
+        <div class="detail">
+            <strong>İlan Durumu:</strong>
+            <span style="<?php if($details['status']=='Pasif - Yayında Değil'){?>color:var(--red);<?php }else{?>color:var(--whatsapp-text);<?php } ?>"><?=$details['status'];?></span>
+        </div>
     </div>
 
     <p class="section-desc" style="text-align: left;margin-top: 15px;"><?=$details['profile_text'];?></p>
