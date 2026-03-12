@@ -932,7 +932,7 @@ $arrayVar = [
         </div>
         <div class="detail">
             <strong>İlan Durumu:</strong>
-            <span style="<?php if($details['status']=='Pasif - Yayında Değil'){?>color:var(--red);<?php }else{?>color:var(--whatsapp-text);<?php } ?>"><?=$details['status'];?></span>
+            <span style="<?php if($details['status']=='Pasif - Yayında Değil'){?>color:var(--red);<?php }else{?>color:var(--whatsapp);<?php } ?>"><?=$details['status'];?></span>
         </div>
     </div>
 
