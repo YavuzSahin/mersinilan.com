@@ -884,6 +884,35 @@ $arrayVar = [
     <p class="section-desc" style="text-align: left;"><?=$seoText;?></p>
 </section>
 
+<section id="faq" class="section no-bottom">
+    <h2 class="section-title">Sıkça Sorulan Sorular</h2>
+    <p class="section-desc"><?=$city;?> Escort, Erdemli Escort ve Mezitli Escort hakkında sıkça sorulan sorular.</p>
+    <?php
+    $i=1;
+    foreach ($arrayVar as $key => $value) {
+        ?>
+        <div class="tab">
+            <input type="checkbox" name="accordion-<?=$i?>" id="cb<?=$i?>" <?php if($i==1){echo 'checked';}?>>
+            <label for="cb<?=$i?>" class="tab__label"><?=$value['name'];?></label>
+            <div class="tab__content">
+                <p><?=$value['acceptedAnswer']['text'];?></p>
+            </div>
+        </div>
+        <?php $i++;} ?>
+</section>
+
+<section id="iletisim" class="cta">
+    <h2 class="section-title">İletişim</h2>
+    <p><?=$city?> Escort Bayan hizmetleri hakkında bilgi almak için iletişime geçebilirsiniz. Gizlilik ve güvenlik önceliklidir.</p>
+    <a href="#" class="btn">Mesaj Gönder</a>
+</section>
+
+<footer>
+    © 2026 <?=$city?> Escort — Tüm Hakları Saklıdır.
+    <br>
+    <a href="/sitemap.xml">Sitemap</a>
+</footer>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
