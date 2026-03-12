@@ -907,7 +907,7 @@ $arrayVar = [
         </article>
 
         <article class="article">
-            <a href="<?=$site;?>/blog/<?=seo("Buluşma Mekânları: ".$city." , Mezitli, Erdemli");?>" title="Buluşma Mekânları: <?=$city;?>, Mezitli, Erdemli"><h3>Buluşma Mekânları: <?=$city;?>, Mezitli, Erdemli</h3></a>
+            <a href="<?=$site;?>/blog/<?=seo("Buluşma Mekanları: ".$city." , Mezitli, Erdemli");?>" title="Buluşma Mekânları: <?=$city;?>, Mezitli, Erdemli"><h3>Buluşma Mekânları: <?=$city;?>, Mezitli, Erdemli</h3></a>
             <p class="meta">Buluşma · Mekânlar</p>
             <p><?=$city;?> merkezde Mersin Marina, Mezitli, Erdemli; Mersin Marina AVM ve Forum çevresi; Mezitli'de ilçe merkezi ve Akdeniz sık tercih edilen bölgelerdir. İlk randevularda otel lobisi veya merkezi restoranlar güvenli seçeneklerdir. Her iki tarafın da ulaşım açısından rahat edeceği nokta seçilmeli; özel mekân için güvenilir oteller tercih edilmelidir.</p>
         </article>
