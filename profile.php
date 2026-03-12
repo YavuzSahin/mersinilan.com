@@ -268,7 +268,7 @@ $arrayVar = [
             --border: #27272a;
             --white:#ffffff;
             --whatsapp:#25d366;
-            --whatsapp-text:#ece5dd;
+            --whatsapp-text:#075e54;
 
             --primary: #0c0c0f;
             --secondary: #ff5252;
@@ -431,6 +431,7 @@ $arrayVar = [
             font-weight: 600;
             border-radius: 8px;
             transition: background 0.2s, color 0.2s;
+            margin-bottom: 10px;
         }
         .profile-card .body a:hover { background: var(--red); color: var(--white); }
         .profile-card .body a.contact.foto { background: var(--red)!important;color: var(--white);}
