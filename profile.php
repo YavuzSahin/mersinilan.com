@@ -6,7 +6,7 @@ $districts      = array("Akdeniz", "Mezitli", "Erdemli", "Tarsus", "Toroslar", "
 $id             = $_GET["id"];
 $profiles       = file_get_contents("db/json/profiles.json");
 $profile_details=json_decode($profiles,true);
-print_r($profile_details);
+print_r($profile_details[$id]);
 
 function seo($text) {
     // Türkçe karakter dönüşümü
