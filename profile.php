@@ -538,7 +538,7 @@ $arrayVar = [
         }
 
         .gallery {
-            width: 600px;
+            width: 100%;
             margin: auto;
             border-radius: 3px;
             overflow: hidden;
@@ -579,7 +579,7 @@ $arrayVar = [
             width: 100% !important;
             height: 100% !important;
             position: absolute;
-            z-index: 2;
+            z-index: 12;
         //transform: translateX(-50%);
         }
 
