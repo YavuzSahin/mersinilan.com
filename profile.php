@@ -887,7 +887,7 @@ $arrayVar = [
 
 <section class="section" id="<?=$id;?>">
     <a href="<?=$site;?>/profil/<?=$id;?>" title="<?=$details['title'];?>" style="color: var(--red);"><h2><?=$details['title'];?></h2></a>
-    <span style="font-size: 10px;color: var(--text-soft);"><i><?=$details['date'];?></i></span>
+    <span style="font-size: 10px;color: var(--text-soft);width: 100%;display: block;margin: 5px 0;"><i><?=$details['date'];?></i></span><br>
     <a class="whatsapp" href="https://wa.me/9<?=$details['whatsapp'];?>?text=merhaba sana <?=$site;?> üzerinde ki ilanın için ulaşıyorum. detayları konuşabilir miyiz?">whatsapp ile yaz!</a>
 
     <div class="gallery">
