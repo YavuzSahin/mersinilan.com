@@ -822,7 +822,7 @@ $arrayVar = [
                 <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
             </div>
             <div class="body">
-                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-defne");?>" title="<?=$city;?> Escort Bayan Defne"><h3>Defne</h3></a>
+                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-defne");?>" title="<?=$city;?> Escort Bayan Defne"><h3><?=$city;?> Escort Bayan Zeynep</h3></a>
                 <p class="meta">26 · Mersin Merkez</p>
                 <p class="none">Mersin Yenişehir refakat. Sosyal etkinlikler ve özel davetler. Gizlilik öncelikli.</p>
                 <a href="#iletisim" class="contact foto">Fotoğraflar</a>
@@ -834,7 +834,7 @@ $arrayVar = [
                 <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
             </div>
             <div class="body">
-                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-zeynep");?>" title="<?=$city;?> Escort Bayan Zeynep"><h3>Zeynep</h3></a>
+                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-zeynep");?>" title="<?=$city;?> Escort Bayan Zeynep"><h3><?=$city;?> Escort Bayan Zeynep</h3></a>
                 <p class="meta">28 · Mersin Mezitli</p>
                 <p class="none">Mersin Mezitli'de escort Zeynep. İş yemekleri ve akşam organizasyonları. Deneyimli ve güvenilir.</p>
                 <a href="#iletisim" class="contact foto">Fotoğraflar</a>
@@ -846,7 +846,7 @@ $arrayVar = [
                 <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
             </div>
             <div class="body">
-                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-melis");?>" title="<?=$city;?> Escort Bayan Melis"><h3>Melis</h3></a>
+                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-melis");?>" title="<?=$city;?> Escort Bayan Melis"><h3>Method…</h3></a>
                 <p class="meta">28 · Mersin Erdemli</p>
                 <p class="none">Mersin Erdemli'de escort Melis. Erdemli ve üniversite çevresinde escort bayan. Esnek saatler.</p>
                 <a href="#iletisim" class="contact foto">Fotoğraflar</a>
