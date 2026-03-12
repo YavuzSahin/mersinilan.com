@@ -579,7 +579,7 @@ $arrayVar = [
             width: 100% !important;
             height: 100% !important;
             position: absolute;
-            z-index: 12;
+            z-index: 51;
         //transform: translateX(-50%);
         }
 
