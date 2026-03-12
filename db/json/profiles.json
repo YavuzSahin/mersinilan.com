@@ -20,7 +20,8 @@
     "whatsapp"      : "05320000000",
     "profile_text"  : "açıklama",
     "images"        : {
-      "1" : "/images/uploads/1.webp"
+      "1" : "/images/uploads/1.webp",
+      "2" : "/images/uploads/1.webp"
     },
     "eye"           : "Mavi",
     "skin"          : "Buğday",
