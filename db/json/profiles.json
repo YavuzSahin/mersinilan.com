@@ -9,9 +9,13 @@
       "1" : "/images/uploads/1.webp"
     },
     "eye"           : "Mavi",
+    "hair"          : "Sarışın",
     "skin"          : "Buğday",
     "body_shape"    : "Fit",
-    "meeting"       : "Evi Var"
+    "meeting"       : "Evi Var",
+    "age"           : "21",
+    "weight"        : "65",
+    "height"        : "170"
   },
   "mersin-escort-bayan-zeynep": {
     "title"         : "Mersin Escort Bayan Zeynep",
@@ -24,13 +28,17 @@
       "2" : "/images/uploads/1.webp"
     },
     "eye"           : "Mavi",
+    "hair"          : "Sarışın",
     "skin"          : "Buğday",
     "body_shape"    : "Fit",
-    "meeting"       : "Evi Var"
+    "meeting"       : "Evi Var",
+    "age"           : "21",
+    "weight"        : "65",
+    "height"        : "170"
   },
   "mersin-escort-bayan-melis": {
     "title"         : "Mersin Escort Bayan Melis",
-    "description"   : "",
+    "description"   : "Selam ben <strong>Melis</strong>.<br> Balıketli, seksi bir vücuda sahibim. Yerim yok. Eve, otel ve residansa geliyorum.<br> Anal yok. Cimcif yok. Oral ve ön sevişme var.<br><strong>Kondomsuz asla!</strong> Hijyen kurallarına mutlaka dikkat edelim!!!<br>Ödeme gelince elden canikom.",
     "keywords"      : "",
     "whatsapp"      : "05320000000",
     "profile_text"  : "açıklama",
@@ -38,9 +46,15 @@
       "1" : "/images/uploads/1.webp"
     },
     "eye"           : "Siyah",
+    "hair"          : "Sarışın",
     "skin"          : "Buğday",
-    "body_shape"    : "Balık Etli",
-    "meeting"       : "Otel/Rezidans Gelir"
+    "body_shape"    : "Balıketli",
+    "meeting"       : "Ev, Otel, Rezidans gelir",
+    "age"           : "25",
+    "weight"        : "73",
+    "height"        : "175",
+    "date"          : "12 Mart 2026 12:30",
+    "status"        : "Aktif - Güncel İlan"
   }
 
 }

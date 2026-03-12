@@ -892,7 +892,42 @@ $arrayVar = [
         <?php } ?>
     </div>
 
-    <p class="section-desc" style="text-align: left;"><?=$details['profile_text'];?></p>
+    <div class="details">
+        <div class="detail">
+            <strong>Göz Rengi:</strong>
+            <span><?=$details['eye'];?></span>
+        </div>
+        <div class="detail">
+            <strong>Saç Rengi:</strong>
+            <span><?=$details['hair'];?></span>
+        </div>
+        <div class="detail">
+            <strong>Ten Rengi:</strong>
+            <span><?=$details['skin'];?></span>
+        </div>
+        <div class="detail">
+            <strong>Vücut Tipi:</strong>
+            <span><?=$details['body_shape'];?></span>
+        </div>
+        <div class="detail">
+            <strong>Yaşı:</strong>
+            <span><?=$details['age'];?></span>
+        </div>
+        <div class="detail">
+            <strong>Boyu:</strong>
+            <span><?=$details['height'];?></span>
+        </div>
+        <div class="detail">
+            <strong>Kilosu:</strong>
+            <span><?=$details['weight'];?></span>
+        </div>
+        <div class="detail">
+            <strong>Buluşma Yeri:</strong>
+            <span><?=$details['meeting'];?></span>
+        </div>
+    </div>
+
+    <p class="section-desc" style="text-align: left;margin-top: 15px;"><?=$details['profile_text'];?></p>
 </section>
 
 
