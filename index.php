@@ -342,7 +342,7 @@ $arrayVar = [
         .section {
             max-width: 1100px;
             margin: 0 auto 10px;
-            padding: 20px 24px;
+            padding: 20px 0;
             border-bottom: 1px solid var(--border);
         }
         .section.no-bottom { border-bottom: none; }
@@ -473,20 +473,9 @@ $arrayVar = [
         }
 
         /* Visual styles */
-        .accordion {
-            color: var(--theme);
-            border: 2px solid;
-            border-radius: 0.5rem;
-            overflow: hidden;
-        }
+
         .tab__label,
-        .tab__close {
-            display: flex;
-            color: white;
-            background: transparent;
-            border-bottom: 2px solid var(--border);
-            cursor: pointer;
-        }
+
         .tab__label {
             justify-content: space-between;
             padding: 1rem;
@@ -509,14 +498,7 @@ $arrayVar = [
             margin: 0;
             padding: 1rem;
         }
-        .tab__close {
-            justify-content: flex-end;
-            padding: 0.5rem 1rem;
-            font-size: 0.75rem;
-        }
-        .accordion--radio {
-            --theme: var(--secondary);
-        }
+
 
         /* Arrow animation */
         .tab input:not(:checked) + .tab__label:hover::after {
@@ -786,7 +768,7 @@ $arrayVar = [
 
 <header class="hero">
     <span class="badge"><?=$city?> Escort • <?=$city?> Escort Bayan</span>
-    <h1 class="font-display"><?=$city?> Escort</h1>
+    <a href="<?=$site;?>" title="<?=$city?> Escort"><h1 class="font-display"><?=$city?> Escort</h1></a>
 </header>
 
 <nav>

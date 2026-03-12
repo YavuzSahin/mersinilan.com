@@ -348,7 +348,7 @@ $arrayVar = [
         .section {
             max-width: 1100px;
             margin: 0 auto 10px;
-            padding: 20px 24px;
+            padding: 20px 0;
             border-bottom: 1px solid var(--border);
         }
         .section.no-bottom { border-bottom: none; }
@@ -792,7 +792,7 @@ $arrayVar = [
 
 <header class="hero">
     <span class="badge"><?=$city?> Escort • <?=$city?> Escort Bayan</span>
-    <h1 class="font-display"><?=$city?> Escort</h1>
+    <a href="<?=$site;?>" title="<?=$city?> Escort"><h1 class="font-display"><?=$city?> Escort</h1></a>
 </header>
 
 <nav>
