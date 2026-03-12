@@ -937,6 +937,8 @@ $arrayVar = [
     </div>
 
     <p class="section-desc" style="text-align: left;margin-top: 15px;"><?=$details['profile_text'];?></p>
+
+    <a class="whatsapp" href="https://wa.me/9<?=$details['whatsapp'];?>?text=merhaba sana <?=$site;?> üzerinde ki ilanın için ulaşıyorum. detayları konuşabilir miyiz?">whatsapp ile yaz!</a>
 </section>
 
 
