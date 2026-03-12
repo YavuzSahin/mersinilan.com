@@ -613,7 +613,7 @@ $arrayVar = [
 
 
         .details{}
-        .details .details{width: 30%;background-color: var(--background);color: var(--accent-dim);border-radius: 4px;padding: 8px 4px;display: inline-block;}
+        .details .detail{width: 30%;background-color: var(--background);color: var(--accent-dim);border-radius: 4px;padding: 8px 4px;display: inline-block;}
 
     </style>
 
