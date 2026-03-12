@@ -545,8 +545,8 @@ $arrayVar = [
         //position: relative;
         }
         .img-c {
-            width: 200px;
-            height: 200px;
+            width: 165px;
+            height: 215px;
             float: left;
             position: relative;
             overflow: hidden;
