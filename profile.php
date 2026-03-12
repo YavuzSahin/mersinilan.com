@@ -882,8 +882,7 @@ $arrayVar = [
 
 <section class="section" id="<?=$id;?>">
     <a href="<?=$site;?>/profil/<?=$id;?>" title="<?=$details['title'];?>" style="color: var(--red);"><h2><?=$details['title'];?></h2></a>
-    <a class="whatsapp" href="https://wa.me/9<?=$details['whatsapp'];?>?text=merhaba sana <?=$site;?> üzerinde ki ilanın için ulaşıyorum. detayları konuşabilir miyiz?">whatsapp ile ulaş</a>
-    <p class="section-desc" style="text-align: left;"><?=$details['profile_text'];?></p>
+    <a class="whatsapp" href="https://wa.me/9<?=$details['whatsapp'];?>?text=merhaba sana <?=$site;?> üzerinde ki ilanın için ulaşıyorum. detayları konuşabilir miyiz?">whatsapp ile yaz!</a>
 
     <div class="gallery">
         <?php
@@ -892,6 +891,8 @@ $arrayVar = [
         <div class="img-w"><img src="<?=$site;?>/<?=$image;?>" width="670" height="880" title="<?=$details['title'];?>" alt="<?=$details['title'];?>" /></div>
         <?php } ?>
     </div>
+
+    <p class="section-desc" style="text-align: left;"><?=$details['profile_text'];?></p>
 </section>
 
 
