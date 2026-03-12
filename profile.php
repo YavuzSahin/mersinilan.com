@@ -267,6 +267,8 @@ $arrayVar = [
             --accent-dim: rgba(34, 211, 238, 0.12);
             --border: #27272a;
             --white:#ffffff;
+            --whatsapp:#25d366;
+            --whatsapp-text:#ece5dd;
 
             --primary: #0c0c0f;
             --secondary: #ff5252;
@@ -413,6 +415,17 @@ $arrayVar = [
             padding: 10px 18px;
             background: var(--accent-dim);
             color: var(--white);
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: background 0.2s, color 0.2s;
+        }
+        a.whatsapp {
+            display: inline-block;
+            padding: 10px 18px;
+            background: var(--whatsapp);
+            color: var(--whatsapp-text);
             text-decoration: none;
             font-size: 0.88rem;
             font-weight: 600;
@@ -868,7 +881,7 @@ $arrayVar = [
 
 <section class="section" id="<?=$id;?>">
     <a href="<?=$site;?>/profil/<?=$id;?>" title="<?=$details['title'];?>" style="color: var(--red);"><h2><?=$details['title'];?></h2></a>
-    <a href="https://wa.me/9<?=$details['whatsapp'];?>?text=merhaba sana <?=$site;?> üzerinde ki ilanın için ulaşıyorum. detayları konuşabilir miyiz?" class="contact">whatsapp ile ulaş</a>
+    <a class="whatsapp" href="https://wa.me/9<?=$details['whatsapp'];?>?text=merhaba sana <?=$site;?> üzerinde ki ilanın için ulaşıyorum. detayları konuşabilir miyiz?">whatsapp ile ulaş</a>
     <p class="section-desc" style="text-align: left;"><?=$details['profile_text'];?></p>
 
     <div class="gallery">
