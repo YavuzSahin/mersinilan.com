@@ -846,7 +846,7 @@ $arrayVar = [
                 <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
             </div>
             <div class="body">
-                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-melis");?>" title="<?=$city;?> Escort Bayan Melis"><h3>Method…</h3></a>
+                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-melis");?>" title="<?=$city;?> Escort Bayan Melis"><h3><?=$city;?> Escort Bayan Melis</h3></a>
                 <p class="meta">28 · Mersin Erdemli</p>
                 <p class="none">Mersin Erdemli'de escort Melis. Erdemli ve üniversite çevresinde escort bayan. Esnek saatler.</p>
                 <a href="#iletisim" class="contact foto">Fotoğraflar</a>
