@@ -251,7 +251,7 @@ $arrayVar = [
     <meta name="author" content="<?=$city?> Escort Platformu" />
 
 
-    <title><?=$details['title'];?> | <?=$city?> Escort Bayan - <?=date('Y');?> Güncel <?=$city?>  Escort Bayanlar</title>
+    <title><?=$details['title'];?> | <?=date('Y');?> Güncel <?=$city?>  Escort Bayanlar</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
