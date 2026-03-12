@@ -6,7 +6,7 @@ $districts      = array("Akdeniz", "Mezitli", "Erdemli", "Tarsus", "Toroslar", "
 $id             = $_GET["id"];
 $profiles       = file_get_contents("db/json/profiles.json");
 $profile_details=json_decode($profiles,true);
-
+$details        = $profile_details[$id];
 
 function seo($text) {
     // Türkçe karakter dönüşümü
@@ -233,25 +233,25 @@ $arrayVar = [
 
     <meta name="language" content="tr">
     <meta name="distribution" content="global">
-    <meta name="description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile hızlı randevu fırsatları." />
+    <meta name="description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$details['title'];?>. <?=$details['description'];?>" />
     <link rel="canonical" href="<?=$site;?>/profil/<?=$id;?>" />
     <meta name="keywords" content="<?=$city?> Escort, <?=$city?> Escort Bayan, <?=$city?> Escort İlanları, <?=$city?> Vip Escort, <?=$city?> Escort Randevu, <?=$city?> Premium Escort Hizmetleri, <?=$city?> Eskort, <?=$city?> Eskort Bayan, <?=$city?> Üniversiteli Escort, <?=$city?> Üniversiteli Eskort" />
-    <meta property="og:title" content="<?=$city?> Escort - <?=date('Y');?> Güncel Escort Bayanlar - Randevu ve İlanlar" />
-    <meta property="og:description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile hızlı randevu fırsatları." />
+    <meta property="og:title" content="<?=$details['title'];?> | <?=$city?> Escort Bayan - <?=date('Y');?> Güncel <?=$city?>  Escort Bayanlar" />
+    <meta property="og:description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$details['title'];?>. <?=$details['description'];?>" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sachsepoolservice.com/" />
-    <meta property="og:image" content="/vip-escort-logo.png" />
+    <meta property="og:url" content="<?=$site;?>/profil/<?=$id;?>" />
+    <meta property="og:image" content="<?=$details['images']["1"];?>" />
     <meta property="og:locale" content="tr_TR" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="<?=$city?> Escort - <?=date('Y');?> Güncel Escort Bayanlar - Randevu ve İlanlar"" />
-    <meta name="twitter:description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile hızlı randevu fırsatları." />
-    <meta name="twitter:image" content="/vip-escort-logo.png" />
+    <meta name="twitter:title" content="<?=$details['title'];?> | <?=$city?> Escort Bayan - <?=date('Y');?> Güncel <?=$city?>  Escort Bayanlar" />
+    <meta name="twitter:description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$details['title'];?>. <?=$details['description'];?>" />
+    <meta name="twitter:image" content="<?=$details['images']["1"];?>" />
     <meta name="twitter:site" content="@MersinIlancom" />
 
-    <meta name="author" content="<?=$city?>  Escort Platformu" />
+    <meta name="author" content="<?=$city?> Escort Platformu" />
 
 
-    <title><?=$city?> Escort | <?=$city?> Escort Bayan | <?=$city?> Escort Kız  - <?=date('Y');?> Güncel Escort Bayanlar</title>
+    <title><?=$details['title'];?> | <?=$city?> Escort Bayan - <?=date('Y');?> Güncel <?=$city?>  Escort Bayanlar</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
@@ -805,7 +805,7 @@ $arrayVar = [
         <?php } ?>
     </div>
 </nav>
-<?php $details = $profile_details[$id];?>
+
 <section class="section" id="<?=$id;?>">
     <a href="<?=$site;?>/profil/<?=$id;?>" title="<?=$details['title'];?>" style="color: var(--red);"><h2><?=$details['title'];?></h2></a>
     <p class="section-desc" style="text-align: left;"><?=$details['profile_text'];?></p>

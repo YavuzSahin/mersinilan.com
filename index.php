@@ -230,14 +230,14 @@ $arrayVar = [
     <meta name="description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile hızlı randevu fırsatları." />
     <link rel="canonical" href="<?=$site;?>" />
     <meta name="keywords" content="<?=$city?> Escort, <?=$city?> Escort Bayan, <?=$city?> Escort İlanları, <?=$city?> Vip Escort, <?=$city?> Escort Randevu, <?=$city?> Premium Escort Hizmetleri, <?=$city?> Eskort, <?=$city?> Eskort Bayan, <?=$city?> Üniversiteli Escort, <?=$city?> Üniversiteli Eskort" />
-    <meta property="og:title" content="<?=$city?> Escort - <?=date('Y');?> Güncel Escort Bayanlar - Randevu ve İlanlar" />
+    <meta property="og:title" content="<?=$city?> Escort - <?=date('Y');?> Güncel <?=$city?> Escort Bayanlar - Randevu ve İlanlar" />
     <meta property="og:description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile hızlı randevu fırsatları." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sachsepoolservice.com/" />
+    <meta property="og:url" content="<?=$site;?>" />
     <meta property="og:image" content="/vip-escort-logo.png" />
     <meta property="og:locale" content="tr_TR" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="<?=$city?> Escort - <?=date('Y');?> Güncel Escort Bayanlar - Randevu ve İlanlar"" />
+    <meta name="twitter:title" content="<?=$city?> Escort - <?=date('Y');?> Güncel <?=$city?> Escort Bayanlar - Randevu ve İlanlar" />
     <meta name="twitter:description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile hızlı randevu fırsatları." />
     <meta name="twitter:image" content="/vip-escort-logo.png" />
     <meta name="twitter:site" content="@MersinIlancom" />
