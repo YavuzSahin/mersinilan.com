@@ -449,7 +449,7 @@ $arrayVar = [
         footer { text-align: center; padding: 28px 24px; font-size: 0.88rem; color: var(--text-soft); border-top: 1px solid var(--border); }
 
         @media (max-width: 768px) {
-            .hero { padding: 70px 20px 56px; }
+            .hero { padding: 10px 20px; }
             .section { padding: 48px 20px; }
             .article { padding: 24px 22px; }
         }
