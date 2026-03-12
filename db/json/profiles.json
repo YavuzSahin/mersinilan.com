@@ -1,0 +1,48 @@
+{
+  "mersin-escort-bayan-defne": {
+    "title"         : "Mersin Escort Bayan Defne",
+    "description"   : "",
+    "keywords"      : "",
+    "whatsapp"      : "05320000000",
+    "profile_text"  : "açıklama",
+    "images"        : {
+      "1" : "",
+      "2" : ""
+    },
+    "eye"           : "Mavi",
+    "skin"          : "Buğday",
+    "body_shape"    : "Fit",
+    "meeting"       : "Evi Var"
+  },
+  "mersin-escort-bayan-zeynep": {
+    "title"         : "Mersin Escort Bayan Zeynep",
+    "description"   : "",
+    "keywords"      : "",
+    "whatsapp"      : "05320000000",
+    "profile_text"  : "açıklama",
+    "images"        : {
+      "1" : "",
+      "2" : ""
+    },
+    "eye"           : "Mavi",
+    "skin"          : "Buğday",
+    "body_shape"    : "Fit",
+    "meeting"       : "Evi Var"
+  },
+  "mersin-escort-bayan-melis": {
+    "title"         : "Mersin Escort Bayan Melis",
+    "description"   : "",
+    "keywords"      : "",
+    "whatsapp"      : "05320000000",
+    "profile_text"  : "açıklama",
+    "images"        : {
+      "1" : "",
+      "2" : ""
+    },
+    "eye"           : "Siyah",
+    "skin"          : "Buğday",
+    "body_shape"    : "Balık Etli",
+    "meeting"       : "Otel/Rezidans Gelir"
+  }
+
+}

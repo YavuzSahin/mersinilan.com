@@ -4,6 +4,10 @@ $city           = "Mersin";
 $districts      = array("Akdeniz", "Mezitli", "Erdemli", "Tarsus", "Toroslar", "Yenişehir", "Anamur", "Silifke");
 
 $id             = $_GET["id"];
+$profiles       = file_get_contents("db/json/profiles.json");
+$profile_details=json_decode($profiles,true);
+print_r($profile_details);
+
 function seo($text) {
     // Türkçe karakter dönüşümü
     $search  = ['ç','Ç','ğ','Ğ','ı','İ','ö','Ö','ş','Ş','ü','Ü'];
