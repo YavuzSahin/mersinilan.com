@@ -591,7 +591,9 @@ $arrayVar = [
 
         .img-c.active.positioned {
             left: 0 !important;
-            top: 0 !important;
+            right: 0 !important;
+            margin: 0 auto;
+            top: 10px !important;
             transition-delay: 50ms;
         }
 
