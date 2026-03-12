@@ -2,6 +2,8 @@
 $site           = "https://mersinilan.com";
 $city           = "Mersin";
 $districts      = array("Akdeniz", "Mezitli", "Erdemli", "Tarsus", "Toroslar", "Yenişehir", "Anamur", "Silifke");
+
+$id             = $_GET["id"];
 function seo($text) {
     // Türkçe karakter dönüşümü
     $search  = ['ç','Ç','ğ','Ğ','ı','İ','ö','Ö','ş','Ş','ü','Ü'];
@@ -228,7 +230,7 @@ $arrayVar = [
     <meta name="language" content="tr">
     <meta name="distribution" content="global">
     <meta name="description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile hızlı randevu fırsatları." />
-    <link rel="canonical" href="<?=$site;?>" />
+    <link rel="canonical" href="<?=$site;?>/profil/<?=$id;?>" />
     <meta name="keywords" content="<?=$city?> Escort, <?=$city?> Escort Bayan, <?=$city?> Escort İlanları, <?=$city?> Vip Escort, <?=$city?> Escort Randevu, <?=$city?> Premium Escort Hizmetleri, <?=$city?> Eskort, <?=$city?> Eskort Bayan, <?=$city?> Üniversiteli Escort, <?=$city?> Üniversiteli Eskort" />
     <meta property="og:title" content="<?=$city?> Escort - <?=date('Y');?> Güncel Escort Bayanlar - Randevu ve İlanlar" />
     <meta property="og:description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile hızlı randevu fırsatları." />
@@ -799,6 +801,10 @@ $arrayVar = [
         <?php } ?>
     </div>
 </nav>
+
+<section class="section" id="<?=$id;?>"
+
+
 <section class="section" id="mersin-escort">
     <p class="section-desc" style="text-align: left;"><?=$seoText;?></p>
 </section>
