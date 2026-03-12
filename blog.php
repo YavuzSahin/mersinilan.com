@@ -1,2 +1,2 @@
 <?php
-echo $_GET['id'];
+print_r($_REQUEST);
