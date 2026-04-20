@@ -234,12 +234,12 @@ $arrayVar = [
     <meta property="og:description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile hızlı randevu fırsatları." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<?=$site;?>" />
-    <meta property="og:image" content="https://images.trvl-media.com/lodging/1000000/20000/16300/16213/f1fd5cf8.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill" />
+    <meta property="og:image" content="<?=$site;?>/images/uploads/files/blogs/mersin.jpg" />
     <meta property="og:locale" content="tr_TR" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="<?=$city?> Escort - <?=date('Y');?> Güncel <?=$city?> Escort Bayanlar - Randevu ve İlanlar" />
     <meta name="twitter:description" content="<?=$city?> Escort hizmetleri ile unutulmaz ve kaliteli deneyimler yaşayın. <?=$city?> Escort Bayan profilleri ve <?=$city?> Escort İlanları ile hızlı randevu fırsatları." />
-    <meta name="twitter:image" content="https://images.trvl-media.com/lodging/1000000/20000/16300/16213/f1fd5cf8.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill" />
+    <meta name="twitter:image" content="<?=$site;?>/images/uploads/files/blogs/mersin.jpg" />
     <meta name="twitter:site" content="@MersinIlancom" />
 
     <meta name="author" content="<?=$city?>  Escort Platformu" />
