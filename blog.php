@@ -404,6 +404,10 @@ function seo($text) {
     <a href="#" class="btn">Mesaj Gönder</a>
 </section>
 
+<section id="iletisim" class="cta">
+    <?php foreach ($content['keywords'] as $keyword){echo $keyword.", ";}?>
+</section>
+
 <footer>
     © 2026 <?=$city?> Escort — Tüm Hakları Saklıdır.
     <br>
