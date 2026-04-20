@@ -395,6 +395,19 @@ function seo($text) {
     <span class="badge"><?=$city?> Escort • <?=$city?> Escort Bayan</span>
     <a href="<?=$site;?>" title="<?=$city?> Escort"><h1 class="font-display"><?=$city?> Escort</h1></a>
 </header>
+<section class="section" id="makaleler">
 <?=$content['content'];?>
+</section>
+<section id="iletisim" class="cta">
+    <h2 class="section-title">İletişim</h2>
+    <p><?=$city?> Escort Bayan hizmetleri hakkında bilgi almak için iletişime geçebilirsiniz. Gizlilik ve güvenlik önceliklidir.</p>
+    <a href="#" class="btn">Mesaj Gönder</a>
+</section>
+
+<footer>
+    © 2026 <?=$city?> Escort — Tüm Hakları Saklıdır.
+    <br>
+    <a href="/sitemap.xml">Sitemap</a>
+</footer>
 </body>
 </html>
