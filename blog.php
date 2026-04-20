@@ -405,7 +405,7 @@ function seo($text) {
 </section>
 
 <section id="iletisim" class="cta">
-    <?php foreach ($content['keywords'] as $keyword){echo '<a href="'.$site.'/etiket/'.seo($keyword).' title="'.$keyword.'">'.$keyword.'</a>';}?>
+    <?php foreach ($content['keywords'] as $keyword){echo '<a href="'.$site.'/etiket/'.seo($keyword).'" title="'.$keyword.'">'.$keyword.'</a> ';}?>
 </section>
 
 <footer>
