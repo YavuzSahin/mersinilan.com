@@ -433,6 +433,18 @@ $arrayVar = [
             transition: background 0.2s, color 0.2s;
             margin-bottom: 10px;
         }
+        a.call {
+            display: inline-block;
+            padding: 10px 18px;
+            background: var(--red);
+            color: var(--white);
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: background 0.2s, color 0.2s;
+            margin-bottom: 10px;margin-left:10px;
+        }
         .profile-card .body a:hover { background: var(--red); color: var(--white); }
         .profile-card .body a.contact.foto { background: var(--red)!important;color: var(--white);}
 
@@ -889,7 +901,7 @@ $arrayVar = [
     <a href="<?=$site;?>/profil/<?=$id;?>" title="<?=$details['title'];?>" style="color: var(--red);"><h2><?=$details['title'];?></h2></a>
     <span style="font-size: 10px;color: var(--text-soft);width: 100%;display: block;margin: 5px 0;"><i><?=$details['date'];?></i></span><br>
     <a class="whatsapp" href="https://wa.me/9<?=$details['whatsapp'];?>?text=merhaba sana <?=$site;?> üzerinde ki ilanın için ulaşıyorum. detayları konuşabilir miyiz?">whatsapp ile yaz!</a>
-
+    <a class="call" href="tel:+9<?=$details['whatsapp'];?>">hemen ara!</a>
     <div class="gallery">
         <?php
             foreach ($details['images'] as $image) {
@@ -940,6 +952,7 @@ $arrayVar = [
     <p class="section-desc" style="text-align: left;margin-top: 15px;"><?=$details['profile_text'];?></p>
 
     <a class="whatsapp" href="https://wa.me/9<?=$details['whatsapp'];?>?text=merhaba sana <?=$site;?> üzerinde ki ilanın için ulaşıyorum. detayları konuşabilir miyiz?">whatsapp ile yaz!</a>
+    <a class="call" href="tel:+9<?=$details['whatsapp'];?>">hemen ara!</a>
 </section>
 
 
