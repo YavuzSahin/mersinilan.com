@@ -44,7 +44,7 @@ $content        = json_decode($fileContent, true);
             },
             "headline": "<?=$content['title'];?>",
             "description": "<?=$content['description'];?>",
-            "image": [<?php foreach ($content['image'] as $image){echo $image.",";}?>],
+            "image": [<?php foreach ($content['image'] as $image){echo '"'.$image.'", ';}?>],
             "author": {
                 "@type": "Person",
                 "name": "Mersin Ilancom"
@@ -60,7 +60,7 @@ $content        = json_decode($fileContent, true);
             "datePublished": "<?=$content['datePublished'];?>",
             "dateModified": "<?=$content['dateModified'];?>",
             "articleSection": "Lifestyle",
-            "keywords": [<?php foreach ($content['keywords'] as $keyword){echo $keyword.",";}?>],
+            "keywords": [<?php foreach ($content['keywords'] as $keyword){echo '"'.$keyword.'", ';}?>],
             "wordCount": <?=strlen($content['content']);?>,
             "inLanguage": "tr-TR",
             "isAccessibleForFree": true,
