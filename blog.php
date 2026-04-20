@@ -13,7 +13,6 @@ $content        = json_decode($fileContent, true);
     <meta name="bingbot" content="index,follow">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-
     <meta name="language" content="tr">
     <meta name="distribution" content="global">
     <title><?=$content['title'];?></title>
@@ -44,7 +43,7 @@ $content        = json_decode($fileContent, true);
             },
             "headline": "<?=$content['title'];?>",
             "description": "<?=$content['description'];?>",
-            "image": [<?php foreach ($content['image'] as $image){echo '"'.$image.'", ';}?>],
+            "image": [<?php foreach ($content['image'] as $image){echo '"'.$site.'/'.$image.'", ';}?>],
             "author": {
                 "@type": "Person",
                 "name": "Mersin Ilancom"
@@ -67,11 +66,8 @@ $content        = json_decode($fileContent, true);
             "articleBody": "<?=strip_tags($content['content']);?>"
         }
     </script>
-
 </head>
 <body>
-
 <?=$content['content'];?>
-
 </body>
 </html>
