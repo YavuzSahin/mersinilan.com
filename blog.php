@@ -1,2 +1,3 @@
 <?php
-print_r($_REQUEST);
+$page = $_GET['id'];
+echo $page;
