@@ -481,7 +481,7 @@ $arrayVar = [
             padding: 1rem;
         }
         .tab__label::after {
-            content: "\276F";
+            content: "\25B6";
             width: 1em;
             height: 1em;
             text-align: center;
@@ -491,7 +491,7 @@ $arrayVar = [
             position: relative;
         }
         .tab input:checked + .tab__label::after {
-            content: "\2304";
+            content: "\25BC";
             transform: rotate(270deg);
             left: 10px;
         }
