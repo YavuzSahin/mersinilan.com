@@ -44,7 +44,7 @@ $content        = json_decode($fileContent, true);
             },
             "headline": "<?=$content['title'];?>",
             "description": "<?=$content['description'];?>",
-            "image": [<?php foreach ($content['images'] as $images){echo $images.",";}?>],
+            "image": [<?php foreach ($content['image'] as $image){echo $image.",";}?>],
             "author": {
                 "@type": "Person",
                 "name": "Mersin Ilancom"
