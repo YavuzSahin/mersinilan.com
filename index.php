@@ -493,7 +493,7 @@ $arrayVar = [
         .tab input:checked + .tab__label::after {
             content: "\25BC";
             transform: rotate(270deg);
-            left: 5px;color: #f44336;
+            left: 5px;color: #f44336;transition: all 0.35s;
         }
         .tab__content p {
             margin: 0;
