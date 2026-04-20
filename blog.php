@@ -19,7 +19,7 @@ $content        = json_decode($fileContent, true);
     <title><?=$content['title'];?></title>
     <meta name="description" content="<?=$content['description'];?>">
     <link rel="canonical" href="<?=$content['canonical'];?>" />
-    <meta name="keywords" content="<?php foreach ($content['keywords'] as $keyword){echo $keyword.",";}?>" />
+    <meta name="keywords" content="<?php foreach ($content['keywords'] as $keyword){echo $keyword.", ";}?>" />
     <meta property="og:title" content="<?=$content['title'];?>" />
     <meta property="og:description" content="<?=$content['description'];?>" />
     <meta property="og:type" content="website" />
