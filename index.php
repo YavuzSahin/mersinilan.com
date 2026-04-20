@@ -491,6 +491,7 @@ $arrayVar = [
             position: relative;
         }
         .tab input:checked + .tab__label::after {
+            content: "\2304";
             transform: rotate(270deg);
             left: 10px;
         }
