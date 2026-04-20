@@ -1,7 +1,5 @@
 <?php
-$page = $_GET['id'];
-echo $page;
-
+$page           = $_GET['id'];
 $fileContent    = file_get_contents('db/blogs/'.$page.'.json');
 $content        = json_decode($fileContent, true);
 ?>
@@ -9,8 +7,29 @@ $content        = json_decode($fileContent, true);
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="googlebot" content="index,follow">
+    <meta name="bingbot" content="index,follow">
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+
+    <meta name="language" content="tr">
+    <meta name="distribution" content="global">
     <title><?=$content['title'];?></title>
     <meta name="description" content="<?=$content['description'];?>">
+    <link rel="canonical" href="<?=$content['canonical'];?>" />
+    <meta name="keywords" content="<?=$content['keywords'];?>" />
+    <meta property="og:title" content="<?=$content['title'];?>" />
+    <meta property="og:description" content="<?=$content['description'];?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<?=$content['canonical'];?>" />
+    <meta property="og:image" content="<?=$content['image'][0];?>" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<?=$content['title'];?>" />
+    <meta name="twitter:description" content="<?=$content['description'];?>" />
+    <meta name="twitter:image" content="<?=$content['image'][0];?>" />
+    <meta name="twitter:site" content="@MersinIlancom" />
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
