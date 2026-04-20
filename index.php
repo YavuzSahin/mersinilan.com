@@ -487,13 +487,13 @@ $arrayVar = [
             text-align: center;
             transform: rotate(90deg);
             transition: all 0.35s;
-            top: 0;left: 10px;
+            top: 0;left: 5px;font-size: 12px;
             position: relative;
         }
         .tab input:checked + .tab__label::after {
             content: "\25BC";
             transform: rotate(270deg);
-            left: 10px;
+            left: 5px;color: #f44336;
         }
         .tab__content p {
             margin: 0;
