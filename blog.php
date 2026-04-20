@@ -2,7 +2,7 @@
 $page = $_GET['id'];
 echo $page;
 
-$fileContent    = file_get_contents('db/blogs/'.$page.'json');
+$fileContent    = file_get_contents('db/blogs/'.$page.'.json');
 $content        = json_decode($fileContent, true);
 
 print_r($content);
