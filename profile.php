@@ -970,6 +970,10 @@ $arrayVar = [
     <a href="#" class="btn">Mesaj Gönder</a>
 </section>
 
+<section id="tags" class="section">
+    <?php foreach ($details['keywords'] as $keyword){echo '<a href="'.$site.'/etiket/'.seo($keyword).'" title="'.$keyword.'">'.$keyword.'</a> ';}?>
+</section>
+
 <footer>
     © 2026 <?=$city?> Escort — Tüm Hakları Saklıdır.
     <br>

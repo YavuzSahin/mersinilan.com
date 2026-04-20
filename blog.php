@@ -404,7 +404,7 @@ function seo($text) {
     <a href="#" class="btn">Mesaj Gönder</a>
 </section>
 
-<section id="iletisim" class="cta">
+<section id="tags" class="section">
     <?php foreach ($content['keywords'] as $keyword){echo '<a href="'.$site.'/etiket/'.seo($keyword).'" title="'.$keyword.'">'.$keyword.'</a> ';}?>
 </section>
 
