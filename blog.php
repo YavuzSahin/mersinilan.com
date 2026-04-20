@@ -64,7 +64,7 @@ $content        = json_decode($fileContent, true);
             "wordCount": <?=strlen($content['content']);?>,
             "inLanguage": "tr-TR",
             "isAccessibleForFree": true,
-            "articleBody": "<?=$content['content'];?>"
+            "articleBody": "<?=strip_tags($content['content']);?>"
         }
     </script>
 
