@@ -395,7 +395,7 @@ function seo($text) {
     <span class="badge"><?=$city?> Escort • <?=$city?> Escort Bayan</span>
     <a href="<?=$site;?>" title="<?=$city?> Escort"><h1 class="font-display"><?=$city?> Escort</h1></a>
 </header>
-<section class="section" id="makaleler">
+<section class="section  no-bottom" id="<?=seo($content['title']);?>">
 <?=$content['content'];?>
 </section>
 <section id="iletisim" class="cta">
