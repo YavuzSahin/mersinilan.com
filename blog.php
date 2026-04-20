@@ -24,13 +24,13 @@ $content        = json_decode($fileContent, true);
     <meta property="og:description" content="<?=$content['description'];?>" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<?=$content['canonical'];?>" />
-    <meta property="og:image" content="<?=$content['image'][0];?>" />
+    <meta property="og:image" content="<?=$site;?>/<?=$content['image'][0];?>" />
     <meta property="og:image:alt" content="<?=$content['title'];?>" />
     <meta property="og:locale" content="tr_TR" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="<?=$content['title'];?>" />
     <meta name="twitter:description" content="<?=$content['description'];?>" />
-    <meta name="twitter:image" content="<?=$content['image'][0];?>" />
+    <meta name="twitter:image" content="<?=$site;?>/<?=$content['image'][0];?>" />
     <meta name="twitter:site" content="@MersinIlancom" />
 
     <!-- Schema.org JSON-LD -->
