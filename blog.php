@@ -10,7 +10,7 @@ $content        = json_decode($fileContent, true);
 <head>
     <meta charset="UTF-8">
     <title><?=$content['title'];?></title>
-    <meta name="description" content="Gastric sleeve ameliyatı hakkında tüm detaylar.">
+    <meta name="description" content="<?=$content['description'];?>">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -57,8 +57,7 @@ $content        = json_decode($fileContent, true);
 </head>
 <body>
 
-<h1>Gastric Sleeve Nedir?</h1>
-<p>Blog içeriğin burada yer alacak...</p>
+<?=$content['content'];?>
 
 </body>
 </html>
