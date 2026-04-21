@@ -246,17 +246,14 @@ $arrayVar = [
 
 
     <title><?=$city?> Escort | <?=$city?> Escort Bayan - <?=date('Y');?> Güncel Escort Bayanlar</title>
-    <link rel="preconnect" href="https://ajax.googleapis.com/">
+    <link rel="preconnect" href="https://ajax.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" type="text/css">
     <script>
-        var WebFont = require('webfontloader');
-
-        WebFont.load({
-            google: {
-                families: ['Sora']
-            }
-        });
+        WebFontConfig = {
+            typekit: { id: 'Sora' }
+        };
 
         (function(d) {
             var wf = d.createElement('script'), s = d.scripts[0];
@@ -944,6 +941,5 @@ $arrayVar = [
     <br>
     <a href="/sitemap.xml">Sitemap</a>
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 </body>
 </html>
