@@ -283,7 +283,7 @@ $arrayVar = [
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Sora', sans-serif;
+            font-family: 'Helvetica', sans-serif;
             background: var(--bg);
             color: var(--text);
             line-height: 1.65;
@@ -426,7 +426,7 @@ $arrayVar = [
             transition: background 0.2s, color 0.2s;
         }
         .profile-card .body a:hover { background: var(--red); color: var(--white); }
-        .profile-card .body a.contact.foto { background: var(--white)!important;color: var(--red);font-weight: 700;font-size: 16px;}
+        .profile-card .body a.contact.foto { background: var(--white)!important;color: var(--red);font-weight: 700;}
 
         .articles { display: flex; flex-direction: column; gap: 28px; }
         .article {
@@ -830,42 +830,26 @@ $arrayVar = [
     <h2 class="section-title"><?=$city?> Escort Bayan Profilleri</h2>
     <p class="section-desc">Mersin, Erdemli, Mezitli bölgelerinde hizmet veren escort bayan profilleri.</p>
     <div class="profile-grid">
+
+        <?php
+        $profiles       = file_get_contents("db/json/profiles.json");
+        $profilesInfos  = json_decode($profiles,true);
+        foreach ($profilesInfos as $profileInfo) {
+        ?>
         <div class="profile-card">
             <div class="avatar">
-                <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
+                <img src="<?=$site;?>/<?=$profileInfo['images'][1];?>" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
             </div>
             <div class="body">
-                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-defne");?>" title="<?=$city;?> Escort Bayan Defne"><h3><?=$city;?> Escort Bayan Zeynep</h3></a>
-                <p class="meta">26 · Mersin Merkez</p>
+                <a href="<?=$site;?>/profil/<?=$profileInfo['canonical'];?>" title="<?=$profileInfo['title'];?>"><h3><?=$profileInfo['title'];?></h3></a>
+                <p class="meta"><?=$profileInfo['age'];?> · <?=$profileInfo['district'];?></p>
                 <p class="none">Mersin Yenişehir refakat. Sosyal etkinlikler ve özel davetler. Gizlilik öncelikli.</p>
                 <a href="#iletisim" class="contact foto">Fotoğraflar</a>
                 <a href="#iletisim" class="contact">İletişim</a>
             </div>
         </div>
-        <div class="profile-card">
-            <div class="avatar">
-                <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
-            </div>
-            <div class="body">
-                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-zeynep");?>" title="<?=$city;?> Escort Bayan Zeynep"><h3><?=$city;?> Escort Bayan Zeynep</h3></a>
-                <p class="meta">28 · Mersin Mezitli</p>
-                <p class="none">Mersin Mezitli'de escort Zeynep. İş yemekleri ve akşam organizasyonları. Deneyimli ve güvenilir.</p>
-                <a href="#iletisim" class="contact foto">Fotoğraflar</a>
-                <a href="#iletisim" class="contact">İletişim</a>
-            </div>
-        </div>
-        <div class="profile-card">
-            <div class="avatar">
-                <img src="<?=$site;?>/images/uploads/1.webp" width="670" height="880" alt="<?=$city?> escort" title="<?=$city?> escort">
-            </div>
-            <div class="body">
-                <a href="<?=$site;?>/profil/<?=seo($city."-escort-bayan-melis");?>" title="<?=$city;?> Escort Bayan Melis"><h3><?=$city;?> Escort Bayan Melis</h3></a>
-                <p class="meta">28 · Mersin Erdemli</p>
-                <p class="none">Mersin Erdemli'de escort Melis. Erdemli ve üniversite çevresinde escort bayan. Esnek saatler.</p>
-                <a href="#iletisim" class="contact foto">Fotoğraflar</a>
-                <a href="#iletisim" class="contact">İletişim</a>
-            </div>
-        </div>
+        <?php } ?>
+
     </div>
 </section>
 
