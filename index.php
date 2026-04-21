@@ -249,7 +249,6 @@ $arrayVar = [
     <link rel="preconnect" href="https://ajax.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" type="text/css">
     <script>
         WebFontConfig = {
             typekit: { id: 'Sora' }
@@ -427,7 +426,7 @@ $arrayVar = [
             transition: background 0.2s, color 0.2s;
         }
         .profile-card .body a:hover { background: var(--red); color: var(--white); }
-        .profile-card .body a.contact.foto { background: var(--red)!important;color: var(--white);}
+        .profile-card .body a.contact.foto { background: var(--red)!important;color: var(--white);font-weight: 700;font-size: 16px;}
 
         .articles { display: flex; flex-direction: column; gap: 28px; }
         .article {
@@ -450,7 +449,7 @@ $arrayVar = [
         }
         .cta .section-title { margin-bottom: 12px; }
         .cta p { color: var(--text-soft); margin-bottom: 24px; max-width: 460px; margin-left: auto; margin-right: auto; }
-        .cta .btn { display: inline-block; padding: 14px 28px; background: var(--red); color: var(--white); text-decoration: none; font-weight: 600; border-radius: 10px; transition: opacity 0.2s; }
+        .cta .btn { display: inline-block;font-size: 16px; padding: 14px 28px; background: var(--red); color: var(--white); text-decoration: none; font-weight: 700; border-radius: 10px; transition: opacity 0.2s; }
         .cta .btn:hover { opacity: 0.9; }
 
         footer { text-align: center; padding: 28px 24px; font-size: 0.88rem; color: var(--text-soft); border-top: 1px solid var(--border); }
@@ -777,12 +776,12 @@ $arrayVar = [
 </head>
 <body>
 
-<header class="hero">
+<header class="hero" role="banner">
     <span class="badge"><?=$city?> Escort • <?=$city?> Escort Bayan</span>
     <a href="<?=$site;?>" title="<?=$city?> Escort"><h1 class="font-display"><?=$city?> Escort</h1></a>
 </header>
 
-<nav>
+<nav role="navigation">
     <div class="wrap">
         <?php
         foreach ($districts as $district) {
@@ -796,7 +795,7 @@ $arrayVar = [
     <p class="section-desc" style="text-align: left;"><?=$seoText;?></p>
 </section>
 
-<section class="section" id="mersin">
+<section class="section" id="mersin" role="main">
     <h2 class="section-title">Mersin Escort</h2>
     <p class="section-desc">Akdeniz'in incisi Mersin'de refakat ve escort hizmeti; sosyal davetler, iş yemekleri ve özel anlar için güvenilir eşlik sunar.</p>
     <div class="zones">
@@ -936,7 +935,7 @@ $arrayVar = [
     <a href="#" class="btn">Mesaj Gönder</a>
 </section>
 
-<footer>
+<footer role="contentinfo">
     © 2026 <?=$city?> Escort — Tüm Hakları Saklıdır.
     <br>
     <a href="/sitemap.xml">Sitemap</a>
