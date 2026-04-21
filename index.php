@@ -426,7 +426,7 @@ $arrayVar = [
             transition: background 0.2s, color 0.2s;
         }
         .profile-card .body a:hover { background: var(--red); color: var(--white); }
-        .profile-card .body a.contact.foto { background: var(--red)!important;color: var(--white);font-weight: 700;font-size: 16px;}
+        .profile-card .body a.contact.foto { background: var(--white)!important;color: var(--red);font-weight: 700;font-size: 16px;}
 
         .articles { display: flex; flex-direction: column; gap: 28px; }
         .article {
@@ -449,7 +449,7 @@ $arrayVar = [
         }
         .cta .section-title { margin-bottom: 12px; }
         .cta p { color: var(--text-soft); margin-bottom: 24px; max-width: 460px; margin-left: auto; margin-right: auto; }
-        .cta .btn { display: inline-block;font-size: 16px; padding: 14px 28px; background: var(--red); color: var(--white); text-decoration: none; font-weight: 700; border-radius: 10px; transition: opacity 0.2s; }
+        .cta .btn { display: inline-block;font-size: 16px; padding: 14px 28px; background: var(--white); color: var(--red); text-decoration: none; font-weight: 700; border-radius: 10px; transition: opacity 0.2s; }
         .cta .btn:hover { opacity: 0.9; }
 
         footer { text-align: center; padding: 28px 24px; font-size: 0.88rem; color: var(--text-soft); border-top: 1px solid var(--border); }
